@@ -1,0 +1,369 @@
+[
+  {
+    "id": "cpu-1",
+    "title": "Intel Core i9-14900K Processor",
+    "price": 2699,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Intel",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "i9-14900K"
+    }
+  },
+  {
+    "id": "cpu-2",
+    "title": "AMD Ryzen 9 7950X3D",
+    "price": 2899,
+    "image": "https://plus.unsplash.com/premium_photo-1682126131362-7935de98327d?q=80&w=1000&auto=format&fit=crop",
+    "brand": "AMD",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "Ryzen 9 7950X3D"
+    }
+  },
+  {
+    "id": "cpu-3",
+    "title": "Intel Core i7-14700K",
+    "price": 1899,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Intel",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "i7-14700K"
+    }
+  },
+  {
+    "id": "cpu-4",
+    "title": "AMD Ryzen 7 7800X3D",
+    "price": 1650,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "AMD",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "Ryzen 7 7800X3D"
+    }
+  },
+  {
+    "id": "cpu-5",
+    "title": "Intel Core i5-13600K Processor",
+    "price": 1250,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Intel",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "i5-13600K"
+    }
+  },
+  {
+    "id": "cpu-6",
+    "title": "AMD Ryzen 5 7600X",
+    "price": 980,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "AMD",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "Ryzen 5 7600X"
+    }
+  },
+  {
+    "id": "cpu-7",
+    "title": "Intel Core i5-12400F",
+    "price": 650,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Intel",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "i5-12400F"
+    }
+  },
+  {
+    "id": "cpu-8",
+    "title": "AMD Ryzen 5 5600",
+    "price": 480,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "AMD",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cpu",
+      "cpu": "Ryzen 5 5600"
+    }
+  },
+  {
+    "id": "gpu-1",
+    "title": "ASUS ROG Strix GeForce RTX 4090 OC",
+    "price": 9800,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1080&auto=format&fit=crop",
+    "brand": "ASUS",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "gpu",
+      "gpu": "RTX 4090",
+      "ram": "24GB"
+    }
+  },
+  {
+    "id": "gpu-2",
+    "title": "MSI GeForce RTX 4080 Super Gaming X Slim",
+    "price": 5400,
+    "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1000&auto=format&fit=crop",
+    "brand": "MSI",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "gpu",
+      "gpu": "RTX 4080 Super",
+      "ram": "16GB"
+    }
+  },
+  {
+    "id": "gpu-3",
+    "title": "Gigabyte AORUS Radeon RX 7900 XTX Elite",
+    "price": 4900,
+    "image": "https://images.unsplash.com/photo-1624705002806-5d72df8343e7?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Gigabyte",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "gpu",
+      "gpu": "RX 7900 XTX",
+      "ram": "24GB"
+    }
+  },
+  {
+    "id": "gpu-4",
+    "title": "ZOTAC Gaming GeForce RTX 4070 Ti Super",
+    "price": 3800,
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1000&auto=format&fit=crop",
+    "brand": "ZOTAC",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "gpu",
+      "gpu": "RTX 4070 Ti Super",
+      "ram": "16GB"
+    }
+  },
+  {
+    "id": "mb-1",
+    "title": "ASUS ROG Maximus Z790 Dark Hero",
+    "price": 2400,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1080&auto=format&fit=crop",
+    "brand": "ASUS",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "motherboard",
+      "chipset": "Z790"
+    }
+  },
+  {
+    "id": "mb-2",
+    "title": "MSI MAG B650 Tomahawk WiFi",
+    "price": 950,
+    "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1000&auto=format&fit=crop",
+    "brand": "MSI",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "motherboard",
+      "chipset": "B650"
+    }
+  },
+   {
+    "id": "mb-3",
+    "title": "Gigabyte X670E AORUS Master",
+    "price": 1800,
+    "image": "https://images.unsplash.com/photo-1563206767-5b1d972b9fb9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Gigabyte",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "motherboard",
+      "chipset": "X670E"
+    }
+  },
+  {
+    "id": "ram-1",
+    "title": "Corsair Dominator Titanium RGB 64GB (2x32GB) DDR5 6000MHz",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Corsair",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "ram",
+      "ram": "64GB",
+      "hz": "6000MHz"
+    }
+  },
+  {
+    "id": "ram-2",
+    "title": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5 6400MHz",
+    "price": 650,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1000&auto=format&fit=crop",
+    "brand": "G.Skill",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "ram",
+      "ram": "32GB",
+      "hz": "6400MHz"
+    }
+  },
+    {
+    "id": "ram-3",
+    "title": "Kingston Fury Beast 16GB (2x8GB) DDR4 3200MHz",
+    "price": 220,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Kingston",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "ram",
+      "ram": "16GB",
+      "hz": "3200MHz"
+    }
+  },
+  {
+    "id": "storage-1",
+    "title": "Samsung 990 Pro 2TB NVMe M.2 SSD",
+    "price": 690,
+    "image": "https://images.unsplash.com/photo-1597852075234-fd722ae2b1e2?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Samsung",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "storage",
+      "storage": "2TB"
+    }
+  },
+  {
+    "id": "storage-2",
+    "title": "WD_BLACK SN850X 1TB NVMe SSD",
+    "price": 380,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Western Digital",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "storage",
+      "storage": "1TB"
+    }
+  },
+    {
+    "id": "storage-3",
+    "title": "Crucial P3 Plus 4TB PCIe Gen4 NVMe",
+    "price": 1100,
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Crucial",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "storage",
+      "storage": "4TB"
+    }
+  },
+  {
+    "id": "cooling-1",
+    "title": "NZXT Kraken Elite 360 RGB AIO Liquid Cooler",
+    "price": 1100,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1080&auto=format&fit=crop",
+    "brand": "NZXT",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cooling",
+      "type": "AIO"
+    }
+  },
+  {
+    "id": "cooling-2",
+    "title": "Corsair iCUE H150i Elite LCD XT",
+    "price": 1250,
+    "image": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Corsair",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cooling",
+      "type": "AIO"
+    }
+  },
+   {
+    "id": "cooling-3",
+    "title": "Notcua NH-D15 Chromax.Black",
+    "price": 450,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Noctua",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "cooling",
+      "type": "Air"
+    }
+  },
+  {
+    "id": "case-1",
+    "title": "Lian Li O11 Dynamic EVO RGB",
+    "price": 750,
+    "image": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Lian Li",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "case",
+      "form_factor": "ATX"
+    }
+  },
+  {
+    "id": "case-2",
+    "title": "NZXT H9 Flow Dual-Chamber Mid-Tower",
+    "price": 680,
+    "image": "https://images.unsplash.com/photo-1618423696803-b0c410c5ba70?q=80&w=1000&auto=format&fit=crop",
+    "brand": "NZXT",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "case",
+      "form_factor": "ATX"
+    }
+  },
+    {
+    "id": "case-3",
+    "title": "Corsair 4000D Airflow Tempered Glass",
+    "price": 390,
+    "image": "https://images.unsplash.com/photo-1555616635-6409600377e9?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Corsair",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "case",
+      "form_factor": "ATX"
+    }
+  },
+  {
+    "id": "psu-1",
+    "title": "Corsair RM1000x Shift 80 PLUS Gold Fully Modular",
+    "price": 720,
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1080&auto=format&fit=crop",
+    "brand": "Corsair",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "psu",
+      "wattage": "1000W"
+    }
+  },
+  {
+    "id": "psu-2",
+    "title": "Seasonic Vertex GX-1200 80+ Gold ATX 3.0",
+    "price": 850,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1000&auto=format&fit=crop",
+    "brand": "Seasonic",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "psu",
+      "wattage": "1200W"
+    }
+  },
+    {
+    "id": "psu-3",
+    "title": "MSI MAG A850GL PCIE5 850W Gold",
+    "price": 450,
+    "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1000&auto=format&fit=crop",
+    "brand": "MSI",
+    "source": "ComponentMaster",
+    "specs": {
+      "category": "psu",
+      "wattage": "850W"
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mytek-ram-1",
+    "title": "Barrette Mémoire ADATA 8Go DDR3L Pour PC Portable",
+    "price": 109.0,
+    "image": "https://mk-media.mytek.tn/media/catalog/product/cache/4635b69058c0dccf0c8109f6ac6742cc/s/f/sfsfdfdgdgdsg.jpg",
+    "brand": "ADATA",
+    "category": "ram",
+    "source": "MyTek",
+    "availability": "in-stock",
+    "link": "https://www.mytek.tn/barrette-memoire-adata-8go-ddr3l-pour-pc-portable.html",
+    "specs": {
+      "category": "ram",
+      "brand": "ADATA",
+      "memory_capacity": "8GB",
+      "memory_type": "DDR3L",
+      "memory_speed": "1600 MHz",
+      "form_factor": "SO-DIMM",
+      "rgb": "No"
+    }
+  },
+  {
+    "id": "mytek-ram-2",
+    "title": "Barrette Mémoire ADATA 8Go DDR3L 1600 MHz Pour Pc de Bureau",
+    "price": 159.0,
+    "image": "https://mk-media.mytek.tn/media/catalog/product/cache/4635b69058c0dccf0c8109f6ac6742cc/b/a/barrette-memoire-adata-8go-ddr3-1600-mhz-pour-pc-de-bureau-hfcgvjb.jpg",
+    "brand": "ADATA",
+    "category": "ram",
+    "source": "MyTek",
+    "availability": "in-stock",
+    "link": "https://www.mytek.tn/barrette-memoire-adata-8go-ddr3-1600-mhz-pour-pc-de-bureau.html",
+    "specs": {
+      "category": "ram",
+      "brand": "ADATA",
+      "memory_capacity": "8GB",
+      "memory_type": "DDR3L",
+      "memory_speed": "1600 MHz",
+      "form_factor": "DIMM",
+      "rgb": "No"
+    }
+  },
+  {
+    "id": "mytek-ram-3",
+    "title": "Barrette Mémoire PNY XLR8 Gaming RGB 8Go DDR4 3200 MHz",
+    "price": 249.0,
+    "image": "https://mk-media.mytek.tn/media/catalog/product/cache/4635b69058c0dccf0c8109f6ac6742cc/b/a/barrette-memoire-pny-xlr8-gaming-rgb-8go-ddr4-3200-mhz.jpg",
+    "brand": "PNY",
+    "category": "ram",
+    "source": "MyTek",
+    "availability": "in-stock",
+    "link": "https://www.mytek.tn/barrette-memoire-pny-xlr8-gaming-rgb-8go-ddr4-3200-mhz.html",
+    "specs": {
+      "category": "ram",
+      "brand": "PNY",
+      "memory_capacity": "8GB",
+      "memory_type": "DDR4",
+      "memory_speed": "3200 MHz",
+      "form_factor": "DIMM",
+      "rgb": "Yes"
+    }
+  },
+  {
+    "id": "mytek-ram-4",
+    "title": "Barrette Mémoire PNY XLR8 Gaming RGB 8Go DDR4 3600 MHz",
+    "price": 259.0,
+    "image": "https://mk-media.mytek.tn/media/catalog/product/cache/4635b69058c0dccf0c8109f6ac6742cc/b/a/barrette-memoire-pny-xlr8-gaming-rgb-8go-ddr4-3600-mhz.jpg",
+    "brand": "PNY",
+    "category": "ram",
+    "source": "MyTek",
+    "availability": "in-stock",
+    "link": "https://www.mytek.tn/barrette-memoire-pny-xlr8-gaming-rgb-8go-ddr4-3600-mhz.html",
+    "specs": {
+      "category": "ram",
+      "brand": "PNY",
+      "memory_capacity": "8GB",
+      "memory_type": "DDR4",
+      "memory_speed": "3600 MHz",
+      "form_factor": "DIMM",
+      "rgb": "Yes"
+    }
+  },
+  {
+    "id": "mytek-ram-5",
+    "title": "Barrette Mémoire PNY XLR8 Gaming 16Go DDR4 2666 MHz",
+    "price": 449.0,
+    "image": "https://mk-media.mytek.tn/media/catalog/product/cache/4635b69058c0dccf0c8109f6ac6742cc/b/a/barrette-memoire-pny-xlr8-gaming-16go-ddr4-2666-mhz.jpg",
+    "brand": "PNY",
+    "category": "ram",
+    "source": "MyTek",
+    "availability": "in-stock",
+    "link": "https://www.mytek.tn/barrette-memoire-pny-xlr8-gaming-16go-ddr4-2666-mhz.html",
+    "specs": {
+      "category": "ram",
+      "brand": "PNY",
+      "memory_capacity": "16GB",
+      "memory_type": "DDR4",
+      "memory_speed": "2666 MHz",
+      "form_factor": "DIMM",
+      "rgb": "No"
+    }
+  },
+  {
+    "id": "mytek-ram-6",
+    "title": "Barrette Mémoire PNY XLR8 Gaming 16Go DDR4 3200 MHz",
+    "price": 479.0,
+    "image": "https://mk-media.mytek.tn/media/catalog/product/cache/4635b69058c0dccf0c8109f6ac6742cc/b/a/barrette-memoire-pny-xlr8-gaming-16go-ddr4-3200-mhz.jpg",
+    "brand": "PNY",
+    "category": "ram",
+    "source": "MyTek",
+    "availability": "in-stock",
+    "link": "https://www.mytek.tn/barrette-memoire-pny-xlr8-gaming-16go-ddr4-3200-mhz.html",
+    "specs": {
+      "category": "ram",
+      "brand": "PNY",
+      "memory_capacity": "16GB",
+      "memory_type": "DDR4",
+      "memory_speed": "3200 MHz",
+      "form_factor": "DIMM",
+      "rgb": "No"
+    }
+  }
+]

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCompare - Premium Laptop Finder</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f1f5f9;
+            margin: 0;
+            color: var(--dark);
+        }
+
+        /* --- LAYOUT --- */
+        .container {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        /* --- SIDEBAR FILTERS --- */
+        .sidebar {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .filter-group {
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+        }
+
+        .filter-group:last-child {
+            border-bottom: none;
+        }
+
+        .filter-title {
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--dark);
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+        }
+
+        .filter-option {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--gray);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            cursor: pointer;
+        }
+
+        .filter-option:hover {
+            color: var(--primary);
+        }
+
+        .filter-option.active {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .filter-option.active::before {
+            content: "✓ ";
+        }
+
+        /* --- PRODUCT GRID --- */
+        .grid-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin: 0;
+            color: var(--dark);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        /* --- CARD DESIGN --- */
+        .card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: pointer;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img-wrapper {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: white;
+        }
+
+        .card img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .badge.gaming { background: #fee2e2; color: #dc2626; }
+        .badge.office { background: #dbeafe; color: #2563eb; }
+        .badge.creative { background: #f3e8ff; color: #9333ea; }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            line-height: 1.4;
+            height: 44px; /* Limit to 2 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .specs-preview {
+            font-size: 0.85rem;
+            color: var(--gray);
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .spec-tag {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .price-tag {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* --- MODAL --- */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal {
+            background: white;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 800px;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            animation: slideUp 0.3s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .modal-img {
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .modal-img img {
+            max-width: 100%;
+        }
+
+        .modal-content {
+            padding: 40px;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray);
+        }
+
+        .detail-row {
+            display: flex;
+            border-bottom: 1px solid var(--border);
+            padding: 12px 0;
+        }
+
+        .detail-label {
+            width: 140px;
+            font-weight: 600;
+            color: var(--gray);
+        }
+
+        .detail-value {
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .buy-btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+
+        .buy-btn:hover { background: #1d4ed8; }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- FILTERS -->
+    <aside class="sidebar">
+        <h3 style="margin-top:0">🔍 Filters</h3>
+        
+        <form method="GET" action="." id="filterForm">
+            <input type="hidden" name="q" value="{{ query }}">
+            
+            <!-- Helper param to keep other filters when clicking one -->
+            
+            <div class="filter-group">
+                <div class="filter-title">Brand</div>
+                {% for b in options.brands %}
+                    <a href="?brand={{ b|urlencode }}&gpu={{ selected_filters.gpu|default:'All' }}&cpu={{ selected_filters.cpu|default:'All' }}" 
+                       class="filter-option {% if selected_filters.brand == b %}active{% endif %}">{{ b }}</a>
+                {% endfor %}
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-title">Graphics Card</div>
+                <a href="?gpu=All" class="filter-option {% if not selected_filters.gpu or selected_filters.gpu == 'All' %}active{% endif %}">All</a>
+                {% for g in options.gpus %}
+                    {% if g %}
+                    <a href="?gpu={{ g|urlencode }}&brand={{ selected_filters.brand|default:'All' }}" 
+                       class="filter-option {% if selected_filters.gpu == g %}active{% endif %}">{{ g }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-title">Processor</div>
+                {% for c in options.cpus %}
+                    {% if c != "N/A" %}
+                    <a href="?cpu={{ c|urlencode }}&gpu={{ selected_filters.gpu|default:'All' }}" 
+                       class="filter-option {% if selected_filters.cpu == c %}active{% endif %}">{{ c }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-title">RAM Memory</div>
+                {% for r in options.rams %}
+                    {% if r != "N/A" %}
+                    <a href="?ram={{ r|urlencode }}" class="filter-option {% if selected_filters.ram == r %}active{% endif %}">{{ r }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+             <div class="filter-group">
+                <div class="filter-title">Screen Size</div>
+                {% for s in options.screens %}
+                    {% if s != "N/A" %}
+                    <a href="?screen={{ s|urlencode }}" class="filter-option {% if selected_filters.screen == s %}active{% endif %}">{{ s }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <a href="/" style="display:block; text-align:center; margin-top:20px; color:var(--primary); font-weight:600; text-decoration:none;">Reset All Filters</a>
+        </form>
+    </aside>
+
+    <!-- CONTENT -->
+    <main>
+        <div class="grid-header">
+            <h1>
+                {% if query %}Results for "{{ query }}"{% else %}All Laptops{% endif %}
+                <span style="font-weight:400; color:var(--gray); font-size:1rem; margin-left:10px">({{ products.count }} items)</span>
+            </h1>
+            
+            <form action="." method="GET">
+                <input type="text" name="q" placeholder="Search..." value="{{ query }}" 
+                       style="padding:8px 15px; border:1px solid var(--border); border-radius:8px; font-size:0.9rem; width:250px;">
+            </form>
+        </div>
+
+        <div class="products-grid">
+            {% for product in products %}
+            <div class="card" onclick="openModal('{{ product.id }}')">
+                <div class="card-img-wrapper">
+                    <img src="{{ product.image_url }}" alt="{{ product.name }}" loading="lazy">
+                </div>
+                <div class="card-body">
+                    {% if product.sector == 'Gaming' %}
+                        <span class="badge gaming">Gaming</span>
+                    {% elif product.sector == 'Creative/Pro' %}
+                        <span class="badge creative">Creative</span>
+                    {% else %}
+                        <span class="badge office">Office</span>
+                    {% endif %}
+                    
+                    <h3 class="card-title">{{ product.name }}</h3>
+                    
+                    <div class="specs-preview">
+                        <span class="spec-tag">🖥️ {{ product.screen_size }}</span>
+                        <span class="spec-tag">🧠 {{ product.ram }}</span>
+                        <span class="spec-tag">💾 {{ product.storage }}</span>
+                    </div>
+
+                    {% with deal=product.prices.first %}
+                        <div class="price-tag">{{ deal.price }} TND</div>
+                    {% endwith %}
+                </div>
+
+                <!-- Hidden Data for Modal -->
+                <div id="data-{{ product.id }}" style="display:none">
+                    <div data-field="name">{{ product.name }}</div>
+                    <div data-field="img">{{ product.image_url }}</div>
+                    <div data-field="cpu">{{ product.cpu }}</div>
+                    <div data-field="gpu">{{ product.gpu }}</div>
+                    <div data-field="ram">{{ product.ram }}</div>
+                    <div data-field="storage">{{ product.storage }}</div>
+                    <div data-field="screen">{{ product.screen_size }}</div>
+                    <div data-field="price">{% if product.prices.first %}{{ product.prices.first.price }} TND{% else %}N/A{% endif %}</div>
+                    <div data-field="link">{% if product.prices.first %}{{ product.prices.first.url }}{% endif %}</div>
+                </div>
+            </div>
+            {% empty %}
+                <div style="grid-column: 1/-1; text-align:center; padding:50px;">
+                    <h2>No laptops found 😔</h2>
+                    <p>Try adjusting your filters.</p>
+                </div>
+            {% endfor %}
+        </div>
+    </main>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="productModal" onclick="if(event.target===this) closeModal()">
+    <div class="modal">
+        <div class="modal-img">
+            <img id="m-img" src="" alt="">
+        </div>
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">×</button>
+            <h2 id="m-name" style="margin-top:0; margin-bottom:20px; line-height:1.3;">laptop name</h2>
+            
+            <div class="detail-row">
+                <div class="detail-label">Processor</div>
+                <div class="detail-value" id="m-cpu"></div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Graphics Card</div>
+                <div class="detail-value" id="m-gpu" style="color:#d946ef; font-weight:700;"></div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">RAM Memory</div>
+                <div class="detail-value" id="m-ram"></div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Storage</div>
+                <div class="detail-value" id="m-storage"></div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Screen Size</div>
+                <div class="detail-value" id="m-screen"></div>
+            </div>
+
+            <div style="margin-top:30px; display:flex; justify-content:space-between; align-items:center">
+                <div class="price-tag" id="m-price" style="font-size:2rem;"></div>
+                <a href="#" id="m-link" target="_blank" class="buy-btn">View Store Deal ↗</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openModal(id) {
+        const data = document.getElementById('data-' + id);
+        if (!data) return;
+
+        // Populate Modal
+        document.getElementById('m-name').textContent = data.querySelector('[data-field="name"]').textContent;
+        document.getElementById('m-img').src = data.querySelector('[data-field="img"]').textContent;
+        
+        document.getElementById('m-cpu').textContent = data.querySelector('[data-field="cpu"]').textContent;
+        document.getElementById('m-gpu').textContent = data.querySelector('[data-field="gpu"]').textContent;
+        document.getElementById('m-ram').textContent = data.querySelector('[data-field="ram"]').textContent;
+        document.getElementById('m-storage').textContent = data.querySelector('[data-field="storage"]').textContent;
+        document.getElementById('m-screen').textContent = data.querySelector('[data-field="screen"]').textContent;
+        
+        document.getElementById('m-price').textContent = data.querySelector('[data-field="price"]').textContent;
+        document.getElementById('m-link').href = data.querySelector('[data-field="link"]').textContent;
+
+        document.getElementById('productModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('productModal').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

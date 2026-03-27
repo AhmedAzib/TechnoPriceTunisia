@@ -1,0 +1,703 @@
+[
+  {
+    "title": "CPU FRAME LGA1851-BCF BLACK",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/CPU-FRAME-LGA1851-BCF-BLACK",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767787901701.webp&w=3840&q=75",
+    "price": 60.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu"
+    }
+  },
+  {
+    "title": "AMD Ryzen 3 3100 TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-3-3100-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767791683471.webp&w=3840&q=75",
+    "price": 219.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "4 Cores",
+      "threads": "8 Threads",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 3 3200G (3.6 GHz / 4 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-3-3200G-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767791711663.webp&w=3840&q=75",
+    "price": 239.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "4 Cores",
+      "threads": "4 Threads",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 3600 TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-3600-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1626954540516.webp&w=3840&q=75",
+    "price": 259.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "4.2 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 3400G (3.7 GHz / 4.2 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-3400G-Wraith-Spire-Edition-MPK",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2Fwebp%2F1602586726671.webp&w=3840&q=75",
+    "price": 269.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "4 Cores",
+      "threads": "8 Threads",
+      "clock_speed": "4.2 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 3600 BOX",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-3600-BOX",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767791604382.webp&w=3840&q=75",
+    "price": 279.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "4.2 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 3 3200G BOX",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-3-3200G-Wraith-Stealth-Edition",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2Fwebp%2F1588695742015.webp&w=3840&q=75",
+    "price": 289.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "4 Cores",
+      "threads": "4 Threads",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 3 4100 Wraith Stealth (3.8 GHz / 4.0 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-3-4100-Wraith-Stealth",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767792392497.webp&w=3840&q=75",
+    "price": 309.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "4 Cores",
+      "threads": "8 Threads",
+      "clock_speed": "3.8 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 5500 (3.6 GHz / 4.2 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-5500-Wraith-Stealth-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767791733289.webp&w=3840&q=75",
+    "price": 342.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i3-10105F (3.7 GHz / 4.4 GHz) Tray",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i3-10105F-Tray",
+    "image": "",
+    "price": 364.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "4 Cores",
+      "threads": "8 Threads",
+      "clock_speed": "3.7 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 5500GT Wraith Stealth (3,6 GHz / 4,4 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-5500GT-Wraith-Stealth",
+    "image": "",
+    "price": 429.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 5600 Tray (3.5 GHz / 4.4 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-5600-Tray-3.5-GHz-4.4-GHz",
+    "image": "",
+    "price": 439.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "3.5 GHz"
+    }
+  },
+  {
+    "title": "AMD RYZEN 5 8400F (4.2 GHZ / 4.7 GHZ) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-RYZEN-5-8400F-4.2-GHZ-4.7",
+    "image": "",
+    "price": 449.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "clock_speed": "4.2 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 5700 (3.7 GHz / 4.6 GHz) Tray",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-5700-3-7-GHz-4-6-GHz-Tray",
+    "image": "",
+    "price": 479.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "16 Threads",
+      "clock_speed": "3.7 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 5600  (3.5 GHz / 4.4 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-5600",
+    "image": "",
+    "price": 479.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "3.5 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i5-10600K",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-10600K",
+    "image": "",
+    "price": 519.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "4.80 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 5600GT Wraith Stealth (3,6 GHz / 4,6 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-5600GT-Wraith-Stealth",
+    "image": "",
+    "price": 529.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 5700X (3.4 GHz / 4.6 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-5700X-3-4-GHz-4-6-GHz-TRY",
+    "image": "",
+    "price": 549.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "16 Threads",
+      "clock_speed": "3.4 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 7500F  (3.7 GHz / 5.0 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-7500F",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1722847803775.webp&w=3840&q=75",
+    "price": 569.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "clock_speed": "5.0 GHz"
+    }
+  },
+  {
+    "title": " AMD Ryzen 5 5600X (3.7 GHz / 4.6 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-5600X-Tray",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767791871324.webp&w=3840&q=75",
+    "price": 499.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "4.60 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 5700G TRAY (3.7 GHz / 4.6 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-5700-TRAY-3.7-GHz-4.6-GHz",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1767791850205.webp&w=3840&q=75",
+    "price": 619.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "16 Threads",
+      "clock_speed": "3.7 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 7400F Tray ( 3.7 GHz - Jusqu'à 4.7 GHz )",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-7400F-Tray-3.7-GHz-4.7-GHz",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1762862509558.webp&w=3840&q=75",
+    "price": 639.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "4.7 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i5-12400 (2.5 GHz / 4.4 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-12400",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1642609164998.webp&w=3840&q=75",
+    "price": 579.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "2.5 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i5-14400F (jusqu'à 4,7 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-14400F-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1721641928646.webp&w=3840&q=75",
+    "price": 699.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "10 Cores",
+      "threads": "16 Threads",
+      "clock_speed": "4.7 GHz"
+    }
+  },
+  {
+    "title": "INTEL CORE I5-12400F (2.5 GHZ / 4.4 GHZ)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-12400F-TRAY",
+    "image": "",
+    "price": 699.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "clock_speed": "2.5 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 5800X BOX (3.8 GHz / 4.7 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-5800X-Box",
+    "image": "",
+    "price": 639.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "16 Threads",
+      "clock_speed": "3.8 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i5-14600KF (3.5 GHz / 5.3 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-14600KF--TRAY",
+    "image": "",
+    "price": 820.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "14 Cores",
+      "threads": "20 Threads",
+      "clock_speed": "3.5 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 7600 TRAY (3.8 GHz / 5.1 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-7600",
+    "image": "",
+    "price": 854.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "5.1 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i5-12600KF (3.7 GHz / 4.9 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-12600KF",
+    "image": "",
+    "price": 869.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "clock_speed": "3.7 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 7600X (4.7 GHz / 5.3 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-7600X",
+    "image": "",
+    "price": 719.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "clock_speed": "4.7 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i5-14600K (3,5 GHz / 5,3 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i5-14600K",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1724341485640.webp&w=3840&q=75",
+    "price": 969.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "14 Cores",
+      "threads": "20 Threads",
+      "clock_speed": "3.5 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 7700 TRAY (3.8 GHz / 5.3 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-7700-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1768818309233.webp&w=3840&q=75",
+    "price": 935.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "clock_speed": "3.8 GHz"
+    }
+  },
+  {
+    "title": "Intel Core Ultra 5 245KF (4.2 GHz / 5.2 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-Ultra-5-245KF",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1730383075411.jpg&w=3840&q=75",
+    "price": 1059.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "14 Cores",
+      "threads": "14 Threads",
+      "clock_speed": "5.2 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i7-12700KF TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i7-12700KF-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1670601251798.webp&w=3840&q=75",
+    "price": 1069.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "12 Cores",
+      "threads": "20 Threads",
+      "clock_speed": "3.60 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 9600X (3.9 GHz / 5.4 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-9600X-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1739533764022.webp&w=3840&q=75",
+    "price": 1089.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "3.9 GHz"
+    }
+  },
+  {
+    "title": " Intel Core i7-14700F (jusqu'à 5.4 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i7-14700F-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1751994059321.webp&w=3840&q=75",
+    "price": 1175.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "20 Cores",
+      "threads": "28 Threads",
+      "clock_speed": "5.4 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i7-12700KF (3.6 GHz / 5.0 GHz) BOX",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Processeur-Intel-Core-i7-12700KF",
+    "image": "",
+    "price": 1244.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "clock_speed": "3.6 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 5 7600X3D TRAY (4.7 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-5-7600X3D-TRAY",
+    "image": "",
+    "price": 1249.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "6 Cores",
+      "threads": "12 Threads",
+      "clock_speed": "4.7 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i7-14700KF TRAY (3.4 GHz / 5.6 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i7-14700KF-(3-4-GHz-5-6-GHz)-TRAY",
+    "image": "",
+    "price": 1339.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "clock_speed": "3.4 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 7700X (4.5 GHz / 5.4 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-7700X",
+    "image": "",
+    "price": 1449.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "clock_speed": "4.5 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 9 7900X (4.7 GHz / 5.6 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-9-7900X",
+    "image": "",
+    "price": 1499.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "12 Cores",
+      "threads": "24 Threads",
+      "clock_speed": "4.7 GHz"
+    }
+  },
+  {
+    "title": "Intel Core Ultra 7 265K (3.9 GHz / 5.5 GHz) ",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/INTEL-CORE-ULTRA-7-265K-3-9-GHZ-5-5-GHZ",
+    "image": "",
+    "price": 1299.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "20 Cores",
+      "threads": "20 Threads",
+      "clock_speed": "3.9 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 7800X3D (4.2 GHz / 5.0 GHz) - TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-7800X3D-version-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1692020006111.webp&w=3840&q=75",
+    "price": 1499.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "16 Threads",
+      "clock_speed": "4.2 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz) Tray",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-9800X3D-4-7-GHz-5-2-GHz-Tray",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1747307472396.jpg&w=3840&q=75",
+    "price": 1849.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "8 Threads",
+      "clock_speed": "5.2 GHz"
+    }
+  },
+  {
+    "title": "Intel Core i9-14900KF TRAY (3.2 GHz / 6 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-i9-14900KF-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1765381383778.jpg&w=3840&q=75",
+    "price": 1799.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "24 Cores",
+      "threads": "32 Threads",
+      "clock_speed": "3.2 GHz"
+    }
+  },
+  {
+    "title": "AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz)",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-Ryzen-7-9800X3D-4-7-GHz-5-2-GHz",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1731159565391.webp&w=3840&q=75",
+    "price": 2299.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "8 Cores",
+      "threads": "8 Threads",
+      "clock_speed": "5.2 GHz"
+    }
+  },
+  {
+    "title": "Intel Core Ultra 9 285K (3.7 GHz / 5.7 GHz) Tray",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/Intel-Core-Ultra-9-285K-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1730388107956.webp&w=3840&q=75",
+    "price": 2876.0,
+    "brand": "Intel",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "24 Cores",
+      "threads": "24 Threads",
+      "clock_speed": "5.7 GHz"
+    }
+  },
+  {
+    "title": "AMD RYZEN 9 9950X3D (4.3 GHz / 5.7 GHz) TRAY",
+    "link": "https://megapc.tn/shop/product/COMPOSANTS/PROCESSEUR/AMD-RYZEN-9-9950X3D-TRAY",
+    "image": "https://megapc.tn/_next/image?url=https%3A%2F%2Fstatic.gi-ga.tech%2F%2Fuploads%2Fgallerie%2F1751039278050.webp&w=3840&q=75",
+    "price": 3399.0,
+    "brand": "AMD",
+    "source": "MegaPC",
+    "status": "En Stock",
+    "specs": {
+      "category": "cpu",
+      "cores": "5 Cores",
+      "threads": "32 Threads",
+      "clock_speed": "5.7 GHz"
+    }
+  }
+]

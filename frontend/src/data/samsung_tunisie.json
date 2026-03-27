@@ -1,0 +1,202 @@
+[
+    {
+        "id": "sam-117",
+        "title": "Samsung Galaxy A17",
+        "price": 699.0,
+        "image": "https://www.samsungtunisie.tn/11702-large_default/samsung-galaxy-a17-4g.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1447-2069-samsung-galaxy-a17-4g.html#/11-couleur-noir/116-memoire-6go/117-stocage-128go",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-97",
+        "title": "Samsung Galaxy S25 FE",
+        "price": 2399.0,
+        "image": "https://www.samsungtunisie.tn/11607-large_default/samsung-galaxy-s25-fe.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1425-1996-samsung-galaxy-s25-fe.html#/97-couleur-navy",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-118",
+        "title": "Samsung Galaxy A07",
+        "price": 399.0,
+        "image": "https://www.samsungtunisie.tn/11771-large_default/samsung-galaxy-a07.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/smartphone-samsung-tunisie/1421-2002-samsung-galaxy-a07.html#/67-couleur-violet/117-stocage-128go/118-memoire-4go",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-10",
+        "title": "Samsung Galaxy Z Flip7",
+        "price": 4199.0,
+        "image": "https://www.samsungtunisie.tn/11542-large_default/samsung-galaxy-z-flip7.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/galaxy-z-fold/1416-1975-samsung-galaxy-z-flip7.html#/10-couleur-rouge",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-14",
+        "title": "Samsung Galaxy Z Fold7",
+        "price": 7499.0,
+        "image": "https://www.samsungtunisie.tn/11525-large_default/galaxy-z-fold7.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/galaxy-z-fold/1415-1974-galaxy-z-fold7.html#/14-couleur-bleu",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-119",
+        "title": "Samsung Galaxy A06 5G",
+        "price": 579.0,
+        "image": "https://www.samsungtunisie.tn/11444-large_default/samsung-galaxy-a06-5g-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1390-1912-samsung-galaxy-a06-5g-prix-tunisie.html#/11-couleur-noir/118-memoire-4go/119-stocage-64go",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-11",
+        "title": "Samsung Galaxy A16 5G 6/128Go",
+        "price": 799.0,
+        "image": "https://www.samsungtunisie.tn/11400-large_default/samsung-galaxy-a16-5-g-6-128-go-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1375-1935-samsung-galaxy-a16-5-g-6-128-go-prix-tunisie.html#/11-couleur-noir",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-117-a36-256",
+        "title": "Samsung Galaxy A36 5G 8Go 256Go Noir",
+        "price": 1549.0,
+        "image": "https://www.samsungtunisie.tn/11394-large_default/samsung-galaxy-a36-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1371-1898-samsung-galaxy-a36-prix-tunisie.html#/75-memoire-8go/100-couleur-noir/117-stocage-256go",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-25",
+        "title": "Samsung Galaxy A06 4/128Go",
+        "price": 399.0,
+        "image": "https://www.samsungtunisie.tn/11699-large_default/samsung-galaxy-a06-4-128-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1365-2067-samsung-galaxy-a06-4-128-prix-tunisie.html#/25-couleur-gold",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-26",
+        "title": "Samsung Galaxy S25 Plus",
+        "price": 3899.0,
+        "image": "https://www.samsungtunisie.tn/11442-large_default/samsung-galaxy-s25-plus-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1361-1873-samsung-galaxy-s25-plus-tunisie.html#/26-couleur-silver",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-110",
+        "title": "Samsung Galaxy S25",
+        "price": 3299.0,
+        "image": "https://www.samsungtunisie.tn/11440-large_default/samsung-galaxy-s25-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1360-1870-samsung-galaxy-s25-tunisie.html#/110-couleur-gris_titane",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-72",
+        "title": "Samsung Galaxy S24 FE",
+        "price": 2299.0,
+        "image": "https://www.samsungtunisie.tn/11116-large_default/samsung-galaxy-s24-fe-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1352-1839-samsung-galaxy-s24-fe-prix-tunisie.html#/72-couleur-graphite",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-5",
+        "title": "Samsung Galaxy Z Flip 6",
+        "price": 3499.0,
+        "image": "https://www.samsungtunisie.tn/11430-large_default/samsung-galaxy-z-flip-6-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1308-1819-samsung-galaxy-z-flip-6-prix-tunisie.html#/5-couleur-gris",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-106",
+        "title": "Samsung Galaxy A35 5G",
+        "price": 1099.0,
+        "image": "https://www.samsungtunisie.tn/10842-large_default/samsung-galaxy-a35-prix-tunisie.webp",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1290-1810-samsung-galaxy-a35-prix-tunisie.html#/106-couleur-bleu_claire",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-108",
+        "title": "Samsung Galaxy A55 5G",
+        "price": 1699.0,
+        "image": "https://www.samsungtunisie.tn/10787-large_default/samsung-galaxy-a55-prix-tunisie.webp",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1288-1795-samsung-galaxy-a55-prix-tunisie.html#/108-couleur-genial_iceblue",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-104",
+        "title": "Samsung Galaxy A25 5G 8/256Go",
+        "price": 899.0,
+        "image": "https://www.samsungtunisie.tn/11939-large_default/samsung-galaxy-a25-8-256-go-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1271-1757-samsung-galaxy-a25-8-256-go-prix-tunisie.html#/104-couleur-jaune",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-105",
+        "title": "Samsung Galaxy A25 5G",
+        "price": 799.0,
+        "image": "https://www.samsungtunisie.tn/10628-large_default/samsung-galaxy-a25-prix-tunisie.webp",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1270-1753-samsung-galaxy-a25-prix-tunisie.html#/105-couleur-bleu_et_noir",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-79",
+        "title": "Samsung Galaxy S24 Ultra",
+        "price": 3999.0,
+        "image": "https://www.samsungtunisie.tn/11409-large_default/samsung-galaxy-s24-ultra-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1248-1724-samsung-galaxy-s24-ultra-prix-tunisie.html#/79-couleur-phantom_black",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-15",
+        "title": "Samsung Galaxy A24 6/128Go",
+        "price": 699.0,
+        "image": "https://www.samsungtunisie.tn/9904-large_default/samsung-galaxy-a24-prix-tunisie.webp",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1195-1655-samsung-galaxy-a24-prix-tunisie.html#/15-couleur-vert",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    },
+    {
+        "id": "sam-88",
+        "title": "Samsung Galaxy S23 Ultra",
+        "price": 3349.0,
+        "image": "https://www.samsungtunisie.tn/11155-large_default/samsung-galaxy-s23-ultra-prix-tunisie.jpg",
+        "link": "https://www.samsungtunisie.tn/fr/mobile/1125-1503-samsung-galaxy-s23-ultra-prix-tunisie.html#/88-couleur-cream",
+        "source": "Samsung Tunisie",
+        "category": "Smartphone",
+        "availability": "in-stock"
+    }
+]

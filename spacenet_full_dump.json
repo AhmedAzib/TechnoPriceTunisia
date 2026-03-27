@@ -1,0 +1,1892 @@
+[
+  {
+    "title": "PROCESSEUR INTEL PENTIUM DUAL-CORE E2140 1.6 GHZ",
+    "reference": "CPU-E2140",
+    "brand": "Intel",
+    "price": 56.0,
+    "image": "https://spacenet.tn/22929-large_default/processeur-intel-pentium-dual-core-e2140-16-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/8335-processeur-intel-pentium-dual-core-e2140-16-ghz.html",
+    "specs": {
+      "frequency": "1.6 GHz",
+      "cores": "Unknown",
+      "threads": "2 Threads",
+      "cache": "1 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR2"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN™ 3 3100 3.9 GHZ SOCKET AM4 TRAY",
+    "reference": "100-000000284",
+    "brand": "AMD",
+    "price": 0.0,
+    "image": "https://spacenet.tn/78986-large_default/processeur-amd-ryzen-3-3100-39-ghz-socket-am4-tray.jpg",
+    "link": "https://spacenet.tn/processeur/45167-processeur-amd-ryzen-3-3100-39-ghz-socket-am4-tray.html",
+    "specs": {
+      "frequency": "3.9Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "16 Mo",
+      "socket": "Unknown",
+      "memory_type": "Unknown"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-650 3.4GHZ SOCKET FCLGA 1156 VERSION TRAY SANS VENTILATEUR",
+    "reference": "CPU-I5-650",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/14621-large_default/processeur-intel-core-i5-650-34ghz-socket-fclga-1156-version-tray-sans-ventilateur.jpg",
+    "link": "https://spacenet.tn/processeur/8012-processeur-intel-core-i5-650-34ghz-socket-fclga-1156-version-tray-sans-ventilateur.html",
+    "specs": {
+      "frequency": "3.4 GHz",
+      "cores": "Unknown",
+      "threads": "4 Threads",
+      "cache": "Unknown",
+      "socket": "Intel",
+      "memory_type": "DDR3"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE 2 QUAD Q8300 2.50 GHZ LGA775",
+    "reference": "CPU--Q8300",
+    "brand": "Intel",
+    "price": 179.0,
+    "image": "https://spacenet.tn/186414-large_default/processeur-intel-core-2-quad-q8300-250-ghz-lga775.jpg",
+    "link": "https://spacenet.tn/processeur/8431-processeur-intel-core-2-quad-q8300-250-ghz-lga775.html",
+    "specs": {
+      "frequency": "2.5 GHz",
+      "cores": "Unknown",
+      "threads": "4 Threads",
+      "cache": "4 Mo",
+      "socket": "LGA775",
+      "memory_type": "DDR2"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-4160 3.6GHZ LGA 1150 TRAY",
+    "reference": "CPU-I3-4160",
+    "brand": "Intel",
+    "price": 189.0,
+    "image": "https://spacenet.tn/248119-large_default/processeur-intel-core-i3-4160-36ghz-lga-1150-tray.jpg",
+    "link": "https://spacenet.tn/processeur/8680-processeur-intel-core-i3-4160-36ghz-lga-1150-tray.html",
+    "specs": {
+      "frequency": "3.6 GHz",
+      "cores": "Unknown",
+      "threads": "4 Threads",
+      "cache": "3 Mo",
+      "socket": "Intel",
+      "memory_type": "DDR3"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL PENTIUM GOLD G6400 TRAY SANS VENTILATEUR",
+    "reference": "CPU-G6400",
+    "brand": "Intel",
+    "price": 195.0,
+    "image": "https://spacenet.tn/121602-large_default/processeur-intel-pentium-gold-g6400.jpg",
+    "link": "https://spacenet.tn/processeur/52980-processeur-intel-pentium-gold-g6400.html",
+    "specs": {
+      "frequency": "4 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 3500X AMD AM4 TRAY",
+    "reference": "CPU-R5-3500X",
+    "brand": "AMD",
+    "price": 199.0,
+    "image": "https://spacenet.tn/284862-large_default/processeur-amd-ryzen-5-3500x-amd-am4-tray.jpg",
+    "link": "https://spacenet.tn/processeur/89545-processeur-amd-ryzen-5-3500x-amd-am4-tray.html",
+    "specs": {
+      "frequency": "3.6 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "35 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-7100 3.9GHZ SOCKET LGA 1151 VERSION TRAY SANS VENTILATEUR",
+    "reference": "CPU-I3-7100",
+    "brand": "Intel",
+    "price": 219.0,
+    "image": "https://spacenet.tn/21235-large_default/processeur-intel-7eme-generation-i3-7100.jpg",
+    "link": "https://spacenet.tn/processeur/13197-processeur-intel-7eme-generation-i3-7100.html",
+    "specs": {
+      "frequency": "3.9 GHz",
+      "cores": "Unknown",
+      "threads": "4 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR3"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-10105 4.4 GHZ LGA 1200 TRAY",
+    "reference": "BX8070110105SRH3P",
+    "brand": "Intel",
+    "price": 225.0,
+    "image": "https://spacenet.tn/289673-large_default/processeur-intel-core-i3-10105-lga-1200.jpg",
+    "link": "https://spacenet.tn/processeur/55311-processeur-intel-core-i3-10105-lga-1200.html",
+    "specs": {
+      "frequency": "3.7 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "6 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-4170 3.7GHZ SOCKET LGA 1150 VERSION TRAY SANS VENTILATEUR",
+    "reference": "CPU-I3-4170",
+    "brand": "Intel",
+    "price": 245.0,
+    "image": "https://spacenet.tn/22968-large_default/processeur-intel-core-i3-4170-37ghz-socket-lga-1150-version-tray-sans-ventilateur.jpg",
+    "link": "https://spacenet.tn/processeur/9795-processeur-intel-core-i3-4170-37ghz-socket-lga-1150-version-tray-sans-ventilateur.html",
+    "specs": {
+      "frequency": "3.7 GHz",
+      "cores": "Unknown",
+      "threads": "4 Threads",
+      "cache": "Unknown",
+      "socket": "Intel",
+      "memory_type": "DDR3"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 3600 WRAITH STEALTH 4.2GHZ AMD AM4 TRY",
+    "reference": "100-100000031AWOF",
+    "brand": "AMD",
+    "price": 259.0,
+    "image": "https://spacenet.tn/258955-large_default/processeur-amd-ryzen-5-3600-wraith-stealth-42ghz-amd-am4-try.jpg",
+    "link": "https://spacenet.tn/processeur/85699-processeur-amd-ryzen-5-3600-wraith-stealth-42ghz-amd-am4-try.html",
+    "specs": {
+      "frequency": "3.6 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "35 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 4500",
+    "reference": "100-100000644BOX",
+    "brand": "AMD",
+    "price": 299.0,
+    "image": "https://spacenet.tn/130720-large_default/processeur-amd-ryzen-5-4500.jpg",
+    "link": "https://spacenet.tn/processeur/55039-processeur-amd-ryzen-5-4500.html",
+    "specs": {
+      "frequency": "3,60 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "8 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-11400F (2.6 GHZ / 4.4 GHZ) TRAY",
+    "reference": "I5-11400F",
+    "brand": "Intel",
+    "price": 299.0,
+    "image": "https://spacenet.tn/269944-large_default/processeur-intel-core-i5-11400f-26-ghz-44-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/45169-processeur-intel-core-i5-11400f-26-ghz-44-ghz.html",
+    "specs": {
+      "frequency": "Unknown",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "12 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-14100F 4.4 GHZ LGA 1700 BOX",
+    "reference": "I3-14100F",
+    "brand": "Intel",
+    "price": 329.0,
+    "image": "https://spacenet.tn/245153-large_default/processeur-intel-core-i3-14100f-44-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81559-processeur-intel-core-i3-14100f-44-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "8 Threads",
+      "cache": "12 Mo",
+      "socket": "FCLGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN™ 5 3600, 6 COEURS, 3.6GHZ",
+    "reference": "100-100000031BOX",
+    "brand": "AMD",
+    "price": 399.0,
+    "image": "https://spacenet.tn/306721-large_default/processeur-amd-ryzen-5-3600-6-coeurs-36ghz.jpg",
+    "link": "https://spacenet.tn/processeur/38849-processeur-amd-ryzen-5-3600-6-coeurs-36ghz.html",
+    "specs": {
+      "frequency": "3.6 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "35 Mo",
+      "socket": "AMD",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-11500 4.60 GHZ LGA1200",
+    "reference": "I5-11500",
+    "brand": "Intel",
+    "price": 499.0,
+    "image": "https://spacenet.tn/290050-large_default/processeur-intel-core-i5-11500-460-ghz-lga1200.jpg",
+    "link": "https://spacenet.tn/processeur/55315-processeur-intel-core-i5-11500-460-ghz-lga1200.html",
+    "specs": {
+      "frequency": "2.7 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "12 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-12400F TRAY 4.4 GHZ SOCKET LGA 1700",
+    "reference": "I5-12400F-TRAY",
+    "brand": "Intel",
+    "price": 509.0,
+    "image": "https://spacenet.tn/290047-large_default/processeur-intel-core-i5-12400f-tray-44-ghz-socket-lga-1700.jpg",
+    "link": "https://spacenet.tn/processeur/77490-processeur-intel-core-i5-12400f-tray-44-ghz-socket-lga-1700.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "18 Mo",
+      "socket": "FCLGA",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL® CORE™ I9-11900F 5.20 GHZ TRAY",
+    "reference": "BX8070811900F",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/227088-large_default/processeur-intel-core-i9-11900f-520-ghz-box.jpg",
+    "link": "https://spacenet.tn/processeur/42034-processeur-intel-core-i9-11900f-520-ghz-box.html",
+    "specs": {
+      "frequency": "5.20 Ghz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "16 Mo",
+      "socket": "FCLGA1200",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5 14400 4.7 GHZ LGA1700 TRAY",
+    "reference": "I5-14400-TRAY",
+    "brand": "Intel",
+    "price": 629.0,
+    "image": "https://spacenet.tn/281026-large_default/-processeur-intel-core-i5-14400-47-ghz-lga1700-tray.jpg",
+    "link": "https://spacenet.tn/processeur/89060--processeur-intel-core-i5-14400-47-ghz-lga1700-tray.html",
+    "specs": {
+      "frequency": "4.7 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "20 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-12600KF 4.9 GHZ SOCKET LGA 1700 BOX",
+    "reference": "I5-12600KF-BOX",
+    "brand": "Intel",
+    "price": 639.0,
+    "image": "https://spacenet.tn/274764-large_default/processeur-intel-core-i5-12600kf-49-ghz-socket-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/88318-processeur-intel-core-i5-12600kf-49-ghz-socket-lga-1700-box.html",
+    "specs": {
+      "frequency": "4.9 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "20 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-12700KF 5 GHZ SOCKET LGA 1700 TRAY",
+    "reference": "I7-12700KF",
+    "brand": "Intel",
+    "price": 819.0,
+    "image": "https://spacenet.tn/267962-large_default/processeur-intel-core-i7-12700kf-5-ghz-socket-lga-1700.jpg",
+    "link": "https://spacenet.tn/processeur/75154-processeur-intel-core-i7-12700kf-5-ghz-socket-lga-1700.html",
+    "specs": {
+      "frequency": "Unknown",
+      "cores": "Unknown",
+      "threads": "20 Threads",
+      "cache": "25 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE ULTRA 5 225F 4.9GHZ SOCKET FCLGA 1851 BOX",
+    "reference": "U5-225F-BOX",
+    "brand": "Intel",
+    "price": 959.0,
+    "image": "https://spacenet.tn/274800-large_default/processeur-intel-core-ultra-5-225f-49ghz-socket-fclga-1851-box.jpg",
+    "link": "https://spacenet.tn/processeur/88327-processeur-intel-core-ultra-5-225f-49ghz-socket-fclga-1851-box.html",
+    "specs": {
+      "frequency": "4.9GHz",
+      "cores": "Unknown",
+      "threads": "10 Threads",
+      "cache": "20 Mo",
+      "socket": "FCLGA1851",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-12700K 4.90 GHZ LGA1700",
+    "reference": "I7-12700K",
+    "brand": "Intel",
+    "price": 979.0,
+    "image": "https://spacenet.tn/286290-large_default/processeur-intel-core-i7-12700k-490-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/89547-processeur-intel-core-i7-12700k-490-ghz-lga1700.html",
+    "specs": {
+      "frequency": "3.6 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "25 Mo",
+      "socket": "LGA1700",
+      "memory_type": "Unknown"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-13700F 5.20 GHZ LGA1700",
+    "reference": "BX8071513700F",
+    "brand": "Intel",
+    "price": 1169.0,
+    "image": "https://spacenet.tn/138733-large_default/processeur-intel-core-i7-13700f-520-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56520-processeur-intel-core-i7-13700f-520-ghz-lga1700.html",
+    "specs": {
+      "frequency": "2.1 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "30 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7 14700 5.4 GHZ FCLGA 1700 TRAY",
+    "reference": "I7-14700-TRAY",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/284889-large_default/processeur-intel-core-i7-14700-54-ghz-fclga-1700-tray.jpg",
+    "link": "https://spacenet.tn/processeur/89549-processeur-intel-core-i7-14700-54-ghz-fclga-1700-tray.html",
+    "specs": {
+      "frequency": "5.4 GHz",
+      "cores": "Unknown",
+      "threads": "28 Threads",
+      "cache": "33 Mo",
+      "socket": "FCLGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-13700K 5.4GHZ SOCKET FCLGA 1700 TRAY",
+    "reference": "I7-13700K-TRAY",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/274788-large_default/processeur-intel-core-i7-13700k-54ghz-socket-fclga-1700-tray.jpg",
+    "link": "https://spacenet.tn/processeur/88326-processeur-intel-core-i7-13700k-54ghz-socket-fclga-1700-tray.html",
+    "specs": {
+      "frequency": "5.4GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "30 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE ULTRA 7 265K 5.5GHZ SOCKET FCLGA 1851 BOX",
+    "reference": "U7-265K-BOX",
+    "brand": "Intel",
+    "price": 1299.0,
+    "image": "https://spacenet.tn/274807-large_default/processeur-intel-core-ultra-7-265k-55ghz-socket-fclga-1851-box.jpg",
+    "link": "https://spacenet.tn/processeur/88332-processeur-intel-core-ultra-7-265k-55ghz-socket-fclga-1851-box.html",
+    "specs": {
+      "frequency": "5.5GHz",
+      "cores": "Unknown",
+      "threads": "20 Threads",
+      "cache": "30 Mo",
+      "socket": "FCLGA1851",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-14700K 5.6 GHZ LGA 1700 BOX",
+    "reference": "I7-14700K-BOX",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/274322-large_default/processeur-intel-core-i7-14700k-56-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/88247-processeur-intel-core-i7-14700k-56-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5.6 GHz",
+      "cores": "Unknown",
+      "threads": "28 Threads",
+      "cache": "33 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9 14900KF 6GHZ LGA1700 TRAY",
+    "reference": "I9-14900KF-TRAY",
+    "brand": "Intel",
+    "price": 1599.0,
+    "image": "https://spacenet.tn/274813-large_default/processeur-intel-core-i9-14900kf-6ghz-lga1700-tray-.jpg",
+    "link": "https://spacenet.tn/processeur/70666-processeur-intel-core-i9-14900kf-6ghz-lga1700-tray-.html",
+    "specs": {
+      "frequency": "6,00 GHz",
+      "cores": "Unknown",
+      "threads": "28 Threads",
+      "cache": "36 Mo",
+      "socket": "LGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900KF 6.0 GHZ LGA 1700 BOX",
+    "reference": "I9-14900KF-BOX",
+    "brand": "Intel",
+    "price": 1799.0,
+    "image": "https://spacenet.tn/274336-large_default/processeur-intel-core-i9-14900kf-60-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/88249-processeur-intel-core-i9-14900kf-60-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "6.0 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "36 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "En Stock"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 3 1200 SOCKET AM4",
+    "reference": "YD1200BBM4KAE",
+    "brand": "AMD",
+    "price": 199.0,
+    "image": "https://spacenet.tn/78971-large_default/processeur-amd-ryzen-3-1200-socket-am4.jpg",
+    "link": "https://spacenet.tn/processeur/45166-processeur-amd-ryzen-3-1200-socket-am4.html",
+    "specs": {
+      "frequency": "3.1 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "8 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 3600 TRY 4.2 GHZ AMD AM4",
+    "reference": "R5-3600TRY",
+    "brand": "AMD",
+    "price": 225.0,
+    "image": "https://spacenet.tn/213843-large_default/processeur-amd-ryzen-5-3600-try-42-ghz-amd-am4.jpg",
+    "link": "https://spacenet.tn/processeur/75155-processeur-amd-ryzen-5-3600-try-42-ghz-amd-am4.html",
+    "specs": {
+      "frequency": "3,6 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "35 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-12100F LGA1700",
+    "reference": "I3-12100F",
+    "brand": "Intel",
+    "price": 234.0,
+    "image": "https://spacenet.tn/290044-large_default/processeur-intel-core-i3-12100f-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/50495-processeur-intel-core-i3-12100f-lga1700.html",
+    "specs": {
+      "frequency": "3,30 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "12 Mo",
+      "socket": "avec",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3 10GÉN LGA 1200 BOX",
+    "reference": "BX8070110105F",
+    "brand": "Intel",
+    "price": 245.0,
+    "image": "https://spacenet.tn/73725-large_default/processeur-intel-core-i3-10gen-lga-1200-box.jpg",
+    "link": "https://spacenet.tn/processeur/44149-processeur-intel-core-i3-10gen-lga-1200-box.html",
+    "specs": {
+      "frequency": "4.40 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "6 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-4460 3.4GHZ",
+    "reference": "CPU-I5-4460",
+    "brand": "Intel",
+    "price": 295.0,
+    "image": "https://spacenet.tn/18427-large_default/processeur-intel-core-i5-4460-34ghz.jpg",
+    "link": "https://spacenet.tn/processeur/11821-processeur-intel-core-i5-4460-34ghz.html",
+    "specs": {
+      "frequency": "3.2 GHz",
+      "cores": "Unknown",
+      "threads": "4 Threads",
+      "cache": "6 Mo",
+      "socket": "LGA1150",
+      "memory_type": "DDR3"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 4600G 4.2GHZ AMD AM4 TRAY",
+    "reference": "R5-4600G-TRAY",
+    "brand": "AMD",
+    "price": 0.0,
+    "image": "https://spacenet.tn/258944-large_default/processeur-amd-ryzen-5-4600g-42ghz-amd-am4-try.jpg",
+    "link": "https://spacenet.tn/processeur/85697-processeur-amd-ryzen-5-4600g-42ghz-amd-am4-try.html",
+    "specs": {
+      "frequency": "3.7 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "11 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 5500",
+    "reference": "100-100000457BOX",
+    "brand": "AMD",
+    "price": 319.0,
+    "image": "https://spacenet.tn/123248-large_default/processeur-amd-ryzen-5-5500.jpg",
+    "link": "https://spacenet.tn/processeur/53310-processeur-amd-ryzen-5-5500.html",
+    "specs": {
+      "frequency": "3,60 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "16 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-10400F",
+    "reference": "BX8070110400F",
+    "brand": "Intel",
+    "price": 319.0,
+    "image": "https://spacenet.tn/130657-large_default/processeur-intel-core-i5-10400f.jpg",
+    "link": "https://spacenet.tn/processeur/55032-processeur-intel-core-i5-10400f.html",
+    "specs": {
+      "frequency": "2.9 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "12 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 4600G TRAY 4.2 GHZ AMD AM4",
+    "reference": "R5-4600GBOX",
+    "brand": "AMD",
+    "price": 335.0,
+    "image": "https://spacenet.tn/213853-large_default/processeur-amd-ryzen-5-4600g-tray-42-ghz-amd-am4.jpg",
+    "link": "https://spacenet.tn/processeur/75156-processeur-amd-ryzen-5-4600g-tray-42-ghz-amd-am4.html",
+    "specs": {
+      "frequency": "3,7 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "35 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 5600 4.4 GHZ TRAY",
+    "reference": "100-000000927",
+    "brand": "AMD",
+    "price": 369.0,
+    "image": "https://spacenet.tn/270511-large_default/processeur-amd-ryzen-5-5600-44-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/55038-processeur-amd-ryzen-5-5600-44-ghz.html",
+    "specs": {
+      "frequency": "3.5 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "32 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I3-13100F",
+    "reference": "i3-13100F",
+    "brand": "Intel",
+    "price": 389.0,
+    "image": "https://spacenet.tn/290046-large_default/processeur-intel-core-i3-13100f.jpg",
+    "link": "https://spacenet.tn/processeur/55031-processeur-intel-core-i3-13100f.html",
+    "specs": {
+      "frequency": "3.4 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "12 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5 10GÉN TRAY SANS VENTILATEUR",
+    "reference": "CPU-I5-10400",
+    "brand": "Intel",
+    "price": 399.0,
+    "image": "https://spacenet.tn/290049-large_default/processeur-intel-core-i5-10gen-tray-sans-ventilateur.jpg",
+    "link": "https://spacenet.tn/processeur/52983-processeur-intel-core-i5-10gen-tray-sans-ventilateur.html",
+    "specs": {
+      "frequency": "2.9 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 5500GT 4.4 GHZ AM4",
+    "reference": "R5-5500GT",
+    "brand": "AMD",
+    "price": 409.0,
+    "image": "https://spacenet.tn/227519-large_default/processeur-amd-ryzen-5-5500gt-44-ghz-am4.jpg",
+    "link": "https://spacenet.tn/processeur/78214-processeur-amd-ryzen-5-5500gt-44-ghz-am4.html",
+    "specs": {
+      "frequency": "3.6 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "19 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 5600X 3.7 GHZ 32 MO L3",
+    "reference": "100-100000065BOX",
+    "brand": "AMD",
+    "price": 429.0,
+    "image": "https://spacenet.tn/123245-large_default/processeur-amd-ryzen-5-5600x-37-ghz-32-mo-l3.jpg",
+    "link": "https://spacenet.tn/processeur/53309-processeur-amd-ryzen-5-5600x-37-ghz-32-mo-l3.html",
+    "specs": {
+      "frequency": "3,7 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "4 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN™ 5 5600G",
+    "reference": "100-100000252BOX",
+    "brand": "AMD",
+    "price": 429.0,
+    "image": "https://spacenet.tn/123254-large_default/processeur-amd-ryzen-5-5600g.jpg",
+    "link": "https://spacenet.tn/processeur/53312-processeur-amd-ryzen-5-5600g.html",
+    "specs": {
+      "frequency": "3,90 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "16 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR INTEL® I5 11400 UP TO 4.40 GHZ",
+    "reference": "CPU-I5-11400",
+    "brand": "Intel",
+    "price": 479.0,
+    "image": "https://spacenet.tn/186362-large_default/processeur-intel-i5-11400-up-to-440-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/62787-processeur-intel-i5-11400-up-to-440-ghz.html",
+    "specs": {
+      "frequency": "2.6 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "12 MB",
+      "socket": "FCLGA1200",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-12400 4.40 GHZ LGA1700",
+    "reference": "BX8071512400",
+    "brand": "Intel",
+    "price": 479.0,
+    "image": "https://spacenet.tn/138470-large_default/processeur-intel-core-i5-12400-440-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56482-processeur-intel-core-i5-12400-440-ghz-lga1700.html",
+    "specs": {
+      "frequency": "2.5 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "18 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 5700G TRAY 4.6 GHZ AM4",
+    "reference": "R7-5700G-TRAY",
+    "brand": "AMD",
+    "price": 499.0,
+    "image": "https://spacenet.tn/290058-large_default/processeur-amd-ryzen-7-5700g-tray-46-ghz-am4.jpg",
+    "link": "https://spacenet.tn/processeur/77476-processeur-amd-ryzen-7-5700g-tray-46-ghz-am4.html",
+    "specs": {
+      "frequency": "3,8 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "20 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5 14400F 4.7 GHZ LGA1700",
+    "reference": "I5-14400F",
+    "brand": "Intel",
+    "price": 529.0,
+    "image": "https://spacenet.tn/194374-large_default/processeur-intel-core-i5-14400f-47-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/70649-processeur-intel-core-i5-14400f-47-ghz-lga1700.html",
+    "specs": {
+      "frequency": "4,7 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "20 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-13400F",
+    "reference": "I5-13400F",
+    "brand": "Intel",
+    "price": 529.0,
+    "image": "https://spacenet.tn/130644-large_default/processeur-intel-core-i5-13400f.jpg",
+    "link": "https://spacenet.tn/processeur/55030-processeur-intel-core-i5-13400f.html",
+    "specs": {
+      "frequency": "1.8 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "20 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 8500G BOX 5 GHZ AM5",
+    "reference": "R5-8500G-BOX",
+    "brand": "AMD",
+    "price": 539.0,
+    "image": "https://spacenet.tn/224114-large_default/processeur-amd-ryzen-5-8500g-box-5-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77473-processeur-amd-ryzen-5-8500g-box-5-ghz-am5.html",
+    "specs": {
+      "frequency": "3,5 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "23 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN™ 7 5800X 8 CŒURS 4.7 GHZ",
+    "reference": "100-100000063WOF",
+    "brand": "AMD",
+    "price": 0.0,
+    "image": "https://spacenet.tn/48566-large_default/processeur-amd-ryzen-7-5800x-8-coeurs-47-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/38857-processeur-amd-ryzen-7-5800x-8-coeurs-47-ghz.html",
+    "specs": {
+      "frequency": "3.8 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "36 Mo",
+      "socket": "AMD",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 5700X BOX",
+    "reference": "R7-5700XBOX",
+    "brand": "AMD",
+    "price": 559.0,
+    "image": "https://spacenet.tn/198301-large_default/processeur-amd-ryzen-7-5700x-box.jpg",
+    "link": "https://spacenet.tn/processeur/71692-processeur-amd-ryzen-7-5700x-box.html",
+    "specs": {
+      "frequency": "3,4 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 5700G",
+    "reference": "100-100000263MPK",
+    "brand": "AMD",
+    "price": 665.0,
+    "image": "https://spacenet.tn/123252-large_default/processeur-amd-ryzen-7-5700g.jpg",
+    "link": "https://spacenet.tn/processeur/53311-processeur-amd-ryzen-7-5700g.html",
+    "specs": {
+      "frequency": "3.8GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "16 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 8600G BOX 5GHZ AM5",
+    "reference": "R5-8600G-BOX",
+    "brand": "AMD",
+    "price": 669.0,
+    "image": "https://spacenet.tn/224922-large_default/processeur-amd-ryzen-5-8600g-box-5ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77485-processeur-amd-ryzen-5-8600g-box-5ghz-am5.html",
+    "specs": {
+      "frequency": "4,3 GHz",
+      "cores": "Unknown",
+      "threads": "12 Threads",
+      "cache": "22 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 5800X TRAY",
+    "reference": "100-000000063",
+    "brand": "AMD",
+    "price": 685.0,
+    "image": "https://spacenet.tn/290061-large_default/processeur-amd-ryzen-7-5800x-tray.jpg",
+    "link": "https://spacenet.tn/processeur/53313-processeur-amd-ryzen-7-5800x-tray.html",
+    "specs": {
+      "frequency": "3.8 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-12600K 4.40 GHZ LGA1700",
+    "reference": "BX8071512600K",
+    "brand": "Intel",
+    "price": 725.0,
+    "image": "https://spacenet.tn/138481-large_default/processeur-intel-core-i5-12600k-440-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56484-processeur-intel-core-i5-12600k-440-ghz-lga1700.html",
+    "specs": {
+      "frequency": "2.5 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "20 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 5 7600X 5.3 GHZ",
+    "reference": "100-100000593WOF",
+    "brand": "AMD",
+    "price": 759.0,
+    "image": "https://spacenet.tn/130697-large_default/processeur-amd-ryzen-5-7600x-53-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/55036-processeur-amd-ryzen-5-7600x-53-ghz.html",
+    "specs": {
+      "frequency": "4.7 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "32 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-13600KF",
+    "reference": "I5-13600KF",
+    "brand": "Intel",
+    "price": 799.0,
+    "image": "https://spacenet.tn/130638-large_default/processeur-intel-core-i5-13600kf.jpg",
+    "link": "https://spacenet.tn/processeur/55027-processeur-intel-core-i5-13600kf.html",
+    "specs": {
+      "frequency": "2.6 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "24 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-13400 4.60 GHZ LGA1700",
+    "reference": "BX8071513400",
+    "brand": "Intel",
+    "price": 829.0,
+    "image": "https://spacenet.tn/138508-large_default/processeur-intel-core-i5-13400-460-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56487-processeur-intel-core-i5-13400-460-ghz-lga1700.html",
+    "specs": {
+      "frequency": "2.5 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "20 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 5700X3D AMD AM4 TRY",
+    "reference": "R7-5700X3D-TRY",
+    "brand": "AMD",
+    "price": 839.0,
+    "image": "https://spacenet.tn/251542-large_default/processeur-amd-ryzen-7-5700x3d-amd-am4-try.jpg",
+    "link": "https://spacenet.tn/processeur/83123-processeur-amd-ryzen-7-5700x3d-amd-am4-try.html",
+    "specs": {
+      "frequency": "3GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "100 Mo",
+      "socket": "AM4",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5-13500 4.80 GHZ LGA1700",
+    "reference": "BX8071513500",
+    "brand": "Intel",
+    "price": 859.0,
+    "image": "https://spacenet.tn/138515-large_default/processeur-intel-core-i5-13500-480-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56489-processeur-intel-core-i5-13500-480-ghz-lga1700.html",
+    "specs": {
+      "frequency": "1.8 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "24 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 8700G 5,15 GHZ BOX AM5",
+    "reference": "R7-8700G",
+    "brand": "AMD",
+    "price": 985.0,
+    "image": "https://spacenet.tn/227536-large_default/processeur-amd-ryzen-7-8700g-515-ghz-box-am5.jpg",
+    "link": "https://spacenet.tn/processeur/78217-processeur-amd-ryzen-7-8700g-515-ghz-box-am5.html",
+    "specs": {
+      "frequency": "5.15 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "24 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-12700K LGA1700",
+    "reference": "BX8071512700K",
+    "brand": "Intel",
+    "price": 999.0,
+    "image": "https://spacenet.tn/108459-large_default/processeur-intel-core-i7-12700k-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/50680-processeur-intel-core-i7-12700k-lga1700.html",
+    "specs": {
+      "frequency": "2,70 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "25 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-12700 FCLGA1700",
+    "reference": "BX8071512700",
+    "brand": "Intel",
+    "price": 1035.0,
+    "image": "https://spacenet.tn/143864-large_default/processeur-intel-core-i7-12700-fclga1700.jpg",
+    "link": "https://spacenet.tn/processeur/57269-processeur-intel-core-i7-12700-fclga1700.html",
+    "specs": {
+      "frequency": "2,10 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "25 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 7700X BOX",
+    "reference": "R7-7700X-BOX",
+    "brand": "AMD",
+    "price": 0.0,
+    "image": "https://spacenet.tn/198080-large_default/processeur-amd-ryzen-7-7700x-box.jpg",
+    "link": "https://spacenet.tn/processeur/71616-processeur-amd-ryzen-7-7700x-box.html",
+    "specs": {
+      "frequency": "4.5 GHZ",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "40 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 7700X 5.4 GHZ",
+    "reference": "100-100000591WOF",
+    "brand": "AMD",
+    "price": 1105.0,
+    "image": "https://spacenet.tn/130685-large_default/processeur-amd-ryzen-7-7700x-54-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/55035-processeur-amd-ryzen-7-7700x-54-ghz.html",
+    "specs": {
+      "frequency": "4.5 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "32 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I5 14600KF TRAY 5.30 GHZ LGA 1700",
+    "reference": "I5-14600KF-TRY",
+    "brand": "Intel",
+    "price": 1135.0,
+    "image": "https://spacenet.tn/194390-large_default/processeur-intel-core-i5-14600kf-tray-530-ghz-lga-1700.jpg",
+    "link": "https://spacenet.tn/processeur/70656-processeur-intel-core-i5-14600kf-tray-530-ghz-lga-1700.html",
+    "specs": {
+      "frequency": "5,30 GHz",
+      "cores": "Unknown",
+      "threads": "20 Threads",
+      "cache": "20 Mo",
+      "socket": "LGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 5950X",
+    "reference": "100-000000059A",
+    "brand": "AMD",
+    "price": 1159.0,
+    "image": "https://spacenet.tn/123266-large_default/processeur-amd-ryzen-9-5950x.jpg",
+    "link": "https://spacenet.tn/processeur/53315-processeur-amd-ryzen-9-5950x.html",
+    "specs": {
+      "frequency": "3.4 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "72 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-13700KF",
+    "reference": "I7-13700KF",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/130583-large_default/processeur-intel-core-i7-13700kf.jpg",
+    "link": "https://spacenet.tn/processeur/55016-processeur-intel-core-i7-13700kf.html",
+    "specs": {
+      "frequency": "2.5 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "30 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-13700 5.20 GHZ LGA1700",
+    "reference": "BX8071513700",
+    "brand": "Intel",
+    "price": 1249.0,
+    "image": "https://spacenet.tn/138726-large_default/processeur-intel-core-i7-13700-520-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56518-processeur-intel-core-i7-13700-520-ghz-lga1700.html",
+    "specs": {
+      "frequency": "2.1 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "30 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7 14700KF 5.60 GHZ LGA 1700 TRAY",
+    "reference": "I7-14700KF-TRAY",
+    "brand": "Intel",
+    "price": 1249.0,
+    "image": "https://spacenet.tn/274811-large_default/processeur-intel-core-i7-14700kf-tray-560-ghz-lga-1700.jpg",
+    "link": "https://spacenet.tn/processeur/70664-processeur-intel-core-i7-14700kf-tray-560-ghz-lga-1700.html",
+    "specs": {
+      "frequency": "5.60 GHz",
+      "cores": "Unknown",
+      "threads": "28 Threads",
+      "cache": "20 Mo",
+      "socket": "LGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7-14700 5.4GHZ SOCKET FCLGA 1700 BOX",
+    "reference": "I7-14700-BOX",
+    "brand": "Intel",
+    "price": 1299.0,
+    "image": "https://spacenet.tn/274774-large_default/processeur-intel-core-i7-14700-54ghz-socket-fclga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/88319-processeur-intel-core-i7-14700-54ghz-socket-fclga-1700-box.html",
+    "specs": {
+      "frequency": "5.4GHz",
+      "cores": "Unknown",
+      "threads": "28 Threads",
+      "cache": "33 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I7 13700K 13GÉN LGA 1700",
+    "reference": "BX8071513700K",
+    "brand": "Intel",
+    "price": 1359.0,
+    "image": "https://spacenet.tn/198102-large_default/processeur-intel-core-i7-13700k-13gen-lga-1700.jpg",
+    "link": "https://spacenet.tn/processeur/71655-processeur-intel-core-i7-13700k-13gen-lga-1700.html",
+    "specs": {
+      "frequency": "5.4 GHZ",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "30 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7900X 5.6 GHZ",
+    "reference": "100-100000589WOF",
+    "brand": "AMD",
+    "price": 1359.0,
+    "image": "https://spacenet.tn/130673-large_default/processeur-amd-ryzen-9-7900x-56-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/55034-processeur-amd-ryzen-9-7900x-56-ghz.html",
+    "specs": {
+      "frequency": "4.7 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "64 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7900X 4.7 GHZ AM5",
+    "reference": "R9-7900X",
+    "brand": "AMD",
+    "price": 1389.0,
+    "image": "https://spacenet.tn/245196-large_default/processeur-amd-ryzen-9-7900x-47-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/81568-processeur-amd-ryzen-9-7900x-47-ghz-am5.html",
+    "specs": {
+      "frequency": "4.7 GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "76 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR ALDER LAKE INTEL CORE I9-12900K BOX",
+    "reference": "BX8071512900KSRL4H",
+    "brand": "Intel",
+    "price": 1435.0,
+    "image": "https://spacenet.tn/123284-large_default/processeur-alder-lake-intel-core-i9-12900k-box-12eme-generation.jpg",
+    "link": "https://spacenet.tn/processeur/53320-processeur-alder-lake-intel-core-i9-12900k-box-12eme-generation.html",
+    "specs": {
+      "frequency": "2,40 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "30 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 7 7800X3D TRAY 5 GHZ AM5",
+    "reference": "R7-7800X3D-TRAY",
+    "brand": "AMD",
+    "price": 1449.0,
+    "image": "https://spacenet.tn/290062-large_default/processeur-amd-ryzen-7-7800x3d-tray-5-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77480-processeur-amd-ryzen-7-7800x3d-tray-5-ghz-am5.html",
+    "specs": {
+      "frequency": "4,2 GHz",
+      "cores": "Unknown",
+      "threads": "16 Threads",
+      "cache": "104 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7950X 5.7 GHZ",
+    "reference": "100-100000514WOF",
+    "brand": "AMD",
+    "price": 1969.0,
+    "image": "https://spacenet.tn/130668-large_default/processeur-amd-ryzen-9-7950x-57-ghz.jpg",
+    "link": "https://spacenet.tn/processeur/55033-processeur-amd-ryzen-9-7950x-57-ghz.html",
+    "specs": {
+      "frequency": "4.5 Ghz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "64 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-13900KF",
+    "reference": "BX8071513900KFSRMB",
+    "brand": "Intel",
+    "price": 2059.0,
+    "image": "https://spacenet.tn/123294-large_default/processeur-intel-core-i9-13900kf.jpg",
+    "link": "https://spacenet.tn/processeur/53323-processeur-intel-core-i9-13900kf.html",
+    "specs": {
+      "frequency": "3,00 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Sur Commande"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900K 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900K",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/245226-large_default/processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81571-processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5,8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "30 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-13900K 5.80 GHZ LGA1700",
+    "reference": "BX8071513900K",
+    "brand": "Intel",
+    "price": 2079.0,
+    "image": "https://spacenet.tn/138747-large_default/processeur-intel-core-i9-13900k-580-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56524-processeur-intel-core-i9-13900k-580-ghz-lga1700.html",
+    "specs": {
+      "frequency": "3.0 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7950X3D TRAY 5.7 GHZ AM5",
+    "reference": "R9-7950X3D-TRAY",
+    "brand": "AMD",
+    "price": 2119.0,
+    "image": "https://spacenet.tn/290067-large_default/processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77483-processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.html",
+    "specs": {
+      "frequency": "4,2 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "145 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 9900X 5.6 GHZ AM5 BOX",
+    "reference": "R9-9900X",
+    "brand": "AMD",
+    "price": 2189.0,
+    "image": "https://spacenet.tn/245541-large_default/processeur-amd-ryzen-9-9900x-56-ghz-am5-box.jpg",
+    "link": "https://spacenet.tn/processeur/81590-processeur-amd-ryzen-9-9900x-56-ghz-am5-box.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900KF 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900KF",
+    "brand": "Intel",
+    "price": 2195.0,
+    "image": "https://spacenet.tn/245176-large_default/processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81563-processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5.8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "36 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900K 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900K",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/245226-large_default/processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81571-processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5,8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "30 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-13900K 5.80 GHZ LGA1700",
+    "reference": "BX8071513900K",
+    "brand": "Intel",
+    "price": 2079.0,
+    "image": "https://spacenet.tn/138747-large_default/processeur-intel-core-i9-13900k-580-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56524-processeur-intel-core-i9-13900k-580-ghz-lga1700.html",
+    "specs": {
+      "frequency": "3.0 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7950X3D TRAY 5.7 GHZ AM5",
+    "reference": "R9-7950X3D-TRAY",
+    "brand": "AMD",
+    "price": 2119.0,
+    "image": "https://spacenet.tn/290067-large_default/processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77483-processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.html",
+    "specs": {
+      "frequency": "4,2 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "145 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 9900X 5.6 GHZ AM5 BOX",
+    "reference": "R9-9900X",
+    "brand": "AMD",
+    "price": 2189.0,
+    "image": "https://spacenet.tn/245541-large_default/processeur-amd-ryzen-9-9900x-56-ghz-am5-box.jpg",
+    "link": "https://spacenet.tn/processeur/81590-processeur-amd-ryzen-9-9900x-56-ghz-am5-box.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900KF 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900KF",
+    "brand": "Intel",
+    "price": 2195.0,
+    "image": "https://spacenet.tn/245176-large_default/processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81563-processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5.8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "36 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900K 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900K",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/245226-large_default/processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81571-processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5,8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "30 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-13900K 5.80 GHZ LGA1700",
+    "reference": "BX8071513900K",
+    "brand": "Intel",
+    "price": 2079.0,
+    "image": "https://spacenet.tn/138747-large_default/processeur-intel-core-i9-13900k-580-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56524-processeur-intel-core-i9-13900k-580-ghz-lga1700.html",
+    "specs": {
+      "frequency": "3.0 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7950X3D TRAY 5.7 GHZ AM5",
+    "reference": "R9-7950X3D-TRAY",
+    "brand": "AMD",
+    "price": 2119.0,
+    "image": "https://spacenet.tn/290067-large_default/processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77483-processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.html",
+    "specs": {
+      "frequency": "4,2 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "145 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 9900X 5.6 GHZ AM5 BOX",
+    "reference": "R9-9900X",
+    "brand": "AMD",
+    "price": 2189.0,
+    "image": "https://spacenet.tn/245541-large_default/processeur-amd-ryzen-9-9900x-56-ghz-am5-box.jpg",
+    "link": "https://spacenet.tn/processeur/81590-processeur-amd-ryzen-9-9900x-56-ghz-am5-box.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900KF 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900KF",
+    "brand": "Intel",
+    "price": 2195.0,
+    "image": "https://spacenet.tn/245176-large_default/processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81563-processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5.8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "36 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900K 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900K",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/245226-large_default/processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81571-processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5,8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "30 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-13900K 5.80 GHZ LGA1700",
+    "reference": "BX8071513900K",
+    "brand": "Intel",
+    "price": 2079.0,
+    "image": "https://spacenet.tn/138747-large_default/processeur-intel-core-i9-13900k-580-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56524-processeur-intel-core-i9-13900k-580-ghz-lga1700.html",
+    "specs": {
+      "frequency": "3.0 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7950X3D TRAY 5.7 GHZ AM5",
+    "reference": "R9-7950X3D-TRAY",
+    "brand": "AMD",
+    "price": 2119.0,
+    "image": "https://spacenet.tn/290067-large_default/processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77483-processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.html",
+    "specs": {
+      "frequency": "4,2 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "145 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 9900X 5.6 GHZ AM5 BOX",
+    "reference": "R9-9900X",
+    "brand": "AMD",
+    "price": 2189.0,
+    "image": "https://spacenet.tn/245541-large_default/processeur-amd-ryzen-9-9900x-56-ghz-am5-box.jpg",
+    "link": "https://spacenet.tn/processeur/81590-processeur-amd-ryzen-9-9900x-56-ghz-am5-box.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900KF 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900KF",
+    "brand": "Intel",
+    "price": 2195.0,
+    "image": "https://spacenet.tn/245176-large_default/processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81563-processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5.8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "36 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900K 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900K",
+    "brand": "Intel",
+    "price": 0.0,
+    "image": "https://spacenet.tn/245226-large_default/processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81571-processeur-intel-core-i9-14900k-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5,8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "30 Mo",
+      "socket": "LGA",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-13900K 5.80 GHZ LGA1700",
+    "reference": "BX8071513900K",
+    "brand": "Intel",
+    "price": 2079.0,
+    "image": "https://spacenet.tn/138747-large_default/processeur-intel-core-i9-13900k-580-ghz-lga1700.jpg",
+    "link": "https://spacenet.tn/processeur/56524-processeur-intel-core-i9-13900k-580-ghz-lga1700.html",
+    "specs": {
+      "frequency": "3.0 GHz",
+      "cores": "Unknown",
+      "threads": "Unknown",
+      "cache": "36 Mo",
+      "socket": "Unknown",
+      "memory_type": "DDR4"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 7950X3D TRAY 5.7 GHZ AM5",
+    "reference": "R9-7950X3D-TRAY",
+    "brand": "AMD",
+    "price": 2119.0,
+    "image": "https://spacenet.tn/290067-large_default/processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.jpg",
+    "link": "https://spacenet.tn/processeur/77483-processeur-amd-ryzen-9-7950x3d-tray-57-ghz-am5.html",
+    "specs": {
+      "frequency": "4,2 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "145 Mo",
+      "socket": "AM5",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR AMD RYZEN 9 9900X 5.6 GHZ AM5 BOX",
+    "reference": "R9-9900X",
+    "brand": "AMD",
+    "price": 2189.0,
+    "image": "https://spacenet.tn/245541-large_default/processeur-amd-ryzen-9-9900x-56-ghz-am5-box.jpg",
+    "link": "https://spacenet.tn/processeur/81590-processeur-amd-ryzen-9-9900x-56-ghz-am5-box.html",
+    "specs": {
+      "frequency": "4.4 GHz",
+      "cores": "Unknown",
+      "threads": "24 Threads",
+      "cache": "Unknown",
+      "socket": "Unknown",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  },
+  {
+    "title": "PROCESSEUR INTEL CORE I9-14900KF 5.8 GHZ LGA 1700 BOX",
+    "reference": "I9-14900KF",
+    "brand": "Intel",
+    "price": 2195.0,
+    "image": "https://spacenet.tn/245176-large_default/processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.jpg",
+    "link": "https://spacenet.tn/processeur/81563-processeur-intel-core-i9-14900kf-58-ghz-lga-1700-box.html",
+    "specs": {
+      "frequency": "5.8 GHz",
+      "cores": "Unknown",
+      "threads": "32 Threads",
+      "cache": "36 Mo",
+      "socket": "FCLGA1700",
+      "memory_type": "DDR5"
+    },
+    "source": "SpaceNet",
+    "status": "Arrivage"
+  }
+]

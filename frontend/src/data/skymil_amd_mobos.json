@@ -1,0 +1,866 @@
+[
+  {
+    "id": "sm-amd-mobo-1",
+    "title": "ASUS PRIME A520M-R AM4",
+    "price": 179.0,
+    "image": "https://skymil-informatique.com/48253-large_default/asus-prime-a520m-r-am4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/10009-asus-prime-a520m-r-am4.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "AMD A520"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-2",
+    "title": "Biostar A520MHP",
+    "price": 199.0,
+    "image": "https://skymil-informatique.com/63418-large_default/biostar-a520mhp.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12671-biostar-a520mhp.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "64GB",
+      "chipset": "AMD A520"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-3",
+    "title": "MSI A520M-A PRO",
+    "price": 199.0,
+    "image": "https://skymil-informatique.com/12414-large_default/msi-a520m-a-pro.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/3784-msi-a520m-a-pro.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "64GB",
+      "chipset": "AMD A520"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-4",
+    "title": "Asus Prime B550M-K",
+    "price": 299.0,
+    "image": "https://skymil-informatique.com/56590-large_default/asus-prime-b550m-k.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11560-asus-prime-b550m-k.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "Unknown",
+      "memory_max": "Unknown",
+      "chipset": "Unknown"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-5",
+    "title": "MSI B550M PRO-VDH",
+    "price": 299.0,
+    "image": "https://skymil-informatique.com/44119-large_default/msi-b550m-pro-vdh.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/9187-msi-b550m-pro-vdh.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "128GB",
+      "chipset": "AMD B550"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-6",
+    "title": "ASUS PRIME B650M-R",
+    "price": 319.0,
+    "image": "https://skymil-informatique.com/61640-large_default/asus-prime-b650m-r.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/composants-pc-tunisie/7006-asus-prime-b650m-r.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-7",
+    "title": "ASUS TUF GAMING A620M-PLUS WIFI",
+    "price": 349.0,
+    "image": "https://skymil-informatique.com/48235-large_default/asus-tuf-gaming-a620m-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/10007-asus-tuf-gaming-a620m-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "64GB",
+      "chipset": "AMD A620"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-8",
+    "title": "ASUS A620M-F GAMING WIFI",
+    "price": 359.0,
+    "image": "https://skymil-informatique.com/61651-large_default/asus-a620m-f-gaming-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12412-asus-a620m-f-gaming-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "128GB",
+      "chipset": "AMD A620"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-9",
+    "title": "ASRock B550 Phantom Gaming 4",
+    "price": 379.0,
+    "image": "https://skymil-informatique.com/59389-large_default/asrock-b550-phantom-gaming-4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12062-asrock-b550-phantom-gaming-4.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "AMD B550"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-10",
+    "title": "ASUS TUF GAMING B550M-PLUS WIFI II AM4",
+    "price": 389.0,
+    "image": "https://skymil-informatique.com/48245-large_default/asus-tuf-gaming-b550m-plus-wifi-ii-am4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/10008-asus-tuf-gaming-b550m-plus-wifi-ii-am4.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "128GB",
+      "chipset": "AMD B550"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-11",
+    "title": "ASRock ATX B550 Pro4",
+    "price": 399.0,
+    "image": "https://skymil-informatique.com/59397-large_default/asrock-atx-b550-pro4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12063-asrock-atx-b550-pro4.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "AMD B550"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-12",
+    "title": "MSI B550M PRO-VDH WIFI",
+    "price": 399.0,
+    "image": "https://skymil-informatique.com/13197-large_default/msi-b550m-pro-vdh-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/3925-msi-b550m-pro-vdh-wifi.html",
+    "specs": {
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "AMD B550"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-13",
+    "title": "MSI PRO B840M-P WIFI6E",
+    "price": 429.0,
+    "image": "https://skymil-informatique.com/61316-large_default/msi-pro-b840m-p-wifi6e.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12370-msi-pro-b840m-p-wifi6e.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B840"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-14",
+    "title": "ASRock B650M-HDV/M.2",
+    "price": 429.0,
+    "image": "https://skymil-informatique.com/59840-large_default/asrock-b650m-hdvm2.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12146-asrock-b650m-hdvm2.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Unknown"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-15",
+    "title": "ASUS PRIME B650M-A WIFI II AM5",
+    "price": 479.0,
+    "image": "https://skymil-informatique.com/48263-large_default/asus-prime-b650m-a-wifi-ii-am5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/10010-asus-prime-b650m-a-wifi-ii-am5.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-16",
+    "title": "Gigabyte A620M GAMING X",
+    "price": 479.0,
+    "image": "https://skymil-informatique.com/34571-large_default/gigabyte-a620m-gaming-x.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/7574-gigabyte-a620m-gaming-x.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD A620"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-17",
+    "title": "ASUS PRIME B650-PLUS WIFI",
+    "price": 529.0,
+    "image": "https://skymil-informatique.com/63803-large_default/asus-prime-b650-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12745-asus-prime-b650-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-18",
+    "title": "ASUS TUF A620-PRO WIFI",
+    "price": 549.0,
+    "image": "https://skymil-informatique.com/36682-large_default/asus-tuf-a620-pro-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/7954-asus-tuf-a620-pro-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD A620"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-19",
+    "title": "MSI B650M GAMING PLUS WIFI",
+    "price": 575.0,
+    "image": "https://skymil-informatique.com/58418-large_default/msi-b650m-gaming-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11883-msi-b650m-gaming-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-20",
+    "title": "ASUS PRIME B840-PLUS WIFI",
+    "price": 589.0,
+    "image": "https://skymil-informatique.com/63818-large_default/asus-prime-b840-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12746-asus-prime-b840-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "AMD B840"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-21",
+    "title": "MSI PRO B840-P WIFI",
+    "price": 589.0,
+    "image": "https://skymil-informatique.com/53651-large_default/msi-pro-b840-p-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11029-msi-pro-b840-p-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B840"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-22",
+    "title": "ASROCK B650 PG LIGHTNING",
+    "price": 629.0,
+    "image": "https://skymil-informatique.com/59402-large_default/asrock-b650-pg-lightning.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12064-asrock-b650-pg-lightning.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-23",
+    "title": "Gigabyte B850 EAGLE WIFI6E",
+    "price": 639.0,
+    "image": "https://skymil-informatique.com/62551-large_default/gigabyte-b850-eagle-wifi6e.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12552-gigabyte-b850-eagle-wifi6e.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-24",
+    "title": "Gigabyte B850 GAMING WIFI6",
+    "price": 0.0,
+    "image": "https://skymil-informatique.com/61295-large_default/gigabyte-b850-gaming-wifi6.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/produits-epuises/12367-gigabyte-b850-gaming-wifi6.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-25",
+    "title": "ASROCK B650 Pro RS",
+    "price": 639.0,
+    "image": "https://skymil-informatique.com/59408-large_default/asrock-b650-pro-rs.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12065-asrock-b650-pro-rs.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-26",
+    "title": "MSI B850M GAMING PLUS WIFI",
+    "price": 679.0,
+    "image": "https://skymil-informatique.com/61325-large_default/msi-b850m-gaming-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12371-msi-b850m-gaming-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-27",
+    "title": "ASUS TUF GAMING B650-PLUS WIFI",
+    "price": 699.0,
+    "image": "https://skymil-informatique.com/59419-large_default/asus-tuf-gaming-b650-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12067-asus-tuf-gaming-b650-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Unknown",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-28",
+    "title": "MSI PRO B850-P WIFI",
+    "price": 749.0,
+    "image": "https://skymil-informatique.com/53671-large_default/msi-pro-b850-p-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11031-msi-pro-b850-p-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-29",
+    "title": "ASROCK B650 Steel Legend WiFi",
+    "price": 759.0,
+    "image": "https://skymil-informatique.com/59424-large_default/asrock-b650-steel-legend-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12068-asrock-b650-steel-legend-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-30",
+    "title": "ASUS TUF GAMING B850-PLUS WIFI",
+    "price": 779.0,
+    "image": "https://skymil-informatique.com/61661-large_default/asus-tuf-gaming-b850-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11626-asus-tuf-gaming-b850-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-31",
+    "title": "MSI B850 GAMING PLUS WIFI",
+    "price": 789.0,
+    "image": "https://skymil-informatique.com/53681-large_default/msi-b850-gaming-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11032-msi-b850-gaming-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-32",
+    "title": "Gigabyte X870 EAGLE WIFI7",
+    "price": 799.0,
+    "image": "https://skymil-informatique.com/56763-large_default/gigabyte-x870-eagle-wifi7.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11580-gigabyte-x870-eagle-wifi7.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-33",
+    "title": "ASUS Rog Strix B650-A Gaming Wifi",
+    "price": 819.0,
+    "image": "https://skymil-informatique.com/59433-large_default/asus-rog-strix-b650-a-gaming-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12070-asus-rog-strix-b650-a-gaming-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "AMD B650"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-34",
+    "title": "ASUS ROG STRIX B850-A GAMING WIFI AM5",
+    "price": 819.0,
+    "image": "https://skymil-informatique.com/57005-large_default/asus-rog-strix-b850-a-gaming-wifi-am5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11625-asus-rog-strix-b850-a-gaming-wifi-am5.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-35",
+    "title": "Gigabyte X870 GAMING X WIFI7",
+    "price": 875.0,
+    "image": "https://skymil-informatique.com/56769-large_default/gigabyte-x870-gaming-x-wifi7.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11581-gigabyte-x870-gaming-x-wifi7.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-36",
+    "title": "MSI PRO X870E-P WIFI",
+    "price": 899.0,
+    "image": "https://skymil-informatique.com/61335-large_default/msi-pro-x870e-p-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12372-msi-pro-x870e-p-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD X870E"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-37",
+    "title": "ASROCK X870 Pro RS WIFI",
+    "price": 929.0,
+    "image": "https://skymil-informatique.com/59439-large_default/asrock-x870-pro-rs-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12071-asrock-x870-pro-rs-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD X870"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-38",
+    "title": "ASUS TUF GAMING X870-PLUS WIFI",
+    "price": 949.0,
+    "image": "https://skymil-informatique.com/61665-large_default/asus-tuf-gaming-x870-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/10212-asus-tuf-gaming-x870-plus-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "AMD X870"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-39",
+    "title": "ASUS ROG STRIX B650E-F GAMING WIFI D5",
+    "price": 949.0,
+    "image": "https://skymil-informatique.com/23708-large_default/asus-rog-strix-b650e-f-gaming-wifi-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/5932-asus-rog-strix-b650e-f-gaming-wifi-d5.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B650E"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-40",
+    "title": "ASUS ROG STRIX B850-F GAMING WIFI AM5",
+    "price": 1039.0,
+    "image": "https://skymil-informatique.com/61674-large_default/asus-rog-strix-b850-f-gaming-wifi-am5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12414-asus-rog-strix-b850-f-gaming-wifi-am5.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-41",
+    "title": "ASROCK X870 Steel Legend Wifi",
+    "price": 1039.0,
+    "image": "https://skymil-informatique.com/59443-large_default/asrock-x870-steel-legend-wifi-.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12072-asrock-x870-steel-legend-wifi-.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD X870"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-42",
+    "title": "MSI MPG B850 EDGE TI WIFI WHITE",
+    "price": 1099.0,
+    "image": "https://skymil-informatique.com/53701-large_default/msi-mpg-b850-edge-ti-wifi-white.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11034-msi-mpg-b850-edge-ti-wifi-white.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD B850"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-43",
+    "title": "Gigabyte X870 AORUS ELITE WIFI7 ICE",
+    "price": 1199.0,
+    "image": "https://skymil-informatique.com/56883-large_default/gigabyte-x870-aorus-elite-wifi7-ice.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11606-gigabyte-x870-aorus-elite-wifi7-ice.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-44",
+    "title": "Gigabyte X870E AORUS ELITE WIFI7",
+    "price": 1259.0,
+    "image": "https://skymil-informatique.com/56773-large_default/gigabyte-x870e-aorus-elite-wifi7.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11582-gigabyte-x870e-aorus-elite-wifi7.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "Unknown",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870E"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-45",
+    "title": "Gigabyte X870E AORUS PRO",
+    "price": 1379.0,
+    "image": "https://skymil-informatique.com/56776-large_default/gigabyte-x870e-aorus-pro.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11583-gigabyte-x870e-aorus-pro.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870E"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-46",
+    "title": "Gigabyte X870E AORUS PRO ICE",
+    "price": 1439.0,
+    "image": "https://skymil-informatique.com/56783-large_default/gigabyte-x870e-aorus-pro-ice.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11584-gigabyte-x870e-aorus-pro-ice.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870E"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-47",
+    "title": "MSI MPG X870E EDGE TI WIFI",
+    "price": 1499.0,
+    "image": "https://skymil-informatique.com/56294-large_default/msi-mpg-x870e-edge-ti-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/11517-msi-mpg-x870e-edge-ti-wifi.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "AMD X870E"
+    }
+  },
+  {
+    "id": "sm-amd-mobo-48",
+    "title": "Asus ROG CROSSHAIR X870E HERO",
+    "price": 2479.0,
+    "image": "https://skymil-informatique.com/61683-large_default/asus-rog-crosshair-x870e-hero.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/amd-tunisie/12415-asus-rog-crosshair-x870e-hero.html",
+    "specs": {
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "AMD X870E"
+    }
+  }
+]

@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "spacenet-ram-0",
+    "title": "Barrette Mémoire 4 Go DDR4 2666 MHz",
+    "price": 59.0,
+    "image": "https://spacenet.tn/132900-home_default/barrette-memoire-4-go-ddr4-2666-mhz.jpg",
+    "brand": "Unknown",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-2",
+    "title": "Barrette Mémoire Nanya 4Go DDR4 3200MHz SO-DIMM",
+    "price": 89.0,
+    "image": "https://spacenet.tn/331424-home_default/barrette-memoire-nanya-4go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Nanya",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95508-barrette-memoire-nanya-4go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-3",
+    "title": "Barrette Mémoire Adata 8Go DDR3L 1600MHz SO-DIMM",
+    "price": 109.0,
+    "image": "https://spacenet.tn/306943-home_default/barette-memoire-adata-8go-ddr3l-1600mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/92271-barette-memoire-adata-8go-ddr3l-1600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR3",
+      "frequency": "1600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-4",
+    "title": "Barrette Mémoire Samsung 8Go DDR4 2666MHz SO-DIMM",
+    "price": 259.0,
+    "image": "https://spacenet.tn/336286-home_default/barette-memoire-samsung-8go-ddr4-2666mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96215-barette-memoire-samsung-8go-ddr4-2666mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-5",
+    "title": "Barrette Mémoire Hiksemi 8Go DDR4 3200MHz U-Dimm",
+    "price": 259.0,
+    "image": "https://spacenet.tn/284784-home_default/barrette-memoire-hiksemi-8go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/89534-barrette-memoire-hiksemi-8go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-6",
+    "title": "Barrette Mémoire Innovation IT 8Go DDR4 3200MHz U-DIMM",
+    "price": 259.0,
+    "image": "https://spacenet.tn/336892-home_default/barrette-memoire-innovation-it-8go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Innovation.it",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire-pc-bureau/96322-barrette-memoire-innovation-it-8go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-7",
+    "title": "Barrette Mémoire Team Group Elite 8Go DDR4 2400MHz",
+    "price": 259.0,
+    "image": "https://spacenet.tn/322070-home_default/barette-memoire-team-group-elite-8go-ddr4-2400mhz.jpg",
+    "brand": "TEAM GROUP",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/93161-barette-memoire-team-group-elite-8go-ddr4-2400mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "2400MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-8",
+    "title": "Barrette Mémoire Adata Premier 8Go DDR4 3200Mhz",
+    "price": 279.0,
+    "image": "https://spacenet.tn/185675-home_default/barette-memoire-adata-premier-8go-ddr4-3200mhz.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68342-barette-memoire-adata-premier-8go-ddr4-3200mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-9",
+    "title": "Barrette Mémoire Sk-Hynix 8Go DDR4 2666MHz SO-DIMM",
+    "price": 289.0,
+    "image": "https://spacenet.tn/336297-home_default/barrette-memoire-sk-hynix-8go-ddr4-2666mhz-so-dimm.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96221-barrette-memoire-sk-hynix-8go-ddr4-2666mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-10",
+    "title": "Barrette Mémoire 8Go DDR4 3200Mz SO-DIMM",
+    "price": 299.0,
+    "image": "https://spacenet.tn/344582-home_default/barette-memoire-mta-8gb-ddr4-8go-ddr4-3200mz-sodimm.jpg",
+    "brand": "Unknown",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/55495-barette-memoire-mta-8gb-ddr4-8go-ddr4-3200mz-sodimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-11",
+    "title": "Barrette Mémoire Nanya 8Go DDR4 3200Mhz SO-DIMM",
+    "price": 299.0,
+    "image": "https://spacenet.tn/247643-home_default/barette-memoire-nanya-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Unknown",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/82048-barette-memoire-nanya-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-12",
+    "title": "Barrette Mémoire Adata 8Go DDR4 3200MHz SO-Dimm",
+    "price": 299.0,
+    "image": "https://spacenet.tn/240319-home_default/barette-memoire-adata-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/80542-barette-memoire-adata-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-13",
+    "title": "Barrette Mémoire Crucial 8Go DDR4 2666MHz SO-DIMM",
+    "price": 299.0,
+    "image": "https://spacenet.tn/336295-home_default/barette-memoire-crucial-8go-ddr4-2666mhz-so-dimm.jpg",
+    "brand": "Crucial",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96220-barette-memoire-crucial-8go-ddr4-2666mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-14",
+    "title": "Barrette Mémoire kingston 8Go DDR4 3200 MHz",
+    "price": 299.0,
+    "image": "https://spacenet.tn/186837-home_default/barrette-memoire-kingston-8go-ddr4-3200-mhz.jpg",
+    "brand": "Kingston",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/18406-barrette-memoire-kingston-8go-ddr4-3200-mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-15",
+    "title": "Barrette Mémoire Hikvision 16Go DDR4 2666HZ Dimm",
+    "price": 355.0,
+    "image": "https://spacenet.tn/134353-home_default/barrette-memoire-hikvision-16go-ddr4-2666hz-dimm.jpg",
+    "brand": "HikVision",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/55772-barrette-memoire-hikvision-16go-ddr4-2666hz-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "Unknown"
+    }
+  },
+  {
+    "id": "spacenet-ram-16",
+    "title": "Barrette Mémoire Hiksemi 16Go DDR4 3200MHz U-Dimm",
+    "price": 399.0,
+    "image": "https://spacenet.tn/267079-home_default/barette-memoire-hiksemi-16go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/87009-barette-memoire-hiksemi-16go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-17",
+    "title": "Barrette Mémoire Samsung 8Go DDR5 5600Mhz",
+    "price": 399.0,
+    "image": "https://spacenet.tn/258381-home_default/barette-memoire-samsung-8go-ddr5-5600mhz.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/85381-barette-memoire-samsung-8go-ddr5-5600mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-18",
+    "title": "Barrette Mémoire Lexar 8Go DDR5 5600Mhz U-DIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/248709-home_default/barette-memoire-lexar-8go-ddr5-5600mhz-u-dimm.jpg",
+    "brand": "LEXAR",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/82320-barette-memoire-lexar-8go-ddr5-5600mhz-u-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-19",
+    "title": "Barrette Mémoire Hiksemi 16Go DDR4 3200MHz U-Dimm",
+    "price": 399.0,
+    "image": "https://spacenet.tn/284787-home_default/barrette-memoire-hiksemi-16go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/89537-barrette-memoire-hiksemi-16go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-20",
+    "title": "Barrette Mémoire Samsung 8Go DDR5 5600MHz",
+    "price": 399.0,
+    "image": "https://spacenet.tn/331565-home_default/barette-memoire-samsung-8go-ddr5-5600mhz.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/90570-barette-memoire-samsung-8go-ddr5-5600mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-21",
+    "title": "Barrette Mémoire Hiksemi 16Go DDR4 3200MHz U-Dimm",
+    "price": 399.0,
+    "image": "https://spacenet.tn/247158-home_default/barrette-memoire-hiksemi-16go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/81918-barrette-memoire-hiksemi-16go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-22",
+    "title": "Barrette Mémoire 8 Go DDR5 4800 MHz SODIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/132839-home_default/barette-memoire-8-go-ddr4-4800-mhz-sodimm.jpg",
+    "brand": "MICRON",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/55496-barette-memoire-8-go-ddr4-4800-mhz-sodimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-23",
+    "title": "Barrette Mémoire TwinMos 16Go DDR4 3200MHz U-DIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/314211-home_default/barette-memoire-twinmos-16go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "TwinMos",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/93244-barette-memoire-twinmos-16go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-24",
+    "title": "Barrette Mémoire Dato 16 Go DDR4 3200HZ U-Dimm",
+    "price": 399.0,
+    "image": "https://spacenet.tn/112111-home_default/barrette-memoire-dato-16-go-ddr4-3200hz-dimm.jpg",
+    "brand": "Dato",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51207-barrette-memoire-dato-16-go-ddr4-3200hz-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "Unknown"
+    }
+  },
+  {
+    "id": "spacenet-ram-25",
+    "title": "Barrette Mémoire 8Go DDR5 5600Mz SO-DIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/344918-home_default/barrette-memoire-8go-ddr5-5600mz-so-dimm.jpg",
+    "brand": "Unknown",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/97447-barrette-memoire-8go-ddr5-5600mz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-26",
+    "title": "Barrette Mémoire SK Hynix 8Go DDR5 5600MHz UDIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/331442-home_default/barrette-memoire-sk-hynix-8go-ddr5-5600mhz-udimm.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95509-barrette-memoire-sk-hynix-8go-ddr5-5600mhz-udimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-27",
+    "title": "Barrette Mémoire Kingston 8Go DDR5 5600MHz SO-DIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/340297-home_default/barrette-memoire-kingston-8go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "Kingston",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96767-barrette-memoire-kingston-8go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-28",
+    "title": "Barrette Mémoire TwinMOS 16Go DDR4 3200 MHz",
+    "price": 399.0,
+    "image": "https://spacenet.tn/208472-home_default/barrette-memoire-twinmos-16go-ddr4-3200-mhz.jpg",
+    "brand": "TwinMos",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/74309-barrette-memoire-twinmos-16go-ddr4-3200-mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-29",
+    "title": "Barrette Mémoire Adata 16Go DDR4 3200Mhz",
+    "price": 399.0,
+    "image": "https://spacenet.tn/185599-home_default/barrette-memoire-adata-16go-ddr4-3200mhz.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68335-barrette-memoire-adata-16go-ddr4-3200mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-30",
+    "title": "Barrette Mémoire Samsung  8 Go DDR5 SODIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/132229-home_default/barrette-memoire-samsung-8-go-ddr5-sodimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/55328-barrette-memoire-samsung-8-go-ddr5-sodimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-31",
+    "title": "Barrette Mémoire Afox 16Go DDR4 2400MHz SO-DIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/336967-home_default/barrette-memoire-afox-16go-ddr4-2400mhz-so-dimm.jpg",
+    "brand": "Afox",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96326-barrette-memoire-afox-16go-ddr4-2400mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "2400MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-32",
+    "title": "Barrette Mémoire Hikvision 16Go DDR4 3200HZ U1 Dimm",
+    "price": 399.0,
+    "image": "https://spacenet.tn/134341-home_default/barrette-memoire-hikvision-16go-ddr4-3200hz-u1-dimm.jpg",
+    "brand": "HikVision",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/55770-barrette-memoire-hikvision-16go-ddr4-3200hz-u1-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "Unknown"
+    }
+  },
+  {
+    "id": "spacenet-ram-33",
+    "title": "Barrette Mémoire PNY 16Go DDR4 3200MHz U-DIMM",
+    "price": 399.0,
+    "image": "https://spacenet.tn/336874-home_default/barrette-memoire-pny-16go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "PNY",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96320-barrette-memoire-pny-16go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-34",
+    "title": "Barrette Mémoire ADATA XPG GAMMIX D45 16 Go DDR4 3200 MHz",
+    "price": 429.0,
+    "image": "https://spacenet.tn/186801-home_default/barette-memoire-adata-xpg-gammix-d45-16-go-ddr4-3200-mhz.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/62265-barette-memoire-adata-xpg-gammix-d45-16-go-ddr4-3200-mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-35",
+    "title": "Barrette Mémoire Micron 8Go DDR5 5600MHz SO-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/336309-home_default/barrette-memoire-micron-8go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "MICRON",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96225-barrette-memoire-micron-8go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-36",
+    "title": "Barrette Mémoire SK hynix 8Go DDR5 4800MHz",
+    "price": 459.0,
+    "image": "https://spacenet.tn/302138-home_default/barette-memoire-sk-hynix-8go-ddr5-4800mhz.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/91882-barette-memoire-sk-hynix-8go-ddr5-4800mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-37",
+    "title": "Barrette Mémoire Samsung 8Go DDR5 5600MHz SO-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/336291-home_default/barette-memoire-samsung-8go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96218-barette-memoire-samsung-8go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-38",
+    "title": "Barrette Mémoire Samsung 8Go DDR5 4800MHz SO-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/336290-home_default/barette-memoire-samsung-8go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96217-barette-memoire-samsung-8go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-39",
+    "title": "Barrette Mémoire Adata 8 Go DDR5 4800MHZ SO-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/112610-home_default/barette-memoire-adata-8-go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51296-barette-memoire-adata-8-go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-40",
+    "title": "Barrette Mémoire TEAMGROUP Elite 8Go DDR5 4800MHz SODIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/126223-home_default/barrette-memoire-teamgroup-elite-8go-ddr5-4800mhz-sodimm.jpg",
+    "brand": "TEAM GROUP",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/53954-barrette-memoire-teamgroup-elite-8go-ddr5-4800mhz-sodimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-41",
+    "title": "Barrette Mémoire SK Hynix 8Go DDR5 5600MHz U-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/339400-home_default/barrette-memoire-sk-hynix-8go-ddr5-5600mhz-u-dimm.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96674-barrette-memoire-sk-hynix-8go-ddr5-5600mhz-u-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-42",
+    "title": "Barrette Mémoire Ramaxel 8Go DDR5 5200MHz SO-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/331419-home_default/barrette-memoire-ramaxel-8go-ddr5-5200mhz-so-dimm.jpg",
+    "brand": "RAMAXEL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95507-barrette-memoire-ramaxel-8go-ddr5-5200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-43",
+    "title": "Barrette Mémoire SK hynix 8Go DDR5 4800MHz",
+    "price": 459.0,
+    "image": "https://spacenet.tn/184893-home_default/barette-memoire-sk-hynix-8go-ddr5-4800mhz.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68209-barette-memoire-sk-hynix-8go-ddr5-4800mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-44",
+    "title": "Barrette Mémoire Sk-Hynix 8Go DDR5 4800MHz SO-DIMM",
+    "price": 459.0,
+    "image": "https://spacenet.tn/336299-home_default/barrette-memoire-sk-hynix-8go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96222-barrette-memoire-sk-hynix-8go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-45",
+    "title": "Barrette Mémoire Hiksemi 16 Go DDR4 3200 MHz SODIMM",
+    "price": 499.0,
+    "image": "https://spacenet.tn/226380-home_default/barrette-memoire-hiksemi-16-go-ddr4-3200-mhz-sodimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/77977-barrette-memoire-hiksemi-16-go-ddr4-3200-mhz-sodimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-46",
+    "title": "Barrette Mémoire Adata Premier 16Go DDR4 3200Mhz",
+    "price": 499.0,
+    "image": "https://spacenet.tn/185687-home_default/barrette-memoire-adata-premier-16go-ddr4-3200mhz.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68344-barrette-memoire-adata-premier-16go-ddr4-3200mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-47",
+    "title": "Barrette Mémoire Ramaxel 12Go DDR5 4800MHz SO-DIMM",
+    "price": 599.0,
+    "image": "https://spacenet.tn/303292-home_default/barette-memoire-ramaxel-12go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "RAMAXEL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/92016-barette-memoire-ramaxel-12go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "12GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-48",
+    "title": "Barrette Mémoire Adata 16 Go DDR5 4800MHZ SO-DIMM",
+    "price": 799.0,
+    "image": "https://spacenet.tn/112506-home_default/barette-memoire-adata-16-go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51294-barette-memoire-adata-16-go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-49",
+    "title": "Barrette Mémoire SK-Hynix 16Go DDR5 5600MHz U-DIMM",
+    "price": 799.0,
+    "image": "https://spacenet.tn/340151-home_default/barrette-memoire-sk-hynix-16go-ddr5-5600mhz-u-dimm.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96664-barrette-memoire-sk-hynix-16go-ddr5-5600mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-50",
+    "title": "Barrette Mémoire Hiksemi 16 Go DDR5 4800 MHz SODIMM",
+    "price": 799.0,
+    "image": "https://spacenet.tn/226417-home_default/barrette-memoire-hiksemi-16-go-ddr5-4800-mhz-sodimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/77989-barrette-memoire-hiksemi-16-go-ddr5-4800-mhz-sodimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-51",
+    "title": "Barrette Mémoire Patriot  Signature Line 16Go DDR5 4800MHz SO-DIMM",
+    "price": 799.0,
+    "image": "https://spacenet.tn/279096-home_default/barette-memoire-patriot-signature-line-16go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "Patriot",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/88953-barette-memoire-patriot-signature-line-16go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-52",
+    "title": "Barrette Mémoire Adata 16Go DDR5 5600Mhz U-Dimm",
+    "price": 799.0,
+    "image": "https://spacenet.tn/227808-home_default/barette-memoire-adata-16go-ddr5-5600mhz-u-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/78242-barette-memoire-adata-16go-ddr5-5600mhz-u-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-53",
+    "title": "Barrette Mémoire Samsung 16Go DDR5 5600MHz SO-DIMM",
+    "price": 859.0,
+    "image": "https://spacenet.tn/336288-home_default/barette-memoire-samsung-16go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96216-barette-memoire-samsung-16go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-54",
+    "title": "Barrette Mémoire Patriot Signature 16Go DDR5 5600Mhz",
+    "price": 859.0,
+    "image": "https://spacenet.tn/191074-home_default/barrette-memoire-patriot-signature-16go-ddr5-5600mhz.jpg",
+    "brand": "Patriot",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/69768-barrette-memoire-patriot-signature-16go-ddr5-5600mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-55",
+    "title": "Barrette Mémoire G.Skill RipJaws 16 Go DDR5 4800 Mhz",
+    "price": 859.0,
+    "image": "https://spacenet.tn/186826-home_default/barrette-memoire-gskill-ripjaws-16-go-ddr5-4800-mhz.jpg",
+    "brand": "G.SKILL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/63182-barrette-memoire-gskill-ripjaws-16-go-ddr5-4800-mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-56",
+    "title": "Barrette Mémoire Adata 16Go DDR5 5600MHz SO-DIMM",
+    "price": 859.0,
+    "image": "https://spacenet.tn/239404-home_default/barette-memoire-adata-16go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/80419-barette-memoire-adata-16go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-57",
+    "title": "Barrette Mémoire TwinMOS 32Go DDR4 3200MHz SO-DIMM",
+    "price": 899.0,
+    "image": "https://spacenet.tn/336348-home_default/barrette-memoire-twinmos-32go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "TwinMos",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96235-barrette-memoire-twinmos-32go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-58",
+    "title": "Barrette Mémoire Adata 32Go DDR4 3200Mhz U-DIMM",
+    "price": 899.0,
+    "image": "https://spacenet.tn/227814-home_default/barette-memoire-adata-32go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/78244-barette-memoire-adata-32go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-59",
+    "title": "Barrette Mémoire Adata 32Go DDR4 3200Mhz SO-Dimm",
+    "price": 899.0,
+    "image": "https://spacenet.tn/236051-home_default/barette-memoire-adata-32go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/79621-barette-memoire-adata-32go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-60",
+    "title": "Barrette Mémoire Sk-Hynix 16Go DDR5 5600MHz SO-DIMM",
+    "price": 899.0,
+    "image": "https://spacenet.tn/343059-home_default/barrette-memoire-sk-hynix-16go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/97167-barrette-memoire-sk-hynix-16go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-61",
+    "title": "Barrette Mémoire Kingston 32Go DDR5 5600MHz DIMM",
+    "price": 1099.0,
+    "image": "https://spacenet.tn/329076-home_default/barrette-memoire-kingston-32go-ddr5-5600mhz-dimm.jpg",
+    "brand": "Kingston",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95241-barrette-memoire-kingston-32go-ddr5-5600mhz-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-62",
+    "title": "Barrette Mémoire HP 32Go DDR5 4800MHz SO-DIMM",
+    "price": 1099.0,
+    "image": "https://spacenet.tn/324158-home_default/barette-memoire-hp-32go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "Hp",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/94680-barette-memoire-hp-32go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-63",
+    "title": "Barrette Mémoire Samsung 32Go DDR5 4800MHz SO-DIMM",
+    "price": 1199.0,
+    "image": "https://spacenet.tn/329074-home_default/barette-memoire-samsung-32go-ddr5-4800mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95240-barette-memoire-samsung-32go-ddr5-4800mhz-so-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-64",
+    "title": "Barrette Mémoire Adata 32Go DDR5 5600MHz DIMM",
+    "price": 1299.0,
+    "image": "https://spacenet.tn/245652-home_default/barrette-memoire-adata-32go-ddr5-5600mhz-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/81642-barrette-memoire-adata-32go-ddr5-5600mhz-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-65",
+    "title": "Barrette Mémoire Kingfast 4Go DDR3 1600Mhz",
+    "price": 35.0,
+    "image": "https://spacenet.tn/250586-home_default/barrette-memoire-kingfast-4go-ddr3-1600mhz.jpg",
+    "brand": "KingFast",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68339-barrette-memoire-kingfast-4go-ddr3-1600mhz.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR3",
+      "frequency": "1600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-66",
+    "title": "Barrette Mémoire Dato 4 Go DDR3 1600MHZ",
+    "price": 35.0,
+    "image": "https://spacenet.tn/112919-home_default/barrette-memoire-dato-4-go-ddr3-1600mhz-.jpg",
+    "brand": "Dato",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51377-barrette-memoire-dato-4-go-ddr3-1600mhz-.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR3",
+      "frequency": "1600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-67",
+    "title": "Barrette Mémoire Kingfast 8Go DDR3 1600MHz UDIMM",
+    "price": 49.0,
+    "image": "https://spacenet.tn/326556-home_default/barette-memoire-kingfast-8go-ddr3-1600mhz-udimm.jpg",
+    "brand": "KingFast",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/94926-barette-memoire-kingfast-8go-ddr3-1600mhz-udimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR3",
+      "frequency": "1600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-68",
+    "title": "Barrette Mémoire Silicon Power 8Go DDR4 3200MHz U-DIMM",
+    "price": 55.0,
+    "image": "https://spacenet.tn/232141-home_default/barette-memoire-silicon-power-8-go-ddr4-3200-mhz.jpg",
+    "brand": "SILICON POWER",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/53529-barette-memoire-silicon-power-8-go-ddr4-3200-mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-69",
+    "title": "Barrette Mémoire Dato 8Go DDR4 2666MHz",
+    "price": 55.0,
+    "image": "https://spacenet.tn/197097-home_default/barrette-memoire-dato-8go-ddr4-2666mhz.jpg",
+    "brand": "Dato",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/71419-barrette-memoire-dato-8go-ddr4-2666mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-70",
+    "title": "Barrette Mémoire Kingston 4Go DDR4 SO-DIMM",
+    "price": 59.0,
+    "image": "https://spacenet.tn/331443-home_default/barrette-memoire-kingston-4go-ddr4-so-dimm.jpg",
+    "brand": "Kingston",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/11643-barrette-memoire-kingston-4go-ddr4-so-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "2400MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-71",
+    "title": "Barrette Mémoire Samsung 4 Go DDR4 3200 AA",
+    "price": 59.0,
+    "image": "https://spacenet.tn/114041-home_default/barrette-memoire-samsung-4-go-ddr4-3200-aa.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51644-barrette-memoire-samsung-4-go-ddr4-3200-aa.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-72",
+    "title": "Barrette Mémoire RAMAXEL 4GB DDR4 2666 MHz So-Dimm",
+    "price": 59.0,
+    "image": "https://spacenet.tn/186992-home_default/barrette-memoire-ramaxel-4gb-ddr4-2666-mhz-so-dimm.jpg",
+    "brand": "RAMAXEL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/64687-barrette-memoire-ramaxel-4gb-ddr4-2666-mhz-so-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-73",
+    "title": "Barrette Mémoire Kingston 4 Go DDR4 3200MHz Dimm",
+    "price": 59.0,
+    "image": "https://spacenet.tn/119858-home_default/barrette-memoire-kingston-4-go-ddr4-3200mhz-dimm.jpg",
+    "brand": "Kingston",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/52612-barrette-memoire-kingston-4-go-ddr4-3200mhz-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-74",
+    "title": "Barrette Mémoire SK-HYNIX 4 Go DDR4 2400MHz",
+    "price": 59.0,
+    "image": "https://spacenet.tn/138828-home_default/barrette-memoire-sk-hynix-4-go-ddr4-2400t.jpg",
+    "brand": "SK Hynix",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51646-barrette-memoire-sk-hynix-4-go-ddr4-2400t.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "2400MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-75",
+    "title": "Barrette Mémoire Samsung 4 Go DDR4 3200 MHz",
+    "price": 59.0,
+    "image": "https://spacenet.tn/114043-home_default/barrette-memoire-samsung-4-go-ddr4-3200-aa.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51645-barrette-memoire-samsung-4-go-ddr4-3200-aa.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-76",
+    "title": "Barrette Mémoire RAMAXEL 4Go DDR4 3200MHz DIMM",
+    "price": 59.0,
+    "image": "https://spacenet.tn/132850-home_default/barrette-memoire-ramaxel-4go-ddr4-3200mhz-dimm.jpg",
+    "brand": "RAMAXEL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/55498-barrette-memoire-ramaxel-4go-ddr4-3200mhz-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-77",
+    "title": "Barrette Mémoire Dato 4 Go DDR4 3200MHZ",
+    "price": 59.0,
+    "image": "https://spacenet.tn/112925-home_default/barrette-memoire-dato-4-go-ddr3-3200mhz.jpg",
+    "brand": "Dato",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51379-barrette-memoire-dato-4-go-ddr3-3200mhz.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-78",
+    "title": "Barrette Mémoire Samsung 4Go DDR4 3200Mhz U-Dimm",
+    "price": 59.0,
+    "image": "https://spacenet.tn/245407-home_default/barette-memoire-samsung-4go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/78247-barette-memoire-samsung-4go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-79",
+    "title": "Barrette Mémoire Kingston 4Go DDR4 3200HZ So-Dimm",
+    "price": 59.0,
+    "image": "https://spacenet.tn/134399-home_default/barrette-memoire-kingston-4go-ddr4-3200hz-so-dimm.jpg",
+    "brand": "Kingston",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/19598-barrette-memoire-kingston-4go-ddr4-3200hz-so-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "Unknown"
+    }
+  },
+  {
+    "id": "spacenet-ram-80",
+    "title": "Barrette Mémoire AXLE 4Go DDR4 3200Mhz U-DIMM",
+    "price": 59.0,
+    "image": "https://spacenet.tn/278177-home_default/barette-memoire-axle-4go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "Axle",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/88799-barette-memoire-axle-4go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-81",
+    "title": "Barrette Mémoire Crucial 4 Go DDR4 2400MHz UDIMM",
+    "price": 59.0,
+    "image": "https://spacenet.tn/31558-home_default/barrette-memoire-crucial-4-go-ddr4-2400-udimm.jpg",
+    "brand": "Crucial",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/17629-barrette-memoire-crucial-4-go-ddr4-2400-udimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "2400MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-82",
+    "title": "Barrette Mémoire Adata 4Go DDR4 3200MHz SO-DIMM",
+    "price": 79.0,
+    "image": "https://spacenet.tn/331454-home_default/barrette-memoire-adata-4go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95512-barrette-memoire-adata-4go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-83",
+    "title": "Barrette Mémoire Ramaxel 4Go DDR4 3200 MHz",
+    "price": 89.0,
+    "image": "https://spacenet.tn/186387-home_default/barrette-memoire-ramaxel-4go-ddr4-3200-mhz.jpg",
+    "brand": "RAMAXEL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68452-barrette-memoire-ramaxel-4go-ddr4-3200-mhz.html",
+    "specs": {
+      "capacity": "4GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-84",
+    "title": "Barrette Mémoire Adata 8Go DDR3L 1600MHz U-DIMM",
+    "price": 109.0,
+    "image": "https://spacenet.tn/304300-home_default/barette-memoire-adata-8go-ddr3l-1600mhz-u-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/92135-barette-memoire-adata-8go-ddr3l-1600mhz-u-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR3",
+      "frequency": "1600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-85",
+    "title": "Barrette Mémoire Crucial 8Go DDR4 3200MHz SO-DIMM",
+    "price": 199.0,
+    "image": "https://spacenet.tn/336293-home_default/barette-memoire-crucial-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Crucial",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96219-barette-memoire-crucial-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-86",
+    "title": "Barrette Mémoire SILICON POWER 8 Go DDR 2666 MHz",
+    "price": 255.0,
+    "image": "https://spacenet.tn/124245-home_default/barette-memoire-silicon-power-8-go-ddr-2666-mhz.jpg",
+    "brand": "SILICON POWER",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/53534-barette-memoire-silicon-power-8-go-ddr-2666-mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "Unknown",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-87",
+    "title": "Barrette Mémoire Hikvision 8GO DIMM DDR4 2666 MHZ",
+    "price": 259.0,
+    "image": "https://spacenet.tn/122518-home_default/barrette-memoire-hikvision-8go-dimm-ddr4-2666-mhz.jpg",
+    "brand": "HikVision",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/53170-barrette-memoire-hikvision-8go-dimm-ddr4-2666-mhz.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "2666MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-88",
+    "title": "Barrette Mémoire Dato 8Go DDR4 3200HZ U-Dimm",
+    "price": 259.0,
+    "image": "https://spacenet.tn/112113-home_default/barrette-memoire-dato-8go-ddr4-3200hz-dimm.jpg",
+    "brand": "Dato",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51232-barrette-memoire-dato-8go-ddr4-3200hz-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "Unknown"
+    }
+  },
+  {
+    "id": "spacenet-ram-89",
+    "title": "Barrette Mémoire Adata 8Go DDR4 3200MHz SO-DIMM",
+    "price": 259.0,
+    "image": "https://spacenet.tn/339398-home_default/barrette-memoire-adata-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96673-barrette-memoire-adata-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-90",
+    "title": "Barrette Mémoire TwinMos 8Go DDR4 3200MHz U-DIMM",
+    "price": 259.0,
+    "image": "https://spacenet.tn/314214-home_default/barette-memoire-twinmos-8go-ddr4-3200mhz-u-dimm.jpg",
+    "brand": "TwinMos",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/93245-barette-memoire-twinmos-8go-ddr4-3200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-91",
+    "title": "Barrette Mémoire Samsung 8Go DDR4 3200MHz SO-DIMM",
+    "price": 259.0,
+    "image": "https://spacenet.tn/336312-home_default/barrette-memoire-samsung-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96226-barrette-memoire-samsung-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-92",
+    "title": "Barrette Mémoire Micron 8Go DDR4 3200MHz SO-DIMM",
+    "price": 299.0,
+    "image": "https://spacenet.tn/336306-home_default/barrette-memoire-micron-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "MICRON",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96224-barrette-memoire-micron-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-93",
+    "title": "Barrette Mémoire Samsung 8 Go DDR4 3200AA",
+    "price": 299.0,
+    "image": "https://spacenet.tn/114061-home_default/barrette-memoire-samsung-8-go-ddr4-3200aa.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51649-barrette-memoire-samsung-8-go-ddr4-3200aa.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-94",
+    "title": "Barrette Mémoire Foresee 8Go DDR4 3200MHz SO-DIMM",
+    "price": 299.0,
+    "image": "https://spacenet.tn/340175-home_default/barrette-memoire-foresee-8go-ddr4-3200mhz-so-dimm.jpg",
+    "brand": "Foresee",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/96749-barrette-memoire-foresee-8go-ddr4-3200mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-95",
+    "title": "Barrette Mémoire Team Group 16 Go DDR4 3200 Mhz",
+    "price": 399.0,
+    "image": "https://spacenet.tn/112952-home_default/-barrette-memoire-team-group-16-go-ddr4-3200-mhz.jpg",
+    "brand": "TEAM GROUP",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/51391--barrette-memoire-team-group-16-go-ddr4-3200-mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "frequency": "3200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-96",
+    "title": "Barrette Mémoire Micron 8Go DDR5 5600MHz SO-DIMM",
+    "price": 429.0,
+    "image": "https://spacenet.tn/346272-home_default/barrette-memoire-micron-8go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "MICRON",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire-pc-bureau/97673-barrette-memoire-micron-8go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "8GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-97",
+    "title": "Barrette Mémoire Hiksemi 16 Go DDR5 6400 MHz UDIMM",
+    "price": 579.0,
+    "image": "https://spacenet.tn/226404-home_default/barrette-memoire-hiksemi-16-go-ddr5-6400-mhz-udimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/77981-barrette-memoire-hiksemi-16-go-ddr5-6400-mhz-udimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "6400MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-98",
+    "title": "Kit Barrette Mémoire Lexar Ares RGB 32Go (2x16Go) DDR4 3600MHz U-Dimm",
+    "price": 699.0,
+    "image": "https://spacenet.tn/245796-home_default/barrette-memoire-lexar-ares-rgb-32go-2x16go-ddr4-3600mhz-u-dimm.jpg",
+    "brand": "LEXAR",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/81664-barrette-memoire-lexar-ares-rgb-32go-2x16go-ddr4-3600mhz-u-dimm.html",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR4",
+      "frequency": "3600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-99",
+    "title": "Barrette Mémoire G.SKILL Ripjaws S5 64Go (2 x 32Go) DDR5 5200MHz U-DIMM",
+    "price": 699.0,
+    "image": "https://spacenet.tn/245741-home_default/barrette-memoire-gskill-ripjaws-s5-64go-2-x-32-go-ddr5-5200mhz-u-dimm.jpg",
+    "brand": "G.SKILL",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/memoires-ram/81653-barrette-memoire-gskill-ripjaws-s5-64go-2-x-32-go-ddr5-5200mhz-u-dimm.html",
+    "specs": {
+      "capacity": "64GB",
+      "type": "DDR5",
+      "frequency": "5200MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-100",
+    "title": "Barrette Mémoire Adata 16Go DDR5 4800Mhz",
+    "price": 799.0,
+    "image": "https://spacenet.tn/185538-home_default/barette-memoire-adata-16go-ddr5-4800mhz.jpg",
+    "brand": "Adata",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/68323-barette-memoire-adata-16go-ddr5-4800mhz.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "4800MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-101",
+    "title": "Barrette Mémoire Samsung 16Go DDR5 5600MHz SO-DIMM",
+    "price": 859.0,
+    "image": "https://spacenet.tn/332757-home_default/barrette-memoire-samsung-16go-ddr5-5600mhz-so-dimm.jpg",
+    "brand": "Samsung",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/95683-barrette-memoire-samsung-16go-ddr5-5600mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  },
+  {
+    "id": "spacenet-ram-102",
+    "title": "Barrette Mémoire Hiksemi 16Go DDR5 5600 MHz SO-DIMM",
+    "price": 859.0,
+    "image": "https://spacenet.tn/243318-home_default/barrette-memoire-hiksemi-16go-ddr5-56000-mhz-so-dimm.jpg",
+    "brand": "Hiksemi",
+    "category": "ram",
+    "source": "SpaceNet",
+    "availability": "in-stock",
+    "link": "https://spacenet.tn/barrette-memoire/81227-barrette-memoire-hiksemi-16go-ddr5-56000-mhz-so-dimm.html",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "frequency": "5600MHz"
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+    {
+        "id": "skymil-ram-12526-kingston-4go-ddr4-3200-mhz-sodimm",
+        "title": "Kingston 4Go DDR4 3200 MHz - SODIMM",
+        "price": 99.0,
+        "link": "https://skymil-informatique.com/ram-pour-pc-portable/12526-kingston-4go-ddr4-3200-mhz-sodimm.html",
+        "image": "https://skymil-informatique.com/62413-large_default/kingston-4go-ddr4-3200-mhz-sodimm.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "4 GB",
+            "frequency": "3200 MHz",
+            "format": "SO-DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12676-crucial-8go-ddr4",
+        "title": "Crucial 8Go DDR4",
+        "price": 199.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12676-crucial-8go-ddr4.html",
+        "image": "https://skymil-informatique.com/63437-large_default/crucial-8go-ddr4.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "8 GB",
+            "frequency": "Unknown",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12659-silicon-power-8go-ddr4-3200mhz",
+        "title": "Silicon Power 8Go DDR4 3200MHz",
+        "price": 209.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12659-silicon-power-8go-ddr4-3200mhz.html",
+        "image": "https://skymil-informatique.com/63333-large_default/silicon-power-8go-ddr4-3200mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "8 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12702-samsung-8g-ddr4-3200mhz",
+        "title": "Samsung 8G DDR4 - 3200Mhz",
+        "price": 219.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12702-samsung-8g-ddr4-3200mhz.html",
+        "image": "https://skymil-informatique.com/63519-large_default/samsung-8g-ddr4-3200mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "8 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12677-axle3d-breeze-8gb-ddr4",
+        "title": "Axle3D Breeze - 8Gb DDR4",
+        "price": 219.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12677-axle3d-breeze-8gb-ddr4.html",
+        "image": "https://skymil-informatique.com/63493-large_default/axle3d-breeze-8gb-ddr4.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "8 GB",
+            "frequency": "Unknown",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-6314-patriot-viper-elite-8gb-3600mhz",
+        "title": "Patriot VIPER Elite  8Gb - 3600Mhz",
+        "price": 229.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/6314-patriot-viper-elite-8gb-3600mhz.html",
+        "image": "https://skymil-informatique.com/25648-large_default/patriot-viper-elite-8gb-3600mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "8 GB",
+            "frequency": "3600 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12459-samsung-8go-ddr5-4800-mhz-sodimm",
+        "title": "Samsung 8Go DDR5 4800 MHz - SODIMM",
+        "price": 349.0,
+        "link": "https://skymil-informatique.com/ram-pour-pc-portable/12459-samsung-8go-ddr5-4800-mhz-sodimm.html",
+        "image": "https://skymil-informatique.com/62088-large_default/samsung-8go-ddr5-4800-mhz-sodimm.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "8 GB",
+            "frequency": "4800 MHz",
+            "format": "SO-DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12703-sk-hynix-16g-ddr4-3200mhz",
+        "title": "SK hynix 16G DDR4 - 3200Mhz",
+        "price": 399.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12703-sk-hynix-16g-ddr4-3200mhz.html",
+        "image": "https://skymil-informatique.com/63521-large_default/sk-hynix-16g-ddr4-3200mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12574-sk-hynix-8go-ddr5-4800-mhz-sodimm",
+        "title": "SK Hynix 8Go DDR5 4800 MHz - SODIMM",
+        "price": 399.0,
+        "link": "https://skymil-informatique.com/ram-pour-pc-portable/12574-sk-hynix-8go-ddr5-4800-mhz-sodimm.html",
+        "image": "https://skymil-informatique.com/62686-large_default/sk-hynix-8go-ddr5-4800-mhz-sodimm.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "8 GB",
+            "frequency": "4800 MHz",
+            "format": "SO-DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12704-kingston-16g-ddr4-3200mhz",
+        "title": "Kingston 16G DDR4 - 3200Mhz",
+        "price": 409.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12704-kingston-16g-ddr4-3200mhz.html",
+        "image": "https://skymil-informatique.com/63523-large_default/kingston-16g-ddr4-3200mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12678-axle3d-breeze-16gb-ddr4",
+        "title": "Axle3D Breeze - 16Gb DDR4",
+        "price": 419.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12678-axle3d-breeze-16gb-ddr4.html",
+        "image": "https://skymil-informatique.com/63492-large_default/axle3d-breeze-16gb-ddr4.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "Unknown",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12525-crucial-ballistix-elite-ddr4-16-go-2-x-8-go",
+        "title": "Crucial Ballistix Elite DDR4 16 Go (2 x 8 Go)",
+        "price": 419.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12525-crucial-ballistix-elite-ddr4-16-go-2-x-8-go.html",
+        "image": "https://skymil-informatique.com/62408-large_default/crucial-ballistix-elite-ddr4-16-go-2-x-8-go.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "2666 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12477-xpg-spectrix-d35g-16-gb-rgb-2-x-8-gb-3200-ddr4-white",
+        "title": "XPG SPECTRIX D35G 16 GB RGB ( 2 X 8 GB ) 3200...",
+        "price": 429.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12477-xpg-spectrix-d35g-16-gb-rgb-2-x-8-gb-3200-ddr4-white.html",
+        "image": "https://skymil-informatique.com/62203-large_default/xpg-spectrix-d35g-16-gb-rgb-2-x-8-gb-3200-ddr4-white.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "3200 MHz",
+            "format": "Unknown",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12629-gskill-ripjaws-5-16-go-2x-8-go-ddr4-3200-mhz-cl16",
+        "title": "G.Skill RipJaws 5 - 16 Go (2x 8 Go) DDR4 3200...",
+        "price": 469.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12629-gskill-ripjaws-5-16-go-2x-8-go-ddr4-3200-mhz-cl16.html",
+        "image": "https://skymil-informatique.com/63100-large_default/gskill-ripjaws-5-16-go-2x-8-go-ddr4-3200-mhz-cl16.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12628-gskill-trident-z-rgb-16gb-3200mhz-ddr4-",
+        "title": "G.Skill Trident Z RGB 16GB 3200Mhz DDR4",
+        "price": 559.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12628-gskill-trident-z-rgb-16gb-3200mhz-ddr4-.html",
+        "image": "https://skymil-informatique.com/63094-large_default/gskill-trident-z-rgb-16gb-3200mhz-ddr4-.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "16 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12692-kingston-ddr5-16go-5600mhz",
+        "title": "Kingston DDR5 - 16GO - 5600MHZ",
+        "price": 699.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12692-kingston-ddr5-16go-5600mhz.html",
+        "image": "https://skymil-informatique.com/63496-large_default/kingston-ddr5-16go-5600mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "16 GB",
+            "frequency": "5600 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12705-samsung-ddr5-16go-5600mhz",
+        "title": "Samsung DDR5 - 16GO - 5600MHZ",
+        "price": 729.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12705-samsung-ddr5-16go-5600mhz.html",
+        "image": "https://skymil-informatique.com/63525-large_default/samsung-ddr5-16go-5600mhz.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "16 GB",
+            "frequency": "5600 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-11436-ballistix-sport-32-go-4-x-8-go-ddr4-white",
+        "title": "Ballistix Sport 32 Go (4 x 8 Go) DDR4  - White",
+        "price": 799.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/11436-ballistix-sport-32-go-4-x-8-go-ddr4-white.html",
+        "image": "https://skymil-informatique.com/55870-large_default/ballistix-sport-32-go-4-x-8-go-ddr4-white.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "32 GB",
+            "frequency": "2400 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12674-xpg-spectrix-d35g-32-gb-rgb-2-x-16-gb-3200-ddr4-black",
+        "title": "XPG SPECTRIX D35G 32 GB RGB ( 2 X 16 GB ) 3200...",
+        "price": 849.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12674-xpg-spectrix-d35g-32-gb-rgb-2-x-16-gb-3200-ddr4-black.html",
+        "image": "https://skymil-informatique.com/63430-large_default/xpg-spectrix-d35g-32-gb-rgb-2-x-16-gb-3200-ddr4-black.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "32 GB",
+            "frequency": "3200 MHz",
+            "format": "Unknown",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12631-kingston-fury-beast-32-go-2-x-16-go-ddr4-3200-mhz-cl16",
+        "title": "Kingston FURY Beast 32 Go (2 x 16 Go) DDR4 3200...",
+        "price": 899.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12631-kingston-fury-beast-32-go-2-x-16-go-ddr4-3200-mhz-cl16.html",
+        "image": "https://skymil-informatique.com/63111-large_default/kingston-fury-beast-32-go-2-x-16-go-ddr4-3200-mhz-cl16.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "32 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12630-gskill-ripjaws-5-32-go-2x-16-go-ddr4-3200-mhz-cl16",
+        "title": "G.Skill RipJaws 5 - 32 Go (2x 16 Go) DDR4 3200...",
+        "price": 899.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12630-gskill-ripjaws-5-32-go-2x-16-go-ddr4-3200-mhz-cl16.html",
+        "image": "https://skymil-informatique.com/63104-large_default/gskill-ripjaws-5-32-go-2x-16-go-ddr4-3200-mhz-cl16.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR4",
+            "ram_capacity": "32 GB",
+            "frequency": "3200 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12556-gskill-z5-16-gb-ddr5-5600-mhz-noir",
+        "title": "G.SKILL Z5 16 GB DDR5 5600 MHZ - NOIR",
+        "price": 999.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12556-gskill-z5-16-gb-ddr5-5600-mhz-noir.html",
+        "image": "https://skymil-informatique.com/62613-large_default/gskill-z5-16-gb-ddr5-5600-mhz-noir.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "16 GB",
+            "frequency": "5600 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12555-gskill-z5-32-gb-2-x-16-gb-ddr5-5600-mhz-noir",
+        "title": "G.SKILL Z5 32 GB (2 X 16 GB) DDR5 5600 MHZ - NOIR",
+        "price": 1799.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12555-gskill-z5-32-gb-2-x-16-gb-ddr5-5600-mhz-noir.html",
+        "image": "https://skymil-informatique.com/62605-large_default/gskill-z5-32-gb-2-x-16-gb-ddr5-5600-mhz-noir.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "32 GB",
+            "frequency": "5600 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12557-gskill-z5-neo-32-gb-2-x-16-gb-ddr5-6000-mhz-noir",
+        "title": "G.SKILL Z5 Neo 32 GB (2 X 16 GB) DDR5 6000 MHZ...",
+        "price": 1849.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12557-gskill-z5-neo-32-gb-2-x-16-gb-ddr5-6000-mhz-noir.html",
+        "image": "https://skymil-informatique.com/62618-large_default/gskill-z5-neo-32-gb-2-x-16-gb-ddr5-6000-mhz-noir.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "32 GB",
+            "frequency": "6000 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    },
+    {
+        "id": "skymil-ram-12558-kingston-fury-beast-128-gb-4-x-32-gb-ddr5-5600-mhz-noir",
+        "title": "Kingston FURY Beast 128 GB (4 X 32 GB) DDR5...",
+        "price": 4069.0,
+        "link": "https://skymil-informatique.com/memoire-ram-tunisie/12558-kingston-fury-beast-128-gb-4-x-32-gb-ddr5-5600-mhz-noir.html",
+        "image": "https://skymil-informatique.com/62625-large_default/kingston-fury-beast-128-gb-4-x-32-gb-ddr5-5600-mhz-noir.jpg",
+        "status": "En Stock",
+        "brand": "Unknown",
+        "specs": {
+            "memory_type": "DDR5",
+            "ram_capacity": "128 GB",
+            "frequency": "5600 MHz",
+            "format": "DIMM",
+            "category": "ram"
+        }
+    }
+]

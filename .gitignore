@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+flask_tf_project/.venv/
+
 # Distribution / packaging
 .Python
 build/
@@ -205,8 +207,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-.cursor/
-.git/
+
+# System
+.DS_Store
+Thumbs.db
+*.db
+
+# Node
 node_modules/
-__pycache__/
-*.pyc
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Recursive fixes
+**/node_modules/
+**/.venv/
+**/venv/
+**/env/

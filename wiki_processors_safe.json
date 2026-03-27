@@ -1,0 +1,205 @@
+[
+    {
+        "title": "Processeur AMD Ryzen 5 4600G (3.7 GHz / 4.2 GHz)",
+        "price": 369.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-4600g-3-7-ghz-4-2-ghz/"
+    },
+    {
+        "title": "Processeur Intel Core i3-12100F Box",
+        "price": 369.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i3-12100f-box/"
+    },
+    {
+        "title": "Processeur Intel Core i5-11400F 12 Mo de cache 2,60 GHz",
+        "price": 389.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i5-11400f-12-mo-de-cache-260-ghz-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 5 5600 (3.5 GHz / 4.4 GHz)",
+        "price": 429.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-5600-3-5-ghz-4-4-ghz/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 5 5600X (3.7 GHz / 4.6 GHz)",
+        "price": 499.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-5600x-3-7-ghz-4-6-ghz-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 5 5600GT (3.6 GHz / 4.6 GHz)",
+        "price": 465.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-5600gt-3-6-ghz-4-6-ghz/"
+    },
+    {
+        "title": "Processeur Intel Core i5-12400F Box (2.5 GHz / 4.4 GHz)",
+        "price": 529.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i5-12400f-box-2-5-ghz-4-4-ghz-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 5 8500G (3.5 GHz / 5 GHz)",
+        "price": 589.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-8500g-3-5-ghz-5-ghz/"
+    },
+    {
+        "title": "Processeur Intel Core i5-13400F",
+        "price": 699.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i5-13400f/"
+    },
+    {
+        "title": "Processeur Intel Core i5-12600KF",
+        "price": 749.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i5-12600kf/"
+    },
+    {
+        "title": "Processeur Intel Core i7-12700KF",
+        "price": 929.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i7-12700kf/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 7 7700 (3.8 GHz / 5.3 GHz)",
+        "price": 969.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-amd-ryzen-7-7700-3-8-ghz-5-3-ghz/"
+    },
+    {
+        "title": "Processeur Intel Core i7-14700KF",
+        "price": 1659.0,
+        "currency": "TND",
+        "status": "En Stock",
+        "link": "https://wiki.tn/processeur-intel-core-i7-14700kf/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 9 7950X (4.5 GHz / 5.7 GHz)",
+        "price": 2099.0,
+        "currency": "TND",
+        "status": "Sur Commande",
+        "link": "https://wiki.tn/processeur-amd-ryzen-9-7950x-4-5-ghz-5-7-ghz/"
+    },
+    {
+        "title": "Processeur Intel Core i9-14700KF",
+        "price": 2499.0,
+        "currency": "TND",
+        "status": "Sur Commande",
+        "link": "https://wiki.tn/processeur-intel-core-i9-14700kf/"
+    },
+    {
+        "title": "Processeur Intel Core I5-10400F (2.9 GHZ / 4.3 GHZ)",
+        "price": 595.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i5-10400f-2-9-ghz-4-3-ghz-2-3/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 5 3600 (3.6 GHz / 4.2 GHz) TRAY",
+        "price": 619.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-3600-3-6-ghz-4-2-ghz-tray-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 5 3600 (3.6 GHz / 4.2 GHz)",
+        "price": 749.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-amd-ryzen-5-3600-3-6-ghz-4-2-ghz-2/"
+    },
+    {
+        "title": "Processeur Intel Core i5-10600KF (4.1 GHz / 4.8 GHz)",
+        "price": 969.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i5-10600kf-4-1-ghz-4-8-ghz-2/"
+    },
+    {
+        "title": "Processeur AMD RYZEN 7 PRO 5750G MPK",
+        "price": 1099.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-amd-ryzen-7-pro-5750g-mpk-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 7 3700X BOX",
+        "price": 1109.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-amd-ryzen-7-3700x-box-2/"
+    },
+    {
+        "title": "Processeur Intel® Core ™ i5-11600K 12 Mo de cache 3,90 GHz",
+        "price": 1179.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i5-11600k-12-mo-de-cache-390-ghz-2/"
+    },
+    {
+        "title": "Processeur Intel Core i5-12600K",
+        "price": 1350.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i5-12600k-2/"
+    },
+    {
+        "title": "Processeur Intel® Core ™ i7-11700 16 Mo de cache 2,50 GHz",
+        "price": 1469.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i7-11700-16-mo-de-cache-250-ghz-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 7 3700X TRAY",
+        "price": 1700.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-amd-ryzen-7-3700x-tray-2/"
+    },
+    {
+        "title": "Processeur Intel® Core i7-11700K 16 Mo de cache 3,60 GHz",
+        "price": 1749.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i7-11700k-16-mo-de-cache-360-ghz-2/"
+    },
+    {
+        "title": "Processeur Intel Core i9-10900-5,2GHz 20MB LGA 1200 TRAY",
+        "price": 1749.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i9-10900-52ghz-20mb-lga-1200-tray-2/"
+    },
+    {
+        "title": "Processeur AMD Ryzen 9 3900X LED RGB (3.8 GHz / 4.6 GHz)",
+        "price": 1849.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-amd-ryzen-9-3900x-led-rgb-3-8-ghz-4-6-ghz-2/"
+    },
+    {
+        "title": "Processeur Intel Core i9-10900KF-5,3GHz 20MB LGA 1200 TRAY",
+        "price": 1919.0,
+        "currency": "TND",
+        "status": "En Arrivage",
+        "link": "https://wiki.tn/processeur-intel-core-i9-10900kf-53ghz-20mb-lga-1200-tray-2/"
+    }
+]

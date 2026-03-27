@@ -1,0 +1,668 @@
+[
+  {
+    "id": "sm-mobo-1",
+    "title": "MSI PRO H610M-E DDR4",
+    "price": 209.0,
+    "image": "https://skymil-informatique.com/56061-large_default/msi-pro-h610m-e-ddr4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/7745-msi-pro-h610m-e-ddr4.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "64GB",
+      "chipset": "Intel H610"
+    }
+  },
+  {
+    "id": "sm-mobo-2",
+    "title": "Gigabyte H410M H V2",
+    "price": 229.0,
+    "image": "https://skymil-informatique.com/28830-large_default/gigabyte-h410m-h-v2.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/6790-gigabyte-h410m-h-v2.html",
+    "specs": {
+      "socket": "LGA1200",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "64GB",
+      "chipset": "Intel H410"
+    }
+  },
+  {
+    "id": "sm-mobo-3",
+    "title": "ASUS PRIME H610M-K D4 ARGB",
+    "price": 239.0,
+    "image": "https://skymil-informatique.com/15258-large_default/asus-prime-h610m-k-d4-argb.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/4518-asus-prime-h610m-k-d4-argb.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "Intel H610"
+    }
+  },
+  {
+    "id": "sm-mobo-4",
+    "title": "Gigabyte H610M H V2 DDR5",
+    "price": 265.0,
+    "image": "https://skymil-informatique.com/49737-large_default/gigabyte-h610m-h-v2-ddr5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10184-gigabyte-h610m-h-v2-ddr5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "64GB",
+      "chipset": "Intel H610"
+    }
+  },
+  {
+    "id": "sm-mobo-5",
+    "title": "ASUS PRIME H610M-K D5 ARGB",
+    "price": 299.0,
+    "image": "https://skymil-informatique.com/61635-large_default/asus-prime-h610m-k-d5-argb.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/12411-asus-prime-h610m-k-d5-argb.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel H610"
+    }
+  },
+  {
+    "id": "sm-mobo-6",
+    "title": "MSI PRO H610M-G DDR5 - WIFI",
+    "price": 299.0,
+    "image": "https://skymil-informatique.com/63475-large_default/msi-pro-h610m-g-ddr5-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11830-msi-pro-h610m-g-ddr5-wifi.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "96GB",
+      "chipset": "Unknown"
+    }
+  },
+  {
+    "id": "sm-mobo-7",
+    "title": "ASUS PRIME B760M-K D4",
+    "price": 299.0,
+    "image": "https://skymil-informatique.com/36648-large_default/asus-prime-b760m-k-d4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/7951-asus-prime-b760m-k-d4.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-8",
+    "title": "ASUS PRIME B760M-K D5",
+    "price": 319.0,
+    "image": "https://skymil-informatique.com/36658-large_default/asus-prime-b760m-k-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/7952-asus-prime-b760m-k-d5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-9",
+    "title": "MSI PRO B760M-P DDR4",
+    "price": 329.0,
+    "image": "https://skymil-informatique.com/24618-large_default/msi-pro-b760m-p-ddr4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/6096-msi-pro-b760m-p-ddr4.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "64GB",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-10",
+    "title": "MSI PRO B760M-P DDR5",
+    "price": 379.0,
+    "image": "https://skymil-informatique.com/41311-large_default/msi-pro-b760m-p-ddr5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/8688-msi-pro-b760m-p-ddr5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "128GB",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-11",
+    "title": "ASUS PRIME B760M-A WIFI D4",
+    "price": 399.0,
+    "image": "https://skymil-informatique.com/35962-large_default/asus-prime-b760m-a-wifi-d4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/7808-asus-prime-b760m-a-wifi-d4.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR4",
+      "memory_max": "128GB",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-12",
+    "title": "ASRock B760 PRO RS",
+    "price": 469.0,
+    "image": "https://skymil-informatique.com/59846-large_default/asrock-b760-pro-rs.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/12147-asrock-b760-pro-rs.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-13",
+    "title": "Gigabyte B760 DS3H DDR5",
+    "price": 479.0,
+    "image": "https://skymil-informatique.com/52620-large_default/gigabyte-b760-ds3h-ddr5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10836-gigabyte-b760-ds3h-ddr5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "128GB",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-14",
+    "title": "ASUS PRIME B760M-A WIFI D5",
+    "price": 479.0,
+    "image": "https://skymil-informatique.com/35967-large_default/asus-prime-b760m-a-wifi-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/7809-asus-prime-b760m-a-wifi-d5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "128GB",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-15",
+    "title": "ASUS PRIME H810M-A WIFI",
+    "price": 499.0,
+    "image": "https://skymil-informatique.com/57551-large_default/asus-prime-h810m-a-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11728-asus-prime-h810m-a-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel H810"
+    }
+  },
+  {
+    "id": "sm-mobo-16",
+    "title": "MSI PRO B760M-A WIFI DDR4",
+    "price": 549.0,
+    "image": "https://skymil-informatique.com/43320-large_default/msi-pro-b760m-a-wifi-ddr4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/9041-msi-pro-b760m-a-wifi-ddr4.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Unknown",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "Unknown"
+    }
+  },
+  {
+    "id": "sm-mobo-17",
+    "title": "ASUS TUF GAMING B760M-PLUS WIFI II D5",
+    "price": 559.0,
+    "image": "https://skymil-informatique.com/61694-large_default/asus-tuf-gaming-b760m-plus-wifi-ii-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/12413-asus-tuf-gaming-b760m-plus-wifi-ii-d5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "128GB",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-18",
+    "title": "ASUS PRIME Z790-P WIFI D5",
+    "price": 669.0,
+    "image": "https://skymil-informatique.com/48216-large_default/asus-prime-z790-p-wifi-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10005-asus-prime-z790-p-wifi-d5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "128GB",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-19",
+    "title": "Gigabyte Z790 Eagle",
+    "price": 699.0,
+    "image": "https://skymil-informatique.com/61996-large_default/gigabyte-z790-eagle.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/12446-gigabyte-z790-eagle.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-20",
+    "title": "MSI PRO B860-P",
+    "price": 699.0,
+    "image": "https://skymil-informatique.com/53611-large_default/msi-pro-b860-p.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11025-msi-pro-b860-p.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel B860"
+    }
+  },
+  {
+    "id": "sm-mobo-21",
+    "title": "MSI PRO B860M-A WIFI",
+    "price": 699.0,
+    "image": "https://skymil-informatique.com/53591-large_default/msi-pro-b860m-a-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11023-msi-pro-b860m-a-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel B860"
+    }
+  },
+  {
+    "id": "sm-mobo-22",
+    "title": "MSI PRO B860M GAMING PLUS WIFI",
+    "price": 729.0,
+    "image": "https://skymil-informatique.com/53601-large_default/msi-pro-b860m-gaming-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11024-msi-pro-b860m-gaming-plus-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel B860"
+    }
+  },
+  {
+    "id": "sm-mobo-23",
+    "title": "MSI PRO B860-P WIFI",
+    "price": 749.0,
+    "image": "https://skymil-informatique.com/53702-large_default/msi-pro-b860-p-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11027-msi-pro-b860-p-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel B860"
+    }
+  },
+  {
+    "id": "sm-mobo-24",
+    "title": "Gigabyte Z790 D AX",
+    "price": 769.0,
+    "image": "https://skymil-informatique.com/61988-large_default/gigabyte-z790-d-ax.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/12445-gigabyte-z790-d-ax.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-25",
+    "title": "ASRock B760M PG WIFI DDR5 + Kit de panneau 13,3\"",
+    "price": 769.0,
+    "image": "https://skymil-informatique.com/54517-large_default/asrock-b760m-pg-wifi-ddr5-kit-de-panneau-133.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11167-asrock-b760m-pg-wifi-ddr5-kit-de-panneau-133.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel B760"
+    }
+  },
+  {
+    "id": "sm-mobo-26",
+    "title": "MSI PRO B860 GAMING PLUS WIFI",
+    "price": 799.0,
+    "image": "https://skymil-informatique.com/53621-large_default/msi-pro-b860-gaming-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11026-msi-pro-b860-gaming-plus-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel B860"
+    }
+  },
+  {
+    "id": "sm-mobo-27",
+    "title": "MSI PRO Z890-P WIFI",
+    "price": 839.0,
+    "image": "https://skymil-informatique.com/53783-large_default/Mb-msi-pro-z890-p-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10429-Mb-msi-pro-z890-p-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel Z890"
+    }
+  },
+  {
+    "id": "sm-mobo-28",
+    "title": "MSI Z890 GAMING PLUS WIFI",
+    "price": 895.0,
+    "image": "https://skymil-informatique.com/50595-large_default/msi-z890-gaming-plus-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10430-msi-z890-gaming-plus-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel Z890"
+    }
+  },
+  {
+    "id": "sm-mobo-29",
+    "title": "ASUS TUF GAMING Z790-PLUS WIFI D4",
+    "price": 899.0,
+    "image": "https://skymil-informatique.com/23759-large_default/asus-tuf-gaming-z790-plus-wifi-d4.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/5937-asus-tuf-gaming-z790-plus-wifi-d4.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "memory_max": "192GB",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-30",
+    "title": "MSI MAG B860 TOMAHAWK WIFI",
+    "price": 919.0,
+    "image": "https://skymil-informatique.com/53641-large_default/msi-mag-b860-tomahawk-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11028-msi-mag-b860-tomahawk-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel B860"
+    }
+  },
+  {
+    "id": "sm-mobo-31",
+    "title": "MSI PRO Z890-S WIFI",
+    "price": 1129.0,
+    "image": "https://skymil-informatique.com/58424-large_default/msi-pro-z890-s-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11884-msi-pro-z890-s-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "192GB",
+      "chipset": "Intel Z890"
+    }
+  },
+  {
+    "id": "sm-mobo-32",
+    "title": "MSI MAG Z890 TOMAHAWK WIFI",
+    "price": 1299.0,
+    "image": "https://skymil-informatique.com/50605-large_default/msi-mag-z890-tomahawk-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10431-msi-mag-z890-tomahawk-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel Z890"
+    }
+  },
+  {
+    "id": "sm-mobo-33",
+    "title": "ASUS ROG STRIX Z790-F GAMING WIFI D5",
+    "price": 1369.0,
+    "image": "https://skymil-informatique.com/23767-large_default/asus-rog-strix-z790-f-gaming-wifi-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/5938-asus-rog-strix-z790-f-gaming-wifi-d5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-34",
+    "title": "MSI MPG Z890 EDGE TI WIFI",
+    "price": 1749.0,
+    "image": "https://skymil-informatique.com/56287-large_default/msi-mpg-z890-edge-ti-wifi.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/11516-msi-mpg-z890-edge-ti-wifi.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel Z890"
+    }
+  },
+  {
+    "id": "sm-mobo-35",
+    "title": "Asus PROART Z790-CREATOR WIFI D5",
+    "price": 1879.0,
+    "image": "https://skymil-informatique.com/61695-large_default/asus-proart-z790-creator-wifi-d5.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/12416-asus-proart-z790-creator-wifi-d5.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "memory_max": "Unknown",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-36",
+    "title": "ASUS ROG MAXIMUS Z790 HERO",
+    "price": 2479.0,
+    "image": "https://skymil-informatique.com/25755-large_default/asus-rog-maximus-z790-hero.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/6338-asus-rog-maximus-z790-hero.html",
+    "specs": {
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "Unknown",
+      "chipset": "Intel Z790"
+    }
+  },
+  {
+    "id": "sm-mobo-37",
+    "title": "MSI MEG Z890 ACE",
+    "price": 2769.0,
+    "image": "https://skymil-informatique.com/51206-large_default/msi-meg-z890-ace.jpg",
+    "brand": "Unknown",
+    "category": "motherboards",
+    "source": "Skymil",
+    "availability": "in-stock",
+    "link": "https://skymil-informatique.com/intel-tunisie/10586-msi-meg-z890-ace.html",
+    "specs": {
+      "socket": "LGA1851",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "memory_max": "256GB",
+      "chipset": "Intel Z890"
+    }
+  }
+]
