@@ -12,8 +12,8 @@ const FilterSection = ({ title, options, selected, onSelect, isOpen = false, cou
             <span>{title}</span>
             {selected && selected.length > 0 && (
                 <span style={{
-                    background: '#00f2ff',
-                    color: '#020617',
+                    background: '#5F8D8B',
+                    color: 'white',
                     borderRadius: '50%',
                     width: '20px',
                     height: '20px',
@@ -30,7 +30,7 @@ const FilterSection = ({ title, options, selected, onSelect, isOpen = false, cou
             {selected && selected.length > 0 && onClear && (
                 <span 
                     onClick={(e) => { e.stopPropagation(); onClear(); }}
-                    style={{ fontSize: '0.7rem', color: '#00f2ff', textDecoration: 'underline', cursor: 'pointer' }}
+                    style={{ fontSize: '0.7rem', color: '#5F8D8B', textDecoration: 'underline', cursor: 'pointer' }}
                 >
                     Clear
                 </span>
@@ -72,7 +72,7 @@ const FilterSection = ({ title, options, selected, onSelect, isOpen = false, cou
                   e.stopPropagation();
                   setShowAll(!showAll);
               }}
-              style={{ fontSize: '0.75rem', color: '#00f2ff', cursor: 'pointer', marginTop: '5px', fontWeight: '600' }}
+              style={{ fontSize: '0.75rem', color: '#5F8D8B', cursor: 'pointer', marginTop: '5px', fontWeight: '600' }}
             >
                {showAll ? "Show Less" : "Show More"}
             </div>

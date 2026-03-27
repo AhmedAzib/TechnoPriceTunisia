@@ -20,35 +20,39 @@ const allNormalizedData = normalizeProductData(MASTER_DATA);
 
 const normalizedMobileData = allNormalizedData.filter(product => {
      if (!product) return false;
-     
-     // 1. Include ALL Computer Categories (Laptops, Desktops, Smartphones)
+
+     // 1. Category-based: Only smartphones
      const category = product.specs?.category || product.category || '';
      const catLower = category.toLowerCase();
-     
-     // Include smartphones, laptops, desktops, and computers
-     if (catLower === 'smartphone' || 
-         catLower === 'laptop' || 
-         catLower === 'desktop' || 
-         catLower === 'computer') {
+
+     if (catLower === 'smartphone') {
          return true;
      }
 
-     // 2. Robust Fallback - Check title for computer-related terms
+     // 2. Fallback - Check title for phone-related terms only
      const t = (product.title || '').toLowerCase();
-     
-     return t.includes('smartphone') || 
-            t.includes('iphone') || 
+
+     return t.includes('smartphone') ||
+            t.includes('iphone') ||
             t.includes('galaxy s') ||
-            t.includes('laptop') ||
-            t.includes('gaming') ||
-            t.includes('macbook') ||
-            t.includes('desktop') ||
-            t.includes('portable') ||
-            t.includes('notebook');
+            t.includes('galaxy a') ||
+            t.includes('galaxy z') ||
+            t.includes('redmi') ||
+            t.includes('poco') ||
+            t.includes('oppo') ||
+            t.includes('realme') ||
+            t.includes('infinix') ||
+            t.includes('tecno') ||
+            t.includes('itel') ||
+            t.includes('honor') ||
+            t.includes('pixel');
 }).filter(p => {
-    // Exclude Non-Computer Items (Safety Net)
+    // Exclude non-phone items (safety net)
     const t = (p.title || '').toLowerCase();
-    if (t.includes('bicyclette') || t.includes('tv') || t.includes('refrigerateur') || t.includes('montre')) return false;
+    if (t.includes('laptop') || t.includes('portable') || t.includes('notebook') ||
+        t.includes('desktop') || t.includes('macbook') || t.includes('pc ') ||
+        t.includes('bicyclette') || t.includes('tv') || t.includes('refrigerateur') ||
+        t.includes('montre') || t.includes('imprimante') || t.includes('ecran')) return false;
     return true;
 });
 
@@ -615,7 +619,7 @@ useEffect(() => {
                     alignItems: 'center',
                     justifyContent: 'center',
                     zIndex: 2000,
-                    borderBottom: '2px solid #00f2ff',
+                    borderBottom: '2px solid #5F8D8B',
                     boxShadow: '0 10px 15px -3px rgba(0,0,0,0.2)',
                     padding: '0 20px'
                 }}>
@@ -627,7 +631,7 @@ useEffect(() => {
                     </button>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                         <span style={{ color: 'white', fontWeight: '900', fontSize: '2rem', letterSpacing: '-0.5px', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
-                            Techno<span style={{ color: '#00f2ff' }}>Price</span>
+                            Techno<span style={{ color: '#5F8D8B' }}>Price</span>
                         </span>
                         
                         {/* HEART AND COMPARE ICONS NEXT TO LOGO - DON'T MOVE */}
@@ -871,7 +875,7 @@ useEffect(() => {
                     <div className="empty-state" style={{ textAlign: 'center', padding: '60px', color: '#64748b' }}>
                         {/* Empty State Trigger - Force Reload */}
                         <h2>No phones found</h2>
-                        <button onClick={resetAll} style={{ marginTop: '20px', padding: '10px 20px', background: '#00f2ff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}>
+                        <button onClick={resetAll} style={{ marginTop: '20px', padding: '10px 20px', background: '#5F8D8B', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', color: 'white' }}>
                             Clear Filters
                         </button>
                     </div>
@@ -898,7 +902,7 @@ useEffect(() => {
                                             groupCount={product.variants?.length}
                                             onGroupSelect={() => navigate(`/mobile-group/${encodeURIComponent(product.key)}`)}
                                             onViewVariants={() => setSelectedGroup(product)}
-                                            theme="dark"
+                                            theme="light"
                                         />
                                     );
                                 })
@@ -1136,7 +1140,7 @@ useEffect(() => {
             {compareList.length > 0 && (
                 <div className="compare-dock">
                     <div className="dock-info">
-                        <Scale size={20} color="#00f2ff" />
+                        <Scale size={20} color="#5F8D8B" />
                         <span>{compareList.length} Items</span>
                     </div>
                     

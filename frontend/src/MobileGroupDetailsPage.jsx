@@ -109,7 +109,7 @@ const MobileGroupDetailsPage = () => {
 
     if (allVariants.length === 0) {
         return (
-            <div style={{ padding: '50px', color: 'white', textAlign: 'center', background: '#020617', minHeight: '100vh' }}>
+            <div style={{ padding: '50px', color: '#1A2B48', textAlign: 'center', background: '#E8F1F5', minHeight: '100vh' }}>
                 <h2>Group Not Found</h2>
                 <button onClick={() => navigate('/mobiles')} className="cta-button primary" style={{ marginTop: '20px' }}>Back to Mobiles</button>
             </div>
@@ -130,16 +130,16 @@ const MobileGroupDetailsPage = () => {
     };
 
     return (
-        <div style={{ minHeight: '100vh', backgroundColor: '#020617', padding: '40px 20px', color: 'white' }}>
+        <div style={{ minHeight: '100vh', backgroundColor: '#E8F1F5', padding: '40px 20px', color: '#1A2B48' }}>
             <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
                 
                 {/* BACK BUTTON */}
                 <button 
                     onClick={() => navigate('/mobiles')} 
                     style={{ 
-                        background: 'transparent', 
-                        border: '1px solid rgba(255,255,255,0.2)', 
-                        color: 'white', 
+                        background: 'transparent',
+                        border: '1px solid #e2e8f0',
+                        color: '#1A2B48',
                         padding: '10px 20px', 
                         borderRadius: '8px', 
                         cursor: 'pointer', 
@@ -159,20 +159,20 @@ const MobileGroupDetailsPage = () => {
                     marginBottom: '40px', 
                     display: 'flex', 
                     gap: '30px', 
-                    background: 'rgba(255,255,255,0.02)', 
-                    padding: '30px', 
-                    borderRadius: '20px', 
-                    border: '1px solid rgba(255,255,255,0.05)',
+                    background: 'white',
+                    padding: '30px',
+                    borderRadius: '20px',
+                    border: '1px solid #e2e8f0',
                     alignItems: 'center',
                     flexWrap: 'wrap'
                 }}>
-                    <div style={{ 
-                        width: '200px', 
-                        height: '150px', 
-                        display: 'flex', 
-                        alignItems: 'center', 
+                    <div style={{
+                        width: '200px',
+                        height: '150px',
+                        display: 'flex',
+                        alignItems: 'center',
                         justifyContent: 'center',
-                        background: 'white',
+                        background: '#f1f5f9',
                         borderRadius: '10px',
                         padding: '10px'
                     }}>
@@ -182,7 +182,7 @@ const MobileGroupDetailsPage = () => {
                     <div style={{ flex: 1 }}>
                         <h1 style={{ fontSize: '2rem', fontWeight: 'bold', margin: '0 0 10px 0' }}>{decodedKey}</h1>
                         <p style={{ color: '#94a3b8', fontSize: '1.1rem' }}>
-                            <span style={{color: '#fff', fontWeight: 'bold'}}>{allVariants.length}</span> Variants Available 
+                            <span style={{color: '#1A2B48', fontWeight: 'bold'}}>{allVariants.length}</span> Variants Available 
                             <span style={{margin: '0 10px'}}>•</span>
                             Starting from <span style={{color: '#10b981', fontWeight: 'bold', fontSize: '1.3rem'}}>{heroProduct.price} TND</span>
                         </p>
@@ -253,9 +253,9 @@ const MobileGroupDetailsPage = () => {
                                             display: 'flex',
                                             alignItems: 'center',
                                             gap: '6px',
-                                            background: isActive ? '#00f2ff' : 'rgba(255,255,255,0.05)',
-                                            color: isActive ? 'black' : 'white',
-                                            border: isActive ? 'none' : '1px solid rgba(255,255,255,0.1)',
+                                            background: isActive ? '#5F8D8B' : 'white',
+                                            color: isActive ? 'white' : '#1A2B48',
+                                            border: isActive ? 'none' : '1px solid #e2e8f0',
                                             borderRadius: '50px',
                                             padding: '8px 16px',
                                             fontSize: '0.85rem',
@@ -277,13 +277,13 @@ const MobileGroupDetailsPage = () => {
 
                 {/* CONFIRM BUTTON (Floating / Sticky if needed, or just inline) */}
                 {!showResults && (
-                    <div style={{ textAlign: 'center', padding: '40px', background: 'rgba(255,255,255,0.01)', borderRadius: '20px', border: '1px dashed rgba(255,255,255,0.1)' }}>
+                    <div style={{ textAlign: 'center', padding: '40px', background: 'white', borderRadius: '20px', border: '1px dashed #e2e8f0' }}>
                         <button 
                             onClick={() => setShowResults(true)}
                             style={{ 
-                                padding: '16px 40px', fontSize: '1.2rem', background: '#00f2ff', color: 'black', 
+                                padding: '16px 40px', fontSize: '1.2rem', background: '#5F8D8B', color: 'white',
                                 fontWeight: 'bold', border: 'none', borderRadius: '14px', cursor: 'pointer',
-                                boxShadow: '0 0 30px rgba(0, 242, 255, 0.2)', transition: 'transform 0.2s',
+                                boxShadow: '0 0 30px rgba(95, 141, 139, 0.2)', transition: 'transform 0.2s',
                                 display: 'inline-flex', alignItems: 'center', gap: '10px'
                             }}
                         >
@@ -328,23 +328,23 @@ const MobileGroupDetailsPage = () => {
                     bottom: '20px',
                     left: '50%',
                     transform: 'translateX(-50%)',
-                    background: 'rgba(15, 23, 42, 0.95)',
+                    background: 'rgba(255, 255, 255, 0.95)',
                     backdropFilter: 'blur(10px)',
-                    border: '1px solid rgba(255,255,255,0.1)',
+                    border: '1px solid #e2e8f0',
                     borderRadius: '50px',
                     padding: '10px 25px',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '20px',
                     zIndex: 1000,
-                    boxShadow: '0 10px 30px rgba(0,0,0,0.5)'
+                    boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
                 }}>
                     <button 
                         onClick={() => setMobileViewMode(prev => prev === 'list' ? 'grid' : 'list')}
                         style={{
                             background: 'transparent',
                             border: 'none',
-                            color: 'white',
+                            color: '#1A2B48',
                             display: 'flex',
                             alignItems: 'center',
                             gap: '8px',
@@ -353,11 +353,11 @@ const MobileGroupDetailsPage = () => {
                             cursor: 'pointer'
                         }}
                     >
-                        {mobileViewMode === 'list' ? <Grid size={20} color="#00f2ff" /> : <List size={20} color="#00f2ff" />}
+                        {mobileViewMode === 'list' ? <Grid size={20} color="#5F8D8B" /> : <List size={20} color="#5F8D8B" />}
                         <span>{mobileViewMode === 'list' ? 'Grid View' : 'List View'}</span>
                     </button>
                     
-                    <div style={{ width: '1px', height: '20px', background: 'rgba(255,255,255,0.2)' }}></div>
+                    <div style={{ width: '1px', height: '20px', background: '#e2e8f0' }}></div>
 
                     <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>
                         {displayedVariants.length} Items
@@ -370,7 +370,7 @@ const MobileGroupDetailsPage = () => {
             {compareList.length > 0 && !isComparing && (
                 <div className="compare-dock">
                     <div className="dock-info">
-                        <Scale size={20} color="#00f2ff" />
+                        <Scale size={20} color="#5F8D8B" />
                         <span>{compareList.length} Items</span>
                     </div>
                     
@@ -396,8 +396,8 @@ const MobileGroupDetailsPage = () => {
 
             {/* --- COMPARISON OVERLAY --- */}
             {isComparing && (
-                <div style={{ position: 'fixed', inset: 0, zIndex: 9999, background: '#020617', overflowY: 'auto' }}>
-                    <ComparisonView 
+                <div style={{ position: 'fixed', inset: 0, zIndex: 9999, background: '#E8F1F5', overflowY: 'auto' }}>
+                    <ComparisonView
                         selectedProducts={compareList} 
                         onClose={() => setIsComparing(false)}
                         removeFromCompare={removeFromCompare}

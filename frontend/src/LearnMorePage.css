@@ -1,8 +1,8 @@
 
 .learn-more-container {
     min-height: 100vh;
-    background-color: #030712;
-    color: white;
+    background-color: #E8F1F5;
+    color: #1A2B48;
     font-family: 'Inter', sans-serif;
     padding-bottom: 80px;
     position: relative;
@@ -15,9 +15,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: 
-        radial-gradient(circle at 15% 50%, rgba(76, 29, 149, 0.15), transparent 25%),
-        radial-gradient(circle at 85% 30%, rgba(0, 242, 255, 0.1), transparent 25%);
+    background:
+        radial-gradient(circle at 15% 50%, rgba(95, 141, 139, 0.08), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(95, 141, 139, 0.05), transparent 25%);
     z-index: 0;
     pointer-events: none;
 }
@@ -26,9 +26,9 @@
     position: absolute;
     top: 30px;
     left: 30px;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
-    color: white;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #e2e8f0;
+    color: #1A2B48;
     padding: 10px 20px;
     border-radius: 30px;
     display: flex;
@@ -42,7 +42,7 @@
 }
 
 .nav-back-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 1);
     transform: translateX(-5px);
 }
 
@@ -63,14 +63,14 @@
 }
 
 .highlight-text {
-    background: linear-gradient(90deg, #00f2ff, #2563eb);
+    background: linear-gradient(90deg, #5F8D8B, #2563eb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .lm-subtitle {
     font-size: 1.25rem;
-    color: #94a3b8;
+    color: #64748b;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.7;
@@ -89,14 +89,14 @@
 }
 
 .glass-card {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: white;
+    border: 1px solid #e2e8f0;
     border-radius: 24px;
     padding: 40px;
     transition: 0.4s;
-    backdrop-filter: blur(10px);
-    display: block; /* Ensure block layout */
-    text-align: center; /* Center content by default if thats the design */
+    backdrop-filter: none;
+    display: block;
+    text-align: center;
 }
 
 /* Reset specific alignment from previous corruption */
@@ -104,17 +104,16 @@
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: white;
+    color: #1A2B48;
 }
 
 .glass-card p {
-    color: #cbd5e1;
+    color: #64748b;
     line-height: 1.6;
 }
 
 .glass-card:hover {
     transform: translateY(-8px);
-    /* box-shadow handles in theme classes */
 }
 
 .lm-icon-box {
@@ -124,63 +123,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 25px auto; /* Center icon */
+    margin: 0 auto 25px auto;
 }
 
-.lm-icon-box.blue { background: rgba(37, 99, 235, 0.2); color: #60a5fa; }
-.lm-icon-box.purple { background: rgba(147, 51, 234, 0.2); color: #c084fc; }
-.lm-icon-box.green { background: rgba(22, 163, 74, 0.2); color: #4ade80; }
-.lm-icon-box.gold { background: rgba(234, 179, 8, 0.2); color: #facc15; }
-.lm-icon-box.cyan { background: rgba(6, 182, 212, 0.2); color: #22d3ee; }
+.lm-icon-box.blue { background: rgba(37, 99, 235, 0.1); color: #2563eb; }
+.lm-icon-box.purple { background: rgba(147, 51, 234, 0.1); color: #9333ea; }
+.lm-icon-box.green { background: rgba(22, 163, 74, 0.1); color: #16a34a; }
+.lm-icon-box.gold { background: rgba(234, 179, 8, 0.1); color: #ca8a04; }
+.lm-icon-box.cyan { background: rgba(95, 141, 139, 0.1); color: #5F8D8B; }
 
 /* --- CARD THEMES --- */
 .glass-card.theme-blue {
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, rgba(37, 99, 235, 0.05) 100%);
-    border-color: rgba(37, 99, 235, 0.2);
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.06) 0%, white 100%);
+    border-color: rgba(37, 99, 235, 0.15);
 }
 .glass-card.theme-blue:hover {
-    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
-    border-color: rgba(37, 99, 235, 0.5);
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.1);
+    border-color: rgba(37, 99, 235, 0.3);
     transform: translateY(-8px);
 }
 
 .glass-card.theme-purple {
-    background: linear-gradient(135deg, rgba(147, 51, 234, 0.2) 0%, rgba(147, 51, 234, 0.05) 100%);
-    border-color: rgba(147, 51, 234, 0.2);
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.06) 0%, white 100%);
+    border-color: rgba(147, 51, 234, 0.15);
 }
 .glass-card.theme-purple:hover {
-    box-shadow: 0 20px 40px rgba(147, 51, 234, 0.15);
-    border-color: rgba(147, 51, 234, 0.5);
+    box-shadow: 0 10px 30px rgba(147, 51, 234, 0.1);
+    border-color: rgba(147, 51, 234, 0.3);
     transform: translateY(-8px);
 }
 
 .glass-card.theme-green {
-    background: linear-gradient(135deg, rgba(22, 163, 74, 0.2) 0%, rgba(22, 163, 74, 0.05) 100%);
-    border-color: rgba(22, 163, 74, 0.2);
+    background: linear-gradient(135deg, rgba(22, 163, 74, 0.06) 0%, white 100%);
+    border-color: rgba(22, 163, 74, 0.15);
 }
 .glass-card.theme-green:hover {
-    box-shadow: 0 20px 40px rgba(22, 163, 74, 0.15);
-    border-color: rgba(22, 163, 74, 0.5);
+    box-shadow: 0 10px 30px rgba(22, 163, 74, 0.1);
+    border-color: rgba(22, 163, 74, 0.3);
     transform: translateY(-8px);
 }
 
 .glass-card.theme-gold {
-    background: linear-gradient(135deg, rgba(234, 179, 8, 0.2) 0%, rgba(234, 179, 8, 0.05) 100%);
-    border-color: rgba(234, 179, 8, 0.2);
+    background: linear-gradient(135deg, rgba(234, 179, 8, 0.06) 0%, white 100%);
+    border-color: rgba(234, 179, 8, 0.15);
 }
 .glass-card.theme-gold:hover {
-    box-shadow: 0 20px 40px rgba(234, 179, 8, 0.15);
-    border-color: rgba(234, 179, 8, 0.5);
+    box-shadow: 0 10px 30px rgba(234, 179, 8, 0.1);
+    border-color: rgba(234, 179, 8, 0.3);
     transform: translateY(-8px);
 }
 
 .glass-card.theme-cyan {
-    background: linear-gradient(135deg, rgba(6, 182, 212, 0.2) 0%, rgba(6, 182, 212, 0.05) 100%);
-    border-color: rgba(6, 182, 212, 0.2);
+    background: linear-gradient(135deg, rgba(95, 141, 139, 0.06) 0%, white 100%);
+    border-color: rgba(95, 141, 139, 0.15);
 }
 .glass-card.theme-cyan:hover {
-    box-shadow: 0 20px 40px rgba(6, 182, 212, 0.15);
-    border-color: rgba(6, 182, 212, 0.5);
+    box-shadow: 0 10px 30px rgba(95, 141, 139, 0.1);
+    border-color: rgba(95, 141, 139, 0.3);
     transform: translateY(-8px);
 }
 

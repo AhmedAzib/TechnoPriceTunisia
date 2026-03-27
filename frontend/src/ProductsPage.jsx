@@ -435,11 +435,11 @@ const ProductsPage = () => {
     <div 
         className="products-layout-final" 
         style={{
-            backgroundColor: '#02040a',
+            backgroundColor: '#E8F1F5',
             minHeight: '100vh',
             display: 'grid',
             gridTemplateColumns: '240px 1fr',
-            color: '#e2e8f0',
+            color: '#1A2B48',
             fontFamily: "'Inter', sans-serif"
         }}
     >
@@ -449,13 +449,10 @@ const ProductsPage = () => {
             display: grid;
             grid-template-columns: 240px 1fr;
             min-height: 100vh;
-            background-color: #02040a !important;
-            background-image: 
-                radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.08) 0%, transparent 25%), 
-                radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.08) 0%, transparent 25%),
-                radial-gradient(ellipse at top, rgba(15, 23, 42, 1) 0%, rgba(2, 6, 23, 1) 100%) !important;
+            background-color: #E8F1F5 !important;
+            background-image: none !important;
             background-attachment: fixed;
-            color: #e2e8f0;
+            color: #1A2B48;
             font-family: 'Inter', system-ui, -apple-system, sans-serif;
         }
 
@@ -470,43 +467,43 @@ const ProductsPage = () => {
             top: 0;
             display: flex;
             flex-direction: column;
-            background: rgba(2, 6, 23, 0.6) !important; 
+            background: white !important;
             backdrop-filter: blur(12px) !important;
             z-index: 50;
-            border-right: 1px solid rgba(255,255,255,0.05) !important;
+            border-right: 1px solid #e2e8f0 !important;
         }
 
         /* RESET CHILDREN */
         .sidebar-header, .filter-header-row, .scroll-filters, .filter-section {
             background: transparent !important;
-            border-color: rgba(255,255,255,0.05) !important;
+            border-color: #e2e8f0 !important;
         }
 
         /* CARD GLASSMORPHISM ENFORCER */
         .product-card-glass {
-            background: rgba(30, 41, 59, 0.3) !important;
+            background: white !important;
             backdrop-filter: blur(10px) !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            border: 1px solid #e2e8f0 !important;
             border-radius: 20px !important;
-            color: white !important;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            color: #1A2B48 !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03) !important;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
             padding: 15px; /* Ensure padding if missing from CSS file */
         }
-        
+
         .product-card-glass:hover {
             transform: translateY(-5px) !important;
-            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.5) !important;
-            border-color: rgba(0, 242, 255, 0.3) !important;
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15) !important;
+            border-color: #5F8D8B !important;
         }
 
-        .product-card-glass h3 { color: white !important; }
-        
+        .product-card-glass h3 { color: #1A2B48 !important; }
+
         /* SCROLLBAR */
         ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #02040a; }
-        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+        ::-webkit-scrollbar-track { background: #E8F1F5; }
+        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
       `}</style>
         <aside className="filters-sidebar">
             <div className="sidebar">
@@ -562,10 +559,10 @@ const ProductsPage = () => {
 
         <main className="products-main">
             <div className="products-header">
-                <h1 style={{ background: 'linear-gradient(to right, #fff, #94a3b8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontSize: '2.5rem' }}>
+                <h1 style={{ background: 'linear-gradient(to right, #1A2B48, #475569)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontSize: '2.5rem' }}>
                     PREMIUM MARKETPLACE
                 </h1>
-                <p className="subtitle" style={{ color: '#00f2ff' }}>
+                <p className="subtitle" style={{ color: '#5F8D8B' }}>
                     <span style={{ fontWeight: 'bold' }}>Active: {displayedProducts.length} Items</span> • Top Laptops from Tunisianet, MyTek, Wiki & Spacenet
                 </p>
             </div>
@@ -580,9 +577,9 @@ const ProductsPage = () => {
                 <button 
                     onClick={() => setIsGroupView(!isGroupView)}
                     style={{
-                        background: isGroupView ? '#00f2ff' : 'rgba(30, 41, 59, 0.3)',
-                        color: isGroupView ? '#000' : '#fff',
-                        border: '1px solid rgba(255,255,255,0.1)',
+                        background: isGroupView ? '#5F8D8B' : 'white',
+                        color: isGroupView ? '#fff' : '#1A2B48',
+                        border: '1px solid #e2e8f0',
                         borderRadius: '8px',
                         padding: '0 15px',
                         cursor: 'pointer',
@@ -606,8 +603,8 @@ const ProductsPage = () => {
                         display: 'flex',
                         alignItems: 'center',
                         gap: '8px',
-                        background: viewFavorites ? '#ff0055' : 'rgba(255,255,255,0.1)',
-                        color: viewFavorites ? 'white' : '#cbd5e1',
+                        background: viewFavorites ? '#ff0055' : 'white',
+                        color: viewFavorites ? 'white' : '#475569',
                         border: 'none',
                         padding: '8px 16px',
                         borderRadius: '8px',
@@ -624,8 +621,8 @@ const ProductsPage = () => {
                 {/* HERO HEART LINK IN HEADER (Updated Step 19) */}
                 <Link to="/wishlist" 
                     onClick={(e) => { e.preventDefault(); setViewFavorites(!viewFavorites); }}
-                    className="header-heart-link" style={{ 
-                    color: viewFavorites ? '#ff0055' : 'white', 
+                    className="header-heart-link" style={{
+                    color: viewFavorites ? '#ff0055' : '#1A2B48', 
                     display: 'flex', 
                     alignItems: 'center', 
                     gap: '8px',
@@ -671,9 +668,9 @@ const ProductsPage = () => {
                     style={{
                         padding: '8px 16px',
                         borderRadius: '20px',
-                        border: '1px solid rgba(255,255,255,0.1)',
-                        background: filters.store.length === 0 ? '#3b82f6' : 'rgba(30, 41, 59, 0.5)',
-                        color: 'white',
+                        border: filters.store.length === 0 ? '1px solid #5F8D8B' : '1px solid #e2e8f0',
+                        background: filters.store.length === 0 ? '#5F8D8B' : 'white',
+                        color: filters.store.length === 0 ? 'white' : '#1A2B48',
                         cursor: 'pointer',
                         whiteSpace: 'nowrap',
                         fontWeight: filters.store.length === 0 ? '600' : '400',
@@ -690,9 +687,9 @@ const ProductsPage = () => {
                         style={{
                             padding: '8px 16px',
                             borderRadius: '20px',
-                            border: filters.store.includes(store) ? '1px solid #3b82f6' : '1px solid rgba(255,255,255,0.1)',
-                            background: filters.store.includes(store) ? '#3b82f6' : 'rgba(30, 41, 59, 0.5)',
-                            color: 'white',
+                            border: filters.store.includes(store) ? '1px solid #5F8D8B' : '1px solid #e2e8f0',
+                            background: filters.store.includes(store) ? '#5F8D8B' : 'white',
+                            color: filters.store.includes(store) ? 'white' : '#1A2B48',
                             cursor: 'pointer',
                             whiteSpace: 'nowrap',
                             display: 'flex',
@@ -727,9 +724,9 @@ const ProductsPage = () => {
                     style={{
                         padding: '6px 14px',
                         borderRadius: '16px',
-                        border: '1px solid rgba(255,255,255,0.1)',
-                        background: filters.brand.length === 0 ? '#8b5cf6' : 'rgba(30, 41, 59, 0.5)', /* Purple for Brands */
-                        color: 'white',
+                        border: filters.brand.length === 0 ? '1px solid #5F8D8B' : '1px solid #e2e8f0',
+                        background: filters.brand.length === 0 ? '#5F8D8B' : 'white',
+                        color: filters.brand.length === 0 ? 'white' : '#1A2B48',
                         cursor: 'pointer',
                         whiteSpace: 'nowrap',
                         fontSize: '0.85rem',
@@ -747,9 +744,9 @@ const ProductsPage = () => {
                         style={{
                             padding: '6px 14px',
                             borderRadius: '16px',
-                            border: filters.brand.includes(brand) ? '1px solid #8b5cf6' : '1px solid rgba(255,255,255,0.05)',
-                            background: filters.brand.includes(brand) ? '#8b5cf6' : 'rgba(30, 41, 59, 0.3)',
-                            color: filters.brand.includes(brand) ? 'white' : '#cbd5e1',
+                            border: filters.brand.includes(brand) ? '1px solid #5F8D8B' : '1px solid #e2e8f0',
+                            background: filters.brand.includes(brand) ? '#5F8D8B' : 'white',
+                            color: filters.brand.includes(brand) ? 'white' : '#475569',
                             cursor: 'pointer',
                             whiteSpace: 'nowrap',
                             display: 'flex',
@@ -775,7 +772,7 @@ const ProductsPage = () => {
                 padding: '0 5px'
             }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-                    <span style={{ fontSize: '13px', color: '#94a3b8' }}>
+                    <span style={{ fontSize: '13px', color: '#64748b' }}>
                         {displayedProducts.length} laptops found
                     </span>
 
@@ -804,7 +801,7 @@ const ProductsPage = () => {
                                 transition: '0.4s', borderRadius: '50%'
                             }}></div>
                         </div>
-                        <span style={{ fontSize: '13px', color: '#cbd5e1' }}>In Stock Only</span>
+                        <span style={{ fontSize: '13px', color: '#475569' }}>In Stock Only</span>
                     </label>
                 </div>
                 
@@ -834,7 +831,7 @@ const ProductsPage = () => {
               <div className="active-filters-row">
                 {/* Search Pill */}
                 {searchQuery && (
-                    <div className="filter-chip" onClick={() => setSearchQuery("")} style={{ borderColor: '#00f2ff', color: '#00f2ff' }}>
+                    <div className="filter-chip" onClick={() => setSearchQuery("")} style={{ borderColor: '#5F8D8B', color: '#5F8D8B' }}>
                         Search: "{searchQuery}"
                         <X size={14} />
                     </div>
@@ -864,7 +861,7 @@ const ProductsPage = () => {
                     style={{
                         background: 'transparent',
                         border: 'none',
-                        color: '#94a3b8',
+                        color: '#64748b',
                         textDecoration: 'underline',
                         cursor: 'pointer',
                         fontSize: '0.85rem',
@@ -941,8 +938,8 @@ const ProductsPage = () => {
                     <button 
                         onClick={() => setVisibleCount(prev => prev + 12)}
                         style={{
-                            background: 'rgba(30, 41, 59, 1)', 
-                            border: '1px solid #10b981', 
+                            background: 'white',
+                            border: '1px solid #10b981',
                             color: '#10b981',
                             padding: '12px 30px',
                             fontWeight: 'bold',
@@ -962,7 +959,7 @@ const ProductsPage = () => {
                             e.target.style.boxShadow = '0 0 20px rgba(16, 185, 129, 0.4)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.background = 'rgba(30, 41, 59, 1)';
+                            e.target.style.background = 'white';
                             e.target.style.color = '#10b981';
                             e.target.style.boxShadow = 'none';
                         }}
@@ -980,13 +977,13 @@ const ProductsPage = () => {
                         </>
                     ) : (
                         <>
-                            <p style={{ color: '#94a3b8', marginBottom: '30px' }}>Try removing some filters or searching for something less specific.</p>
-                            <button 
-                                onClick={resetAll} 
+                            <p style={{ color: '#64748b', marginBottom: '30px' }}>Try removing some filters or searching for something less specific.</p>
+                            <button
+                                onClick={resetAll}
                                 style={{
                                     padding: '12px 24px',
-                                    background: '#00f2ff',
-                                    color: '#020617',
+                                    background: '#5F8D8B',
+                                    color: 'white',
                                     border: 'none',
                                     borderRadius: '8px',
                                     fontWeight: 'bold',
@@ -1049,13 +1046,13 @@ const ProductsPage = () => {
                   width: '45px',
                   height: '45px',
                   borderRadius: '50%',
-                  background: '#00f2ff',
+                  background: '#5F8D8B',
                   border: 'none',
                   color: 'black',
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  boxShadow: '0 4px 15px rgba(0, 242, 255, 0.4)',
+                  boxShadow: '0 4px 15px rgba(95, 141, 139, 0.4)',
                   cursor: 'pointer',
                   zIndex: 50,
                   transition: 'all 0.3s ease',
@@ -1071,18 +1068,18 @@ const ProductsPage = () => {
         <div className="compare-modal-overlay" onClick={() => setSelectedGroup(null)} style={{ zIndex: 9999 }}>
             <div className="compare-modal-content" onClick={e => e.stopPropagation()} style={{ maxWidth: '600px', maxHeight: '80vh', overflowY: 'auto' }}>
                 <button className="modal-close-btn" onClick={() => setSelectedGroup(null)}><X size={24} /></button>
-                <h2 style={{ color: 'white', marginBottom: '10px', fontSize: '1.2rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '10px' }}>
+                <h2 style={{ color: '#1A2B48', marginBottom: '10px', fontSize: '1.2rem', borderBottom: '1px solid #e2e8f0', paddingBottom: '10px' }}>
                     Select Configuration
                 </h2>
-                <p style={{ color: '#94a3b8', marginBottom: '20px', fontSize: '0.9rem' }}>{selectedGroup.key}</p>
+                <p style={{ color: '#64748b', marginBottom: '20px', fontSize: '0.9rem' }}>{selectedGroup.key}</p>
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                     {selectedGroup.variants.sort((a,b) => a.price - b.price).map((v, idx) => (
-                        <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255,255,255,0.03)', padding: '15px', borderRadius: '10px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                        <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#f1f5f9', padding: '15px', borderRadius: '10px', border: '1px solid #e2e8f0' }}>
                             <div style={{ flex: 1 }}>
-                                <div style={{ color: 'white', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <div style={{ color: '#1A2B48', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '10px' }}>
                                     <span>{v.specs.ram} RAM</span>
-                                    <span style={{ color: '#64748b' }}>/</span>
+                                    <span style={{ color: '#94a3b8' }}>/</span>
                                     <span>{v.specs.storage} SSD</span>
                                 </div>
                                 <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '4px' }}>
@@ -1091,7 +1088,7 @@ const ProductsPage = () => {
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                                 <div style={{ color: '#10b981', fontWeight: 'bold', fontSize: '1.1rem' }}>{v.price} TND</div>
-                                <a href={v.link} target="_blank" rel="noopener noreferrer" className="dock-btn" style={{ background: '#00f2ff', color: 'black', border: 'none', textDecoration: 'none', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold' }}>
+                                <a href={v.link} target="_blank" rel="noopener noreferrer" className="dock-btn" style={{ background: '#5F8D8B', color: 'white', border: 'none', textDecoration: 'none', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold' }}>
                                     View
                                 </a>
                             </div>

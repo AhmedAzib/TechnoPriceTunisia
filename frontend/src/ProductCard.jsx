@@ -39,7 +39,7 @@ const ProductCard = ({ product, addToCompare, toggleWishlist, isFavorite, isInCo
                     if (s.includes('spacenet')) return '#10b981';
                     if (s.includes('mytek')) return '#ef4444'; 
                     if (s.includes('wiki')) return '#8b5cf6';
-                    return '#00f2ff'; // Tunisianet
+                    return '#5F8D8B'; // Tunisianet
                 })(),
                 width: 'fit-content',
                 padding: '3px 8px',
@@ -206,8 +206,8 @@ const ProductCard = ({ product, addToCompare, toggleWishlist, isFavorite, isInCo
                             }}
                             className="view-btn"
                             style={{ 
-                                background: '#00f2ff', 
-                                color: 'black',
+                                background: '#5F8D8B',
+                                color: 'white',
                                 border: 'none',
                                 cursor: 'pointer',
                                 fontWeight: 'bold'
@@ -225,9 +225,9 @@ const ProductCard = ({ product, addToCompare, toggleWishlist, isFavorite, isInCo
                         className={`compare-add-btn ${isInCompare ? 'active' : ''}`} 
                         onClick={() => addToCompare && addToCompare(product)}
                         style={{
-                           background: isInCompare ? 'rgba(0, 242, 255, 0.2)' : 'rgba(255,255,255,0.05)',
-                           color: isInCompare ? '#00f2ff' : 'white',
-                           borderColor: isInCompare ? '#00f2ff' : 'rgba(255,255,255,0.1)'
+                           background: isInCompare ? 'rgba(95, 141, 139, 0.2)' : '#f1f5f9',
+                           color: isInCompare ? '#5F8D8B' : '#1A2B48',
+                           borderColor: isInCompare ? '#5F8D8B' : '#e2e8f0'
                         }}
                     >
                        <Scale size={16} /> {isInCompare ? "Remove" : "+ Compare"}

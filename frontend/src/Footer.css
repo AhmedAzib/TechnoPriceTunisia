@@ -1,7 +1,7 @@
 
 .site-footer {
-  background: #0b0f19;
-  border-top: 1px solid #1e293b;
+  background: white;
+  border-top: 1px solid #e2e8f0;
   padding: 60px 0 0;
   margin-top: auto;
   font-family: 'Inter', sans-serif;
@@ -17,7 +17,7 @@
 }
 
 .footer-col h3 {
-  color: white;
+  color: #1A2B48;
   margin-bottom: 25px;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.1rem;
@@ -27,7 +27,7 @@
 }
 
 .footer-col p {
-  color: #94a3b8;
+  color: #64748b;
   font-size: 0.9rem;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -37,7 +37,7 @@
 }
 
 .footer-col a {
-  color: #94a3b8;
+  color: #64748b;
   font-size: 0.9rem;
   line-height: 1.6;
   text-decoration: none;
@@ -50,7 +50,7 @@
 }
 
 .footer-col a:hover {
-  color: #00f2ff;
+  color: #5F8D8B;
   transform: translateX(5px);
 }
 
@@ -61,8 +61,8 @@
 }
 
 .socials a {
-  color: white;
-  background: rgba(255,255,255,0.05);
+  color: #1A2B48;
+  background: #f1f5f9;
   padding: 10px;
   border-radius: 50%;
   display: flex;
@@ -75,18 +75,18 @@
 }
 
 .socials a:hover {
-  background: #00f2ff;
-  color: black;
+  background: #5F8D8B;
+  color: white;
   transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+  box-shadow: 0 4px 15px rgba(95, 141, 139, 0.3);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-top: 1px solid #e2e8f0;
   padding: 25px;
   text-align: center;
   color: #64748b;
   font-size: 0.8rem;
   margin-top: 50px;
-  background: rgba(0,0,0,0.2);
+  background: #f8fafc;
 }

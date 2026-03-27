@@ -85,22 +85,22 @@ const ComponentsPage = () => {
             display: 'flex',
             flexDirection: 'column',
             minHeight: '100vh',
-            backgroundColor: '#02040a',
-            backgroundImage: `radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.08) 0%, transparent 25%), 
-                              radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.08) 0%, transparent 25%)`,
-            color: '#e2e8f0',
+            backgroundColor: '#E8F1F5',
+            backgroundImage: `radial-gradient(circle at 15% 50%, rgba(95, 141, 139, 0.08) 0%, transparent 25%),
+                              radial-gradient(circle at 85% 30%, rgba(95, 141, 139, 0.05) 0%, transparent 25%)`,
+            color: '#1A2B48',
             fontFamily: "'Inter', sans-serif"
         }}>
             
             {/* Header / Nav */}
-            <div style={{ padding: '20px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(2, 6, 23, 0.8)', backdropFilter: 'blur(10px)', borderBottom: '1px solid rgba(255,255,255,0.05)', position: 'sticky', top: 0, zIndex: 50 }}>
+            <div style={{ padding: '20px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255, 255, 255, 0.9)', backdropFilter: 'blur(10px)', borderBottom: '1px solid #e2e8f0', position: 'sticky', top: 0, zIndex: 50 }}>
                 <button 
                     onClick={() => navigate('/')} 
-                    style={{ background: 'none', border: 'none', color: 'white', display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '1rem', fontWeight: 'bold' }}
+                    style={{ background: 'none', border: 'none', color: '#1A2B48', display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '1rem', fontWeight: 'bold' }}
                 >
                     <ArrowLeft size={20} /> Back Home
                 </button>
-                <h1 style={{ fontSize: '1.2rem', margin: 0, background: 'linear-gradient(to right, #38bdf8, #818cf8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', letterSpacing: '1px' }}>
+                <h1 style={{ fontSize: '1.2rem', margin: 0, background: 'linear-gradient(to right, #5F8D8B, #1A2B48)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', letterSpacing: '1px' }}>
                     PC BUILDER ZONE
                 </h1>
             </div>
@@ -109,7 +109,7 @@ const ComponentsPage = () => {
                 
                 {/* Hero / Title */}
                 <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-                    <h2 style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '15px', color: 'white', textShadow: '0 0 30px rgba(56, 189, 248, 0.3)' }}>
+                    <h2 style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '15px', color: '#1A2B48', textShadow: 'none' }}>
                         Premium Components
                     </h2>
                     <p style={{ color: '#94a3b8', fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto' }}>
@@ -132,7 +132,7 @@ const ComponentsPage = () => {
                                 borderRadius: '24px',
                                 overflow: 'hidden',
                                 cursor: 'pointer',
-                                border: '1px solid rgba(255,255,255,0.1)',
+                                border: '1px solid #e2e8f0',
                                 transition: 'all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
                                 group: 'card'
                             }}
@@ -141,16 +141,16 @@ const ComponentsPage = () => {
                             onMouseEnter={(e) => {
                                 e.currentTarget.style.transform = 'translateY(-10px)';
                                 e.currentTarget.style.boxShadow = '0 20px 40px -10px rgba(0,0,0,0.5)';
-                                e.currentTarget.style.borderColor = 'rgba(56, 189, 248, 0.5)';
+                                e.currentTarget.style.borderColor = 'rgba(95, 141, 139, 0.5)';
                                 e.currentTarget.querySelector('.bg-img').style.transform = 'scale(1.1)';
-                                e.currentTarget.querySelector('.content-overlay').style.background = 'linear-gradient(to top, rgba(2,6,23,0.95), rgba(2,6,23,0.3))';
+                                e.currentTarget.querySelector('.content-overlay').style.background = 'linear-gradient(to top, rgba(26,43,72,0.95), rgba(26,43,72,0.3))';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.transform = 'translateY(0)';
                                 e.currentTarget.style.boxShadow = 'none';
-                                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                                e.currentTarget.style.borderColor = '#e2e8f0';
                                 e.currentTarget.querySelector('.bg-img').style.transform = 'scale(1)';
-                                e.currentTarget.querySelector('.content-overlay').style.background = 'linear-gradient(to top, rgba(2,6,23,0.9), transparent)';
+                                e.currentTarget.querySelector('.content-overlay').style.background = 'linear-gradient(to top, rgba(26,43,72,0.9), transparent)';
                             }}
                         >
                             {/* Background Image */}
@@ -170,7 +170,7 @@ const ComponentsPage = () => {
                             <div className="content-overlay" style={{
                                 position: 'absolute',
                                 inset: 0,
-                                background: 'linear-gradient(to top, rgba(2,6,23,0.9), transparent)',
+                                background: 'linear-gradient(to top, rgba(26,43,72,0.9), transparent)',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'flex-end',
@@ -179,22 +179,22 @@ const ComponentsPage = () => {
                             }}>
                                 <div style={{ 
                                     marginBottom: '10px', 
-                                    background: 'rgba(56, 189, 248, 0.2)', 
+                                    background: 'rgba(95, 141, 139, 0.2)',
                                     width: 'fit-content', 
                                     padding: '8px', 
                                     borderRadius: '12px',
-                                    color: '#38bdf8',
+                                    color: '#5F8D8B',
                                     backdropFilter: 'blur(4px)'
                                 }}>
                                     {cat.icon}
                                 </div>
-                                <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: '0 0 5px', color: 'white' }}>
+                                <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: '0 0 5px', color: '#fff' }}>
                                     {cat.title}
                                 </h3>
                                 <p style={{ color: '#cbd5e1', fontSize: '0.95rem', margin: 0, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                     {cat.description}
                                     <span style={{ 
-                                        background: 'rgba(255,255,255,0.1)', 
+                                        background: 'rgba(255,255,255,0.2)',
                                         borderRadius: '50%', 
                                         padding: '4px',
                                         display: 'flex'

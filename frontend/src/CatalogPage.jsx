@@ -89,12 +89,12 @@ const CatalogPage = () => {
     };
 
     return (
-        <div className="product-page" style={{ background: '#020617', minHeight: '100vh', color: 'white' }}>
+        <div className="product-page" style={{ background: '#E8F1F5', minHeight: '100vh', color: '#1A2B48' }}>
             <Navbar />
             
             {/* HERRO HEADER */}
-            <div style={{ padding: '40px 5%', background: 'linear-gradient(to bottom, #0f172a, #020617)', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '10px', background: 'linear-gradient(90deg, #fff, #94a3b8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+            <div style={{ padding: '40px 5%', background: 'linear-gradient(to bottom, #f1f5f9, #E8F1F5)', borderBottom: '1px solid #e2e8f0' }}>
+                <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '10px', background: 'linear-gradient(90deg, #1A2B48, #64748b)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                     Series Catalog
                 </h1>
                 <p style={{ color: '#64748b', fontSize: '1.1rem', maxWidth: '600px' }}>
@@ -112,10 +112,10 @@ const CatalogPage = () => {
                         style={{
                             width: '100%',
                             padding: '12px 15px 12px 45px',
-                            background: 'rgba(255,255,255,0.05)',
-                            border: '1px solid rgba(255,255,255,0.1)',
+                            background: 'white',
+                            border: '1px solid #e2e8f0',
                             borderRadius: '12px',
-                            color: 'white',
+                            color: '#1A2B48',
                             fontSize: '1rem',
                             outline: 'none'
                         }}
@@ -132,8 +132,8 @@ const CatalogPage = () => {
             }}>
                 {groups.map(group => (
                     <div key={group.key} className="series-card" onClick={() => openGroup(group)} style={{
-                        background: 'rgba(30, 41, 59, 0.4)',
-                        border: '1px solid rgba(255,255,255,0.05)',
+                        background: 'white',
+                        border: '1px solid #e2e8f0',
                         borderRadius: '16px',
                         overflow: 'hidden',
                         cursor: 'pointer',
@@ -151,7 +151,7 @@ const CatalogPage = () => {
                                 <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#64748b', textTransform: 'uppercase' }}>
                                     {[...group.brands].join(', ')}
                                 </span>
-                                <span style={{ background: '#00f2ff', color: 'black', fontSize: '0.7rem', fontWeight: '800', padding: '2px 8px', borderRadius: '4px' }}>
+                                <span style={{ background: '#5F8D8B', color: 'white', fontSize: '0.7rem', fontWeight: '800', padding: '2px 8px', borderRadius: '4px' }}>
                                     {group.variants.length} CONFIGS
                                 </span>
                             </div>
@@ -162,14 +162,14 @@ const CatalogPage = () => {
 
                             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '20px' }}>
                                 {[...group.specsSet.cpu].slice(0, 3).map(cpu => (
-                                    <span key={cpu} style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.1)', padding: '4px 8px', borderRadius: '4px' }}>
+                                    <span key={cpu} style={{ fontSize: '0.75rem', background: '#f1f5f9', padding: '4px 8px', borderRadius: '4px' }}>
                                         {cpu}
                                     </span>
                                 ))}
                                 {group.specsSet.cpu.size > 3 && <span style={{ fontSize: '0.75rem', color: '#64748b' }}>+More</span>}
                             </div>
 
-                            <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '15px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <div style={{ borderTop: '1px solid #e2e8f0', paddingTop: '15px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                 <div>
                                     <div style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Starting from</div>
                                     <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#10b981' }}>
@@ -177,12 +177,12 @@ const CatalogPage = () => {
                                     </div>
                                 </div>
                                 <button style={{ 
-                                    background: 'transparent', 
-                                    border: '1px solid rgba(255,255,255,0.2)', 
-                                    color: 'white', 
-                                    width: '36px', 
-                                    height: '36px', 
-                                    borderRadius: '50%', 
+                                    background: 'transparent',
+                                    border: '1px solid #e2e8f0',
+                                    color: '#1A2B48',
+                                    width: '36px',
+                                    height: '36px',
+                                    borderRadius: '50%',
                                     display: 'flex', 
                                     alignItems: 'center', 
                                     justifyContent: 'center' 
@@ -202,16 +202,16 @@ const CatalogPage = () => {
                     display: 'flex', alignItems: 'center', justifyContent: 'center'
                 }}>
                     <div className="catalog-modal-content" onClick={e => e.stopPropagation()} style={{
-                        background: '#0f172a', width: '90%', maxWidth: '800px', maxHeight: '90vh', overflowY: 'auto',
-                        borderRadius: '24px', border: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)'
+                        background: 'white', width: '90%', maxWidth: '800px', maxHeight: '90vh', overflowY: 'auto',
+                        borderRadius: '24px', border: '1px solid #e2e8f0', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
                     }}>
                         {/* HEADER */}
-                        <div style={{ padding: '30px', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', justifyContent: 'space-between', alignItems: 'start' }}>
+                        <div style={{ padding: '30px', borderBottom: '1px solid #e2e8f0', display: 'flex', justifyContent: 'space-between', alignItems: 'start' }}>
                             <div>
                                 <h2 style={{ fontSize: '1.8rem', fontWeight: 'bold', marginBottom: '5px' }}>{selectedGroup.key}</h2>
                                 <p style={{ color: '#94a3b8' }}>{selectedGroup.variants.length} configurations available across multiple stores.</p>
                             </div>
-                            <button onClick={closeGroup} style={{ background: 'rgba(255,255,255,0.1)', border: 'none', borderRadius: '50%', width: '40px', height: '40px', color: 'white', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <button onClick={closeGroup} style={{ background: '#f1f5f9', border: 'none', borderRadius: '50%', width: '40px', height: '40px', color: '#1A2B48', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <X size={20} />
                             </button>
                         </div>
@@ -224,11 +224,11 @@ const CatalogPage = () => {
                                 <div key={idx} style={{ 
                                     display: 'flex', 
                                     alignItems: 'center', 
-                                    background: 'rgba(255,255,255,0.03)', 
-                                    padding: '20px', 
-                                    borderRadius: '12px', 
+                                    background: '#f1f5f9',
+                                    padding: '20px',
+                                    borderRadius: '12px',
                                     marginBottom: '10px',
-                                    border: '1px solid rgba(255,255,255,0.02)',
+                                    border: '1px solid #e2e8f0',
                                     transition: 'background 0.2s',
                                     gap: '20px'
                                 }}>
@@ -266,7 +266,7 @@ const CatalogPage = () => {
                                         </div>
                                         <a href={v.link} target="_blank" rel="noopener noreferrer" style={{
                                             display: 'inline-flex', alignItems: 'center', gap: '5px',
-                                            background: '#00f2ff', color: 'black', textDecoration: 'none',
+                                            background: '#5F8D8B', color: 'white', textDecoration: 'none',
                                             padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', fontSize: '0.9rem'
                                         }}>
                                             View Offer <ArrowUpRight size={14} />

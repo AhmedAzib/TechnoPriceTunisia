@@ -59,7 +59,7 @@ const GroupDetailsPage = () => {
     // Handle "Not Found" case
     if (allVariants.length === 0) {
         return (
-            <div style={{ padding: '50px', color: 'white', textAlign: 'center' }}>
+            <div style={{ padding: '50px', color: '#1A2B48', textAlign: 'center' }}>
                 <h2>Group Not Found</h2>
                 <button onClick={() => navigate('/products')} className="cta-button primary">Back to Products</button>
             </div>
@@ -80,7 +80,7 @@ const GroupDetailsPage = () => {
     };
 
     return (
-        <div style={{ minHeight: '100vh', backgroundColor: '#020617', padding: '120px 20px 40px', color: 'white' }}>
+        <div style={{ minHeight: '100vh', backgroundColor: '#E8F1F5', padding: '120px 20px 40px', color: '#1A2B48' }}>
             <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
                 
                 {/* Header / Symbolic Computer */}
@@ -88,21 +88,21 @@ const GroupDetailsPage = () => {
                     marginBottom: '40px', 
                     display: 'flex', 
                     gap: '30px', 
-                    background: 'rgba(255,255,255,0.02)', 
-                    padding: '30px', 
-                    borderRadius: '20px', 
-                    border: '1px solid rgba(255,255,255,0.05)',
+                    background: 'white',
+                    padding: '30px',
+                    borderRadius: '20px',
+                    border: '1px solid #e2e8f0',
                     alignItems: 'center',
                     flexWrap: 'wrap'
                 }}>
                     {/* Image */}
-                    <div style={{ 
-                        width: '200px', 
-                        height: '150px', 
-                        display: 'flex', 
-                        alignItems: 'center', 
+                    <div style={{
+                        width: '200px',
+                        height: '150px',
+                        display: 'flex',
+                        alignItems: 'center',
                         justifyContent: 'center',
-                        background: 'white',
+                        background: '#f1f5f9',
                         borderRadius: '10px',
                         padding: '10px'
                     }}>
@@ -119,7 +119,7 @@ const GroupDetailsPage = () => {
                         </button>
                         <h1 style={{ fontSize: '2rem', fontWeight: 'bold', margin: '0 0 10px 0' }}>{decodedKey}</h1>
                         <p style={{ color: '#94a3b8', fontSize: '1.1rem' }}>
-                            <span style={{color: '#fff', fontWeight: 'bold'}}>{allVariants.length}</span> Variants Available 
+                            <span style={{color: '#1A2B48', fontWeight: 'bold'}}>{allVariants.length}</span> Variants Available 
                             <span style={{margin: '0 10px'}}>•</span>
                             Starting from <span style={{color: '#10b981', fontWeight: 'bold', fontSize: '1.3rem'}}>{heroProduct.price} TND</span>
                         </p>
@@ -150,7 +150,7 @@ const GroupDetailsPage = () => {
                         { id: 'cpu', label: 'CPU', options: availableOptions.cpu }
                     ].map(group => (
                         group.options.length > 1 && (
-                            <div key={group.id} style={{ display: 'flex', alignItems: 'center', gap: '10px', background: 'rgba(255,255,255,0.03)', padding: '5px 15px', borderRadius: '50px' }}>
+                            <div key={group.id} style={{ display: 'flex', alignItems: 'center', gap: '10px', background: 'white', padding: '5px 15px', borderRadius: '50px' }}>
                                 <span style={{ fontSize: '0.8rem', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>{group.label}</span>
                                 <div style={{ display: 'flex', gap: '5px' }}>
                                     {group.options.map(opt => {
@@ -160,8 +160,8 @@ const GroupDetailsPage = () => {
                                                 key={opt}
                                                 onClick={() => toggleFilter(group.id, opt)}
                                                 style={{
-                                                    background: isActive ? '#00f2ff' : 'rgba(255,255,255,0.1)',
-                                                    color: isActive ? 'black' : 'white',
+                                                    background: isActive ? '#5F8D8B' : '#f1f5f9',
+                                                    color: isActive ? 'white' : '#1A2B48',
                                                     border: 'none',
                                                     borderRadius: '20px',
                                                     padding: '4px 12px',
