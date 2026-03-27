@@ -157,7 +157,7 @@ const MobilesPage = () => {
         screen: [],
         processor: [],
         hz: [],
-        battery: ["2000 mAh", "2500 mAh", "3000 mAh", "4000 mAh", "5000 mAh", "6000 mAh"],
+        battery: [],
     });
 
     // Helper to get Counts
@@ -203,48 +203,29 @@ const MobilesPage = () => {
         brand: [...new Set(normalizedMobileData.map(p => p.brand))].sort(),
         storage: ["16GB", "32GB", "64GB", "128GB", "256GB", "512GB"],
         ram: ["2GB", "3GB", "4GB", "6GB", "8GB", "12GB", "16GB"],
-        battery: [" 2000 mAh\, \2500 mAh\, \3000 mAh\, \4000 mAh\, \5000 mAh\, \6000 mAh\];
+        battery: ["2000 mAh", "2500 mAh", "3000 mAh", "4000 mAh", "5000 mAh", "6000 mAh"],
         refreshRate: ["Coming Soon"],
         screen: ["Coming Soon"],
         processor: [...new Set(normalizedMobileData.map(p => {
             const cpu = (p.specs.cpu || 'Unknown');
-            
-            // STRICT BUCKETING - Only specific high-level families allowed
-            if (cpu.startsWith("Unisoc")) return "Unisoc";
-            if (cpu.startsWith("Snapdragon") || cpu.includes("Qualcomm")) return "Snapdragon";
-            // Filter Options
-    const filterOptions = {
-        source: ["MyTek", "Tunisianet", "TunisiaTech", "Wiki", "Tdiscount", "SpaceNet", "Samsung Tunisie"],
-        brand: [...new Set(normalizedMobileData.map(p => p.brand))].sort(),
-        storage: ["16GB", "32GB", "64GB", "128GB", "256GB", "512GB"],
-        ram: ["2GB", "3GB", "4GB", "6GB", "8GB", "12GB", "16GB"],
-        battery: [" 2000 mAh\, \2500 mAh\, \3000 mAh\, \4000 mAh\, \5000 mAh\, \6000 mAh\];
-        refreshRate: ["Coming Soon"],
-        screen: ["Coming Soon"],
-        processor: [...new Set(normalizedMobileData.map(p => {
-            const cpu = (p.specs.cpu || 'Unknown');
-            
+
             // STRICT BUCKETING - Only specific high-level families allowed
             if (cpu.startsWith("Unisoc")) return "Unisoc";
             if (cpu.startsWith("Snapdragon") || cpu.includes("Qualcomm")) return "Snapdragon";
             if (cpu.startsWith("Exynos") || cpu.includes("Samsung Exynos")) return "Samsung Exynos";
             if (cpu.startsWith("MediaTek") || cpu.includes("Dimensity") || cpu.includes("Helio")) return "MediaTek";
-            if (cpu.includes("Apple") || cpu.includes("A14") || cpu.includes("A15") || cpu.includes("A16")) return "Apple"; 
+            if (cpu.includes("Apple") || cpu.includes("A14") || cpu.includes("A15") || cpu.includes("A16")) return "Apple";
             if (cpu.includes("Octa Core")) return "Octa Core";
             if (cpu.includes("Quad Core")) return "Quad Core";
 
             // Fallback for strict cleanliness:
-            // If it doesn't match the big bucket, check if it IS one of the buckets
             if (["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core"].includes(cpu)) return cpu;
 
-            // If it's "Unknown", map to "Unknown"
             if (cpu === "Unknown") return "Unknown";
 
-            // Everything else -> "Other"
-            return "Other"; 
-        }))].filter(c => ["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core", "Unknown", "Other"].includes(c)).sort();
+            return "Other";
+        }))].filter(c => ["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core", "Unknown", "Other"].includes(c)).sort(),
         hz: ["60Hz", "90Hz", "120Hz", "144Hz"],
-        battery: [" 2000 mAh\, \2500 mAh\, \3000 mAh\, \4000 mAh\, \5000 mAh\, \6000 mAh\]
     };
 
     // Toggle Filter Handler
@@ -253,15 +234,15 @@ const MobilesPage = () => {
             // Source (Store) Filter: Exclusive Logic
             if (key === 'source') {
                 const isAlreadySelected = prev.source.includes(value);
-                return { 
-                    ...prev, 
-                    source: isAlreadySelected ? [] : [value] 
+                return {
+                    ...prev,
+                    source: isAlreadySelected ? [] : [value]
                 };
             }
 
             // Standard Multi-Select Logic for other filters
             const current = prev[key];
-            const updated = current.includes(value) 
+            const updated = current.includes(value)
                 ? current.filter(i => i !== value)
                 : [...current, value];
             return { ...prev, [key]: updated };
@@ -270,7 +251,7 @@ const MobilesPage = () => {
 
     // Reset Handlers
     const resetAll = () => {
-        setFilters({ source: [], brand: [], storage: [], ram: [], screen: [], processor: [], hz: [], battery: [" 2000 mAh\, \2500 mAh\, \3000 mAh\, \4000 mAh\, \5000 mAh\, \6000 mAh\]; refreshRate: [] });
+        setFilters({ source: [], brand: [], storage: [], ram: [], screen: [], processor: [], hz: [], battery: [], refreshRate: [] });
         setPriceRange({ min: 0, max: 20000 });
         setSearchQuery('');
     };
@@ -279,66 +260,17 @@ const MobilesPage = () => {
     useEffect(() => {
         const params = new URLSearchParams(window.location.search);
         const compareIds = params.get('compare');
-        
+
         if (compareIds) {
             const ids = compareIds.split(',');
-            // Find products in normalizedMobileData
             const found = normalizedMobileData.filter(p => ids.includes(p.id));
-            
+
             if (found.length > 0) {
                 setCompareList(found);
-
-        processor: [...new Set(normalizedMobileData.map(p => {
-            const cpu = (p.specs.cpu || 'Unknown');
-            
-            // STRICT BUCKETING - Only specific high-level families allowed
-            if (cpu.startsWith("Unisoc")) return "Unisoc";
-            if (cpu.startsWith("Snapdragon") || cpu.includes("Qualcomm")) return "Snapdragon";
-            if (cpu.startsWith("Exynos") || cpu.includes("Samsung Exynos")) return "Samsung Exynos";
-            if (cpu.startsWith("MediaTek") || cpu.includes("Dimensity") || cpu.includes("Helio")) return "MediaTek";
-            if (cpu.includes("Apple") || cpu.includes("A14") || cpu.includes("A15") || cpu.includes("A16")) return "Apple"; 
-            if (cpu.includes("Octa Core")) return "Octa Core";
-            if (cpu.includes("Quad Core")) return "Quad Core";
-
-            // Fallback for strict cleanliness:
-            // If it doesn't match the big bucket, check if it IS one of the buckets
-            if (["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core"].includes(cpu)) return cpu;
-
-            // If it's "Unknown", map to "Unknown"
-            if (cpu === "Unknown") return "Unknown";
-
-            // Everything else -> "Other"
-            return "Other"; 
-        }))].filter(c => ["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core", "Unknown", "Other"].includes(c)).sort();
-        hz: ["60Hz", "90Hz", "120Hz", "144Hz"],
-        battery: [" 2000 mAh\, \2500 mAh\, \3000 mAh\, \4000 mAh\, \5000 mAh\, \6000 mAh\]
-    };
-
-
-        
-// Reset Handlers
-    const resetAll = () => {
-        setFilters({ source: [], brand: [], storage: [], ram: [], screen: [], processor: [], hz: [], battery: [" 2000 mAh\, \2500 mAh\, \3000 mAh\, \4000 mAh\, \5000 mAh\, \6000 mAh\]; refreshRate: [] });
-        setPriceRange({ min: 0, max: 20000 });
-        setSearchQuery('');
-    };
-
-// --- DEEP LINKING LOGIC ---
-useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const compareIds = params.get('compare');
-    
-    if (compareIds) {
-        const ids = compareIds.split(',');
-        // Find products in normalizedMobileData
-        const found = normalizedMobileData.filter(p => ids.includes(p.id));
-        
-        if (found.length > 0) {
-            setCompareList(found);
-            setIsCompareModalOpen(true);
+                setIsCompareModalOpen(true);
+            }
         }
-    }
-}, []); // Run once on mount
+    }, []); // Run once on mount
 
 // Filter Logic - Robust Version
 useEffect(() => {
@@ -456,16 +388,32 @@ useEffect(() => {
     // Search Filter
     if (searchQuery && searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
-        result = result.filter(p => 
-            (p?.title || '').toLowerCase().includes(q) || 
+        result = result.filter(p =>
+            (p?.title || '').toLowerCase().includes(q) ||
             (p?.brand || '').toLowerCase().includes(q)
+        );
+        console.log('After search filter:', result.length);
+    }
+
+    // Sort Logic
+    let sortedResult = [...result];
+    if (sortOption === "price-asc") {
+        sortedResult.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+    } else if (sortOption === "price-desc") {
+        sortedResult.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
+    } else if (sortOption === "name-asc") {
+        sortedResult.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+    } else if (sortOption === "name-desc") {
+        sortedResult.sort((a, b) => (b.title || '').localeCompare(a.title || ''));
+    } else if (sortOption === "discount") {
+        sortedResult.sort((a, b) => {
                 const priceA = parseFloat(a.price) || 0;
                 const oldA = parseFloat(a.oldPrice) || 0;
                 const discountA = (oldA > priceA && oldA > 0) ? ((oldA - priceA) / oldA) : 0;
                 const priceB = parseFloat(b.price) || 0;
                 const oldB = parseFloat(b.oldPrice) || 0;
                 const discountB = (oldB > priceB && oldB > 0) ? ((oldB - priceB) / oldB) : 0;
-                
+
                 return discountB - discountA; // Descending
             });
         } else if (sortOption === "value-ram") {
