@@ -67,6 +67,7 @@ export const normalizeBrand = (brand, title = "") => {
 // --- HELPER: NORMALIZE SPECS (The Core Brain) ---
 export const normalizeSpecs = (title, specs, brand, category) => {
     const t = title.toUpperCase();
+    const catLower = (category || '').toLowerCase();
     
     // --- RAM Normalization ---
     // ==============================================================================
@@ -162,6 +163,58 @@ export const normalizeSpecs = (title, specs, brand, category) => {
         else if (t.includes("XEON")) specs.cpu = "Intel Xeon";
         else if (t.match(/QUAD[\s-]CORE/)) specs.cpu = "Quad Core";
         else if (t.match(/DUAL[\s-]CORE/)) specs.cpu = "Dual Core";
+
+        // --- SMARTPHONE CPU INFERENCE (from brand + model in title) ---
+        else if (category === 'Smartphone' || catLower === 'smartphone') {
+            const b = (brand || '').toLowerCase();
+            // Apple iPhones → Apple
+            if (b === 'apple' || t.includes('IPHONE')) specs.cpu = "Apple";
+            // Samsung flagships → Snapdragon/Exynos
+            else if (t.match(/GALAXY\s?S2[0-9]/) || t.match(/GALAXY\s?Z\s?(FOLD|FLIP)/)) specs.cpu = "Snapdragon";
+            else if (t.match(/GALAXY\s?S1[0-9]/)) specs.cpu = "Samsung Exynos";
+            // Samsung mid-range/budget → Samsung Exynos or MediaTek
+            else if (t.match(/GALAXY\s?A[0-9]/)) specs.cpu = "Samsung Exynos";
+            else if (t.match(/GALAXY\s?M[0-9]/)) specs.cpu = "Samsung Exynos";
+            else if (t.match(/GALAXY\s?F[0-9]/)) specs.cpu = "Samsung Exynos";
+            // Xiaomi / Redmi / Poco → MediaTek or Snapdragon
+            else if (t.includes('POCO F') || t.includes('POCO X')) specs.cpu = "Snapdragon";
+            else if (t.includes('POCO M') || t.includes('POCO C')) specs.cpu = "MediaTek";
+            else if (t.includes('REDMI NOTE')) specs.cpu = "MediaTek";
+            else if (t.includes('REDMI')) specs.cpu = "MediaTek";
+            else if (b === 'xiaomi' && (t.includes('13') || t.includes('14') || t.includes('15'))) specs.cpu = "Snapdragon";
+            else if (b === 'xiaomi') specs.cpu = "Snapdragon";
+            // Google Pixel → Google Tensor
+            else if (t.includes('PIXEL')) specs.cpu = "Google Tensor";
+            // OnePlus → Snapdragon
+            else if (b === 'oneplus' || t.includes('ONEPLUS')) specs.cpu = "Snapdragon";
+            // Oppo / Realme → MediaTek mostly
+            else if (b === 'oppo' || t.includes('OPPO')) specs.cpu = "MediaTek";
+            else if (b === 'realme' || t.includes('REALME')) specs.cpu = "MediaTek";
+            // Honor → Snapdragon
+            else if (b === 'honor' || t.includes('HONOR')) specs.cpu = "Snapdragon";
+            // Huawei → Kirin
+            else if (b === 'huawei' || t.includes('HUAWEI')) specs.cpu = "Kirin";
+            // Infinix / Tecno / Itel → MediaTek (Transsion brands)
+            else if (b === 'infinix' || t.includes('INFINIX')) specs.cpu = "MediaTek";
+            else if (b === 'tecno' || t.includes('TECNO')) specs.cpu = "MediaTek";
+            else if (b === 'itel' || t.includes('ITEL')) specs.cpu = "MediaTek";
+            // Motorola → Snapdragon
+            else if (b === 'motorola' || t.includes('MOTOROLA') || t.includes('MOTO')) specs.cpu = "Snapdragon";
+            // Nokia → Snapdragon
+            else if (b === 'nokia' || t.includes('NOKIA')) specs.cpu = "Snapdragon";
+            // Vivo → MediaTek
+            else if (b === 'vivo' || t.includes('VIVO')) specs.cpu = "MediaTek";
+            // ZTE → Unisoc (budget) or Snapdragon
+            else if (b === 'zte' || t.includes('ZTE')) specs.cpu = "Unisoc";
+            // Lesia / budget brands → Unisoc
+            else if (t.includes('LESIA') || t.includes('WIKO') || t.includes('CONDOR')) specs.cpu = "Unisoc";
+            // TCL → MediaTek
+            else if (b === 'tcl' || t.includes('TCL')) specs.cpu = "MediaTek";
+            // Nothing → Snapdragon
+            else if (t.includes('NOTHING')) specs.cpu = "Snapdragon";
+            // Generic fallback for smartphones
+            else specs.cpu = "Other";
+        }
 
     }
 
@@ -457,6 +510,9 @@ export const normalizeSpecs = (title, specs, brand, category) => {
     
     if (isAccessory && (specs.cpu === "Unknown" || !specs.cpu)) {
          specs.category = "Invalid";
+    }
+    else if (catLower === 'smartphone' || category === 'Smartphone') {
+        specs.category = "Smartphone";
     }
     else if (brand === 'Apple' || t.includes("MACBOOK") || t.includes("MAC ")) {
         specs.category = "MacBook";

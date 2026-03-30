@@ -25,8 +25,12 @@ export const WishlistProvider = ({ children }) => {
 
   const isInWishlist = (id) => !!wishlist.find(p => p.id === id);
 
+  const removeMultipleFromWishlist = (ids) => {
+    setWishlist(prev => prev.filter(p => !ids.includes(p.id)));
+  };
+
   return (
-    <WishlistContext.Provider value={{ wishlist, toggleWishlist, isInWishlist }}>
+    <WishlistContext.Provider value={{ wishlist, toggleWishlist, isInWishlist, removeMultipleFromWishlist }}>
       {children}
     </WishlistContext.Provider>
   );

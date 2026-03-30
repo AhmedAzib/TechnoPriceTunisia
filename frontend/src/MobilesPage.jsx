@@ -15,7 +15,7 @@ import ComparisonView from './ComparisonView';
 import Footer from './Footer';
 
 // Normalized Mobile Data
-// REFACTORED: Use shared normalizeProductData to ensure consistency with GroupDetails and Strict Rules.
+// Uses shared normalizeProductData for consistency with GroupDetails and Strict Rules.
 const allNormalizedData = normalizeProductData(MASTER_DATA);
 
 const normalizedMobileData = allNormalizedData.filter(product => {
@@ -178,7 +178,9 @@ const MobilesPage = () => {
                  else if (cpu.startsWith("Snapdragon") || cpu.includes("Qualcomm")) val = "Snapdragon";
                  else if (cpu.startsWith("Exynos") || cpu.includes("Samsung Exynos")) val = "Samsung Exynos";
                  else if (cpu.startsWith("MediaTek") || cpu.includes("Dimensity") || cpu.includes("Helio")) val = "MediaTek";
-                 else if (cpu.includes("Apple") || cpu.includes("A14") || cpu.includes("A15") || cpu.includes("A16")) val = "Apple"; 
+                 else if (cpu.includes("Apple") || cpu.includes("A14") || cpu.includes("A15") || cpu.includes("A16")) val = "Apple";
+                 else if (cpu.includes("Google Tensor") || cpu.includes("Tensor")) val = "Google Tensor";
+                 else if (cpu.includes("Kirin")) val = "Kirin";
                  else if (cpu.includes("Octa Core")) val = "Octa Core";
                  else if (cpu.includes("Quad Core")) val = "Quad Core";
                  else if (cpu === "Unknown") val = "Unknown";
@@ -219,16 +221,17 @@ const MobilesPage = () => {
             if (cpu.startsWith("Exynos") || cpu.includes("Samsung Exynos")) return "Samsung Exynos";
             if (cpu.startsWith("MediaTek") || cpu.includes("Dimensity") || cpu.includes("Helio")) return "MediaTek";
             if (cpu.includes("Apple") || cpu.includes("A14") || cpu.includes("A15") || cpu.includes("A16")) return "Apple";
+            if (cpu.includes("Google Tensor") || cpu.includes("Tensor")) return "Google Tensor";
+            if (cpu.includes("Kirin")) return "Kirin";
             if (cpu.includes("Octa Core")) return "Octa Core";
             if (cpu.includes("Quad Core")) return "Quad Core";
 
-            // Fallback for strict cleanliness:
-            if (["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core"].includes(cpu)) return cpu;
+            if (["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Google Tensor", "Kirin", "Octa Core", "Quad Core"].includes(cpu)) return cpu;
 
             if (cpu === "Unknown") return "Unknown";
 
             return "Other";
-        }))].filter(c => ["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Octa Core", "Quad Core", "Unknown", "Other"].includes(c)).sort(),
+        }))].filter(c => ["Unisoc", "Snapdragon", "Samsung Exynos", "MediaTek", "Apple", "Google Tensor", "Kirin", "Octa Core", "Quad Core", "Unknown", "Other"].includes(c)).sort(),
         hz: ["60Hz", "90Hz", "120Hz", "144Hz"],
     };
 
@@ -383,9 +386,13 @@ useEffect(() => {
         console.log('After battery filter:', result.length);
     }
 
-    // Price Filter
+    // Price Filter - exclude items with 0, NaN, or missing price
     if (priceRange) {
-        result = result.filter(p => p.price >= priceRange.min && p.price <= priceRange.max);
+        result = result.filter(p => {
+            const price = parseFloat(p.price);
+            if (!price || isNaN(price) || price <= 0) return false;
+            return price >= priceRange.min && price <= priceRange.max;
+        });
         console.log('After price filter:', result.length);
     }
 
@@ -881,7 +888,7 @@ useEffect(() => {
                     </div>
                 ) : (
                     <>
-                        <div className="grid" key={filters.source.join(',')}> 
+                        <div className="grid" key={filters.source.join(',')} style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: '20px' }}> 
                         {(() => {
                             const indexOfLastItem = currentPage * itemsPerPage;
                             const indexOfFirstItem = indexOfLastItem - itemsPerPage;

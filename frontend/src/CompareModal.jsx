@@ -83,11 +83,9 @@ const CompareModal = ({ isOpen, onClose, selectedProducts }) => {
                                     </td>
                                 ))}
                             </tr>
-                            {/* DEBUG CONFIRMATION ROW */}
-
                             <tr>
-                                <td className="label">Category</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.category || '-'}</td>)}
+                                <td className="label">Brand</td>
+                                {hydratedProducts.map(product => <td key={product.id}>{product.brand || '-'}</td>)}
                             </tr>
                             <tr>
                                 <td className="label">System (OS)</td>
@@ -105,23 +103,40 @@ const CompareModal = ({ isOpen, onClose, selectedProducts }) => {
                                 <td className="label">Storage</td>
                                 {hydratedProducts.map(product => <td key={product.id}>{product.specs.storage || '-'}</td>)}
                             </tr>
+                            {/* GPU - only show if any product has it (computers) */}
+                            {hydratedProducts.some(p => p.specs.gpu && p.specs.gpu !== '-' && p.specs.gpu !== 'Unknown') && (
                             <tr>
                                 <td className="label">GPU</td>
                                 {hydratedProducts.map(product => <td key={product.id}>{product.specs.gpu || '-'}</td>)}
                             </tr>
-                             <tr>
+                            )}
+                            <tr>
                                 <td className="label">Screen</td>
                                 {hydratedProducts.map(product => <td key={product.id}>{product.specs.screen || '-'}</td>)}
                             </tr>
+                            {/* Battery - show for phones */}
+                            {hydratedProducts.some(p => p.specs.battery) && (
+                            <tr>
+                                <td className="label">Battery</td>
+                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.battery || '-'}</td>)}
+                            </tr>
+                            )}
+                            {/* Camera - show for phones */}
+                            {hydratedProducts.some(p => p.specs.camera) && (
+                            <tr>
+                                <td className="label">Camera</td>
+                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.camera || '-'}</td>)}
+                            </tr>
+                            )}
                             <tr>
                                 <td className="label">Refresh Rate</td>
                                 {hydratedProducts.map(product => {
                                     const hz = getHz(product);
-                                    const isBest = hz === maxHz && hz > 60; // Only highlight if > 60Hz
+                                    const isBest = hz === maxHz && hz > 60;
                                     return (
                                         <td key={product.id} className={isBest ? "best-price" : ""}>
                                             {product.specs.hz || '-'}
-                                            {isBest && <span style={{color: '#4ade80', marginLeft: '5px'}}>✓</span>}
+                                            {isBest && <span style={{color: '#10b981', marginLeft: '5px'}}>✓</span>}
                                         </td>
                                     )
                                 })}
