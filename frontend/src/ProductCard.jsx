@@ -37,9 +37,14 @@ const ProductCard = ({ product, addToCompare, toggleWishlist, isFavorite, isInCo
                 background: (() => {
                     const s = (product.source || '').toLowerCase().trim();
                     if (s.includes('spacenet')) return '#10b981';
-                    if (s.includes('mytek')) return '#ef4444'; 
+                    if (s.includes('mytek')) return '#ef4444';
                     if (s.includes('wiki')) return '#8b5cf6';
-                    return '#5F8D8B'; // Tunisianet
+                    if (s.includes('megapc')) return '#eab308';
+                    if (s.includes('skymil')) return '#3b82f6';
+                    if (s.includes('techspace')) return '#ec4899';
+                    if (s.includes('tunisiatech')) return '#06b6d4';
+                    if (s.includes('tdiscount')) return '#f97316';
+                    return '#5F8D8B'; // Tunisianet default
                 })(),
                 width: 'fit-content',
                 padding: '3px 8px',

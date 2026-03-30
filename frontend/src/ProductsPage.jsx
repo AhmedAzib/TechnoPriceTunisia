@@ -93,7 +93,7 @@ const ProductsPage = () => {
   const [displayedProducts, setDisplayedProducts] = useState(cleanData);
   
   // Grouping State
-  const [isGroupView, setIsGroupView] = useState(false);
+  const [isGroupView, setIsGroupView] = useState(true);
   const [groupedProducts, setGroupedProducts] = useState([]);
   const [selectedGroup, setSelectedGroup] = useState(null); // For Modal
   const [searchQuery, setSearchQuery] = useState("");  

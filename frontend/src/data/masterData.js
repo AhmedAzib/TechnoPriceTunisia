@@ -7,6 +7,13 @@ import mytekMobileData from './mytek_mobiles.json';
 import wikiData from './wiki_clean.json';
 import fakeComponents from './fake_components.json';
 
+// Additional computer stores
+import megapcGamer from './megapc_gamer.json';
+import megapcPro from './megapc_pro.json';
+import skymilNew from './skymil_new.json';
+import techspaceNew from './techspace_new.json';
+import techtunisiaProducts from './techtunisia_products.json';
+
 // Mobile-specific data sources
 import tunisianetMobiles from './tunisianet_mobiles.json';
 import tunisiatechMobiles from './tunisiatech_mobiles.json';
@@ -42,6 +49,32 @@ export const MASTER_DATA = [
       ...p,
       id: `COMP-${index}`,
       source: 'TechnoPrice Components'
+  })),
+  // Additional computer stores
+  ...megapcGamer.map((p, index) => ({
+      ...p,
+      id: `MGPC-G-${index}`,
+      source: 'MegaPC'
+  })),
+  ...megapcPro.map((p, index) => ({
+      ...p,
+      id: `MGPC-P-${index}`,
+      source: 'MegaPC'
+  })),
+  ...skymilNew.map((p, index) => ({
+      ...p,
+      id: p.id || `SKY-${index}`,
+      source: 'Skymil'
+  })),
+  ...techspaceNew.map((p, index) => ({
+      ...p,
+      id: p.id || `TS-${index}`,
+      source: 'TechSpace'
+  })),
+  ...techtunisiaProducts.map((p, index) => ({
+      ...p,
+      id: p.id || `TT-PC-${index}`,
+      source: 'TunisiaTech'
   })),
   // Mobile stores
   ...tunisianetMobiles.map((p, index) => ({
