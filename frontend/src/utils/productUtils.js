@@ -47,9 +47,42 @@ export const normalizeBrand = (brand, title = "") => {
     if (has('infinix')) return 'Infinix';
     if (has('razer') || has('blade')) return 'Razer';
     if (has('chuwi')) return 'Chuwi';
-    if (has('mytek')) return 'MyTek'; // For assembled PCs starting with "Pc de Bureau MyTek"
+    if (has('mytek')) return 'MyTek';
     if (has('kimera')) return 'Kimera';
-    
+
+    // Smartphone brands
+    if (has('xiaomi') || has('redmi')) return 'Xiaomi';
+    if (has('poco')) return 'Poco';
+    if (has('honor')) return 'Honor';
+    if (has('oppo')) return 'Oppo';
+    if (has('realme')) return 'Realme';
+    if (has('vivo')) return 'Vivo';
+    if (has('itel')) return 'Itel';
+    if (has('tecno')) return 'Tecno';
+    if (has('zte')) return 'ZTE';
+    if (has('tcl')) return 'TCL';
+    if (has('nothing')) return 'Nothing';
+    if (has('wiko')) return 'Wiko';
+    if (has('condor')) return 'Condor';
+    if (has('oscal')) return 'Oscal';
+    if (has('lesia')) return 'Lesia';
+    if (has('motorola') || has('moto ')) return 'Motorola';
+    if (has('nokia')) return 'Nokia';
+    if (has('oneplus') || has('one plus')) return 'OnePlus';
+    if (has('pixel')) return 'Google';
+    if (has('blackview')) return 'Blackview';
+    if (has('doogee')) return 'Doogee';
+    if (has('oukitel')) return 'Oukitel';
+    if (has('ulefone')) return 'Ulefone';
+    if (has('haidiko')) return 'Haidiko';
+    if (has('iku')) return 'IKU';
+    if (has('umidigi')) return 'Umidigi';
+    if (has('cubot')) return 'Cubot';
+    if (has('cat ') || has('caterpillar')) return 'CAT';
+    if (has('alcatel')) return 'Alcatel';
+    if (has('meizu')) return 'Meizu';
+    if (has('sony') || has('xperia')) return 'Sony';
+
     // Group "Sans marque" requests
     if (has('nintendo') || has('patriot') || has('schneider') || has('sharkoon') || 
         has('thomson') || has('vega') || has('versus') || has('yatagan') || 
@@ -212,6 +245,22 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             else if (b === 'tcl' || t.includes('TCL')) specs.cpu = "MediaTek";
             // Nothing → Snapdragon
             else if (t.includes('NOTHING')) specs.cpu = "Snapdragon";
+            // Budget rugged brands → MediaTek
+            else if (b === 'blackview' || t.includes('BLACKVIEW')) specs.cpu = "MediaTek";
+            else if (b === 'doogee' || t.includes('DOOGEE')) specs.cpu = "MediaTek";
+            else if (b === 'oukitel' || t.includes('OUKITEL')) specs.cpu = "MediaTek";
+            else if (b === 'ulefone' || t.includes('ULEFONE')) specs.cpu = "MediaTek";
+            else if (b === 'oscal' || t.includes('OSCAL')) specs.cpu = "Unisoc";
+            else if (b === 'cubot' || t.includes('CUBOT')) specs.cpu = "MediaTek";
+            else if (b === 'umidigi' || t.includes('UMIDIGI')) specs.cpu = "MediaTek";
+            // Alcatel / IKU / Haidiko → Unisoc (budget)
+            else if (b === 'alcatel' || t.includes('ALCATEL')) specs.cpu = "Unisoc";
+            else if (b === 'iku' || t.includes('IKU')) specs.cpu = "Unisoc";
+            else if (b === 'haidiko' || t.includes('HAIDIKO')) specs.cpu = "Unisoc";
+            // Sony → Snapdragon
+            else if (b === 'sony' || t.includes('XPERIA')) specs.cpu = "Snapdragon";
+            // Google brand (from normalizeBrand)
+            else if (b === 'google') specs.cpu = "Google Tensor";
             // Generic fallback for smartphones
             else specs.cpu = "Other";
         }

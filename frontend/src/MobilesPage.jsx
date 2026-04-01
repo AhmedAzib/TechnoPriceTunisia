@@ -51,6 +51,10 @@ const normalizedMobileData = allNormalizedData.filter(product => {
     const t = (p.title || '').toLowerCase();
     if (t.includes('laptop') || t.includes('portable') || t.includes('notebook') ||
         t.includes('desktop') || t.includes('macbook') || t.includes('pc ') ||
+        t.includes('tablette') || t.includes('tablet') || t.includes('smartwatch') ||
+        t.includes('bracelet') || t.includes('cable') || t.includes('chargeur') ||
+        t.includes('coque') || t.includes('protection') || t.includes('housse') ||
+        t.includes('etui') || t.includes('accessoire') || t.includes('casque') ||
         t.includes('bicyclette') || t.includes('tv') || t.includes('refrigerateur') ||
         t.includes('montre') || t.includes('imprimante') || t.includes('ecran')) return false;
     return true;
@@ -598,9 +602,15 @@ useEffect(() => {
                     <FilterSection title="CPU" options={filterOptions.processor} selected={filters.processor} onSelect={(v) => toggleFilter('processor', v)} counts={getCounts('processor')} />
                     <FilterSection title="RAM" options={filterOptions.ram} selected={filters.ram} onSelect={(v) => toggleFilter('ram', v)} counts={getCounts('ram')} />
                     <FilterSection title="Storage" options={filterOptions.storage} selected={filters.storage} onSelect={(v) => toggleFilter('storage', v)} counts={getCounts('storage')} />
-                    <FilterSection title="Battery (Coming Soon)" options={filterOptions.battery} selected={filters.battery} onSelect={(v) => toggleFilter('battery', v)} counts={getCounts('battery')} />
-                    <FilterSection title="Refresh Rate (Coming Soon)" options={filterOptions.hz} selected={filters.hz} onSelect={(v) => toggleFilter('hz', v)} counts={getCounts('hz')} />
-                    <FilterSection title="Screen Size (Coming Soon)" options={filterOptions.screen} selected={filters.screen} onSelect={(v) => toggleFilter('screen', v)} counts={getCounts('screen')} />
+                    <FilterSection title="Battery (Coming Soon)" options={[]} selected={[]}>
+                        <p style={{ color: '#94a3b8', fontSize: '0.8rem', fontStyle: 'italic', margin: '0 0 8px' }}>Coming Soon</p>
+                    </FilterSection>
+                    <FilterSection title="Refresh Rate (Coming Soon)" options={[]} selected={[]}>
+                        <p style={{ color: '#94a3b8', fontSize: '0.8rem', fontStyle: 'italic', margin: '0 0 8px' }}>Coming Soon</p>
+                    </FilterSection>
+                    <FilterSection title="Screen Size (Coming Soon)" options={[]} selected={[]}>
+                        <p style={{ color: '#94a3b8', fontSize: '0.8rem', fontStyle: 'italic', margin: '0 0 8px' }}>Coming Soon</p>
+                    </FilterSection>
                 </div>
             </aside>
 

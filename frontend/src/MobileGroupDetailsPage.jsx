@@ -297,7 +297,7 @@ const MobileGroupDetailsPage = () => {
                     <>
                         <div className="mobile-group-grid" style={{ 
                             display: 'grid', 
-                            gridTemplateColumns: mobileViewMode === 'list' ? '1fr' : undefined, 
+                            gridTemplateColumns: mobileViewMode === 'list' ? '1fr' : 'repeat(4, minmax(0, 1fr))',
                             gap: '15px' 
                         }}>
                             {displayedVariants.sort((a,b) => a.price - b.price).map((product) => (
