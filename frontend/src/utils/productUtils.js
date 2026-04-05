@@ -473,23 +473,26 @@ export const normalizeSpecs = (title, specs, brand, category) => {
              const potentialMatches = [...t.matchAll(broadRegex)];
              
              let bestStorage = null;
-             // For smartphones, 16GB and 32GB are valid storage sizes
-             // For laptops, ignore <=32 (likely RAM)
              const isPhone = catLower === 'smartphone' || category === 'Smartphone';
-             const minStorage = isPhone ? 8 : 33;
 
-             for (const m of potentialMatches) {
-                 const val = parseInt(m[1]);
-
-                 if (val >= minStorage && val < 5000) {
-                     // For phones: skip values that match RAM (2,3,4,6,8,12)
-                     // Storage for phones: 16, 32, 64, 128, 256, 512
-                     if (isPhone && [2, 3, 4, 6, 8, 12].includes(val)) continue;
-
-                     bestStorage = val + "GB";
-                     // Prefer standard sizes if found
-                     if ([16, 32, 64, 128, 256, 512, 1000, 1024].includes(val)) {
-                         break;
+             if (isPhone) {
+                 // PHONE LOGIC: collect all Go/GB values, pick the LARGEST as storage
+                 // In phone titles "XGo YGo" = X is RAM, Y is storage (Y > X always)
+                 const allVals = potentialMatches.map(m => parseInt(m[1])).filter(v => v >= 8 && v < 5000);
+                 if (allVals.length >= 2) {
+                     // Multiple values: largest is storage (e.g., "16Go 256Go" → 256 is storage)
+                     bestStorage = Math.max(...allVals) + "GB";
+                 } else if (allVals.length === 1) {
+                     // Single value: it IS the storage (e.g., "2Go 16Go" → 16 is storage, 2 was filtered)
+                     bestStorage = allVals[0] + "GB";
+                 }
+             } else {
+                 // LAPTOP LOGIC: pick first value > 32GB
+                 for (const m of potentialMatches) {
+                     const val = parseInt(m[1]);
+                     if (val > 32 && val < 5000) {
+                         bestStorage = val + "GB";
+                         if ([128, 256, 512, 1000, 1024].includes(val)) break;
                      }
                  }
              }
