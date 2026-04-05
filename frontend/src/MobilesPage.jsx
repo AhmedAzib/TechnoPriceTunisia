@@ -443,6 +443,9 @@ useEffect(() => {
             });
         }
         
+        // Save ungrouped filtered count before grouping
+        setFilteredProducts(sortedResult);
+
         // Grouping Logic
         if (isGroupView) {
             const groups = {};
@@ -699,7 +702,7 @@ useEffect(() => {
                         PHONE MARKETPLACE
                     </h1>
                     <p style={{ color: '#5F8D8B', marginTop: '10px', fontSize: '1.1rem', fontWeight: '500' }}>
-                        <span style={{ fontWeight: 'bold' }}>Active: {normalizedMobileData.length} Items</span> • Top Smartphones from Tunisianet, MyTek, Wiki & Spacenet
+                        <span style={{ fontWeight: 'bold' }}>Active: {filteredProducts.length} Items</span> • {products.length} models from Tunisianet, MyTek, Wiki & Spacenet
                     </p>
                 </div>
 
@@ -879,7 +882,7 @@ useEffect(() => {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: '10px' }}>
-                <span style={{ fontSize: '0.9rem', color: '#64748b', fontWeight: 'bold' }}>{products.length} phones found</span>
+                <span style={{ fontSize: '0.9rem', color: '#64748b', fontWeight: 'bold' }}>{filteredProducts.length} phones found • {products.length} models</span>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <div style={{ width: '40px', height: '20px', background: '#e2e8f0', borderRadius: '10px', position: 'relative', cursor: 'pointer' }}>
                          <div style={{ width: '16px', height: '16px', background: 'white', borderRadius: '50%', position: 'absolute', top: '2px', left: '2px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} />
