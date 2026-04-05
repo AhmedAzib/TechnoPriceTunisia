@@ -441,13 +441,14 @@ export const normalizeSpecs = (title, specs, brand, category) => {
     // Backup saved at: productUtils.storage_locked.js
     // ==============================================================================
     // --- STORAGE Normalization ---
-    // 0. Sanity Check: If existing spec looks like RAM (<= 32GB), wipe it so we scan the title.
+    // 0. Sanity Check: If existing spec looks like RAM, wipe it so we scan the title.
+    // For laptops: <=32GB is likely RAM. For smartphones: <=8GB is likely RAM.
     if (specs.storage) {
         const raw = specs.storage.toString().toUpperCase().replace(/\D/g, '');
         const val = parseInt(raw);
-        // If it's small (<= 32) and not clearly TB, it's probably RAM (4, 8, 16, 32)
-        // Note: 32GB eMMC exists but is rare/cheap. Most 32GB is RAM in this context.
-        if (val > 0 && val <= 32 && !specs.storage.toString().toUpperCase().includes('T')) {
+        const isPhone = catLower === 'smartphone' || category === 'Smartphone';
+        const ramThreshold = isPhone ? 12 : 32; // Phones: 16GB+ is storage, Laptops: 64GB+ is storage
+        if (val > 0 && val <= ramThreshold && !specs.storage.toString().toUpperCase().includes('T')) {
             specs.storage = null;
         }
     }
@@ -472,19 +473,23 @@ export const normalizeSpecs = (title, specs, brand, category) => {
              const potentialMatches = [...t.matchAll(broadRegex)];
              
              let bestStorage = null;
-             
+             // For smartphones, 16GB and 32GB are valid storage sizes
+             // For laptops, ignore <=32 (likely RAM)
+             const isPhone = catLower === 'smartphone' || category === 'Smartphone';
+             const minStorage = isPhone ? 8 : 33;
+
              for (const m of potentialMatches) {
-                 const val = parseInt(m[1]); // The number
-                 
-                 // Heuristic:
-                 // 64, 120, 128, 250, 256, 480, 500, 512, 1000, 2000 are valid storage.
-                 // We ignore anything <= 32 during Scan too.
-                 
-                 if (val > 32 && val < 5000) {
+                 const val = parseInt(m[1]);
+
+                 if (val >= minStorage && val < 5000) {
+                     // For phones: skip values that match RAM (2,3,4,6,8,12)
+                     // Storage for phones: 16, 32, 64, 128, 256, 512
+                     if (isPhone && [2, 3, 4, 6, 8, 12].includes(val)) continue;
+
                      bestStorage = val + "GB";
                      // Prefer standard sizes if found
-                     if ([128, 256, 512, 1000, 1024].includes(val)) {
-                         break; // Found a winner
+                     if ([16, 32, 64, 128, 256, 512, 1000, 1024].includes(val)) {
+                         break;
                      }
                  }
              }
@@ -505,25 +510,30 @@ export const normalizeSpecs = (title, specs, brand, category) => {
     }
     
     // 2. FALLBACK INFERENCE (If Title Scan Failed & Storage is Missing)
-    // The user explicitly requested "0 Unknowns" and provided a % distribution plan.
-    // If we simply cannot find the storage, we infer it based on the machine's tier.
     if (!specs.storage || specs.storage === 'Unknown') {
-        const c = (specs.cpu || "").toUpperCase();
-        const g = (specs.gpu || "").toUpperCase();
-        const cat = (specs.category || "").toUpperCase();
-        
-        const isGaming = cat === 'GAMING' || g.includes('RTX') || g.includes('GTX') || t.toUpperCase().includes('GAMER');
-        const isHighEnd = c.includes('I7') || c.includes('I9') || c.includes('RYZEN 7') || c.includes('RYZEN 9') || c.includes('ULTRA 7') || c.includes('ULTRA 9');
-        const isMidRange = c.includes('I5') || c.includes('RYZEN 5') || c.includes('ULTRA 5');
-        
-        if (isGaming) {
-            specs.storage = "512GB"; // Standard for modern gaming laptops
-        } else if (isHighEnd) {
-            specs.storage = "512GB"; // High end usually starts at 512GB or 1TB
-        } else if (isMidRange) {
-            specs.storage = "512GB"; // Modern i5s are mostly 512GB
+        // For smartphones: don't guess - leave as Unknown if can't parse from title
+        if (catLower === 'smartphone' || category === 'Smartphone') {
+            // Don't infer storage for phones - title parsing should handle it
+            specs.storage = null;
         } else {
-            specs.storage = "256GB"; // Budget/Entry level fallback (i3, Celeron)
+            // For laptops: infer based on tier
+            const c = (specs.cpu || "").toUpperCase();
+            const g = (specs.gpu || "").toUpperCase();
+            const cat = (specs.category || "").toUpperCase();
+
+            const isGaming = cat === 'GAMING' || g.includes('RTX') || g.includes('GTX') || t.toUpperCase().includes('GAMER');
+            const isHighEnd = c.includes('I7') || c.includes('I9') || c.includes('RYZEN 7') || c.includes('RYZEN 9') || c.includes('ULTRA 7') || c.includes('ULTRA 9');
+            const isMidRange = c.includes('I5') || c.includes('RYZEN 5') || c.includes('ULTRA 5');
+
+            if (isGaming) {
+                specs.storage = "512GB";
+            } else if (isHighEnd) {
+                specs.storage = "512GB";
+            } else if (isMidRange) {
+                specs.storage = "512GB";
+            } else {
+                specs.storage = "256GB";
+            }
         }
     }
 
