@@ -73,7 +73,7 @@ const MobileGroupDetailsPage = () => {
     }, [decodedKey]);
 
     const [isComparing, setIsComparing] = React.useState(false);
-    const [mobileViewMode, setMobileViewMode] = React.useState('grid'); // 'list' | 'grid'
+    const [mobileViewMode, setMobileViewMode] = React.useState('grid4'); // 'list' | 'grid2' | 'grid4'
 
     // --- DYNAMIC FILTERS STATE ---
     const [filters, setFilters] = React.useState({
@@ -297,7 +297,7 @@ const MobileGroupDetailsPage = () => {
                     <>
                         <div className="mobile-group-grid" style={{ 
                             display: 'grid', 
-                            gridTemplateColumns: mobileViewMode === 'list' ? '1fr' : 'repeat(4, minmax(0, 1fr))',
+                            gridTemplateColumns: mobileViewMode === 'list' ? '1fr' : mobileViewMode === 'grid2' ? 'repeat(2, minmax(0, 1fr))' : 'repeat(4, minmax(0, 1fr))',
                             gap: '15px' 
                         }}>
                             {displayedVariants.sort((a,b) => a.price - b.price).map((product) => (
@@ -309,7 +309,7 @@ const MobileGroupDetailsPage = () => {
                                     toggleWishlist={toggleWishlist}
                                     isFavorite={isInWishlist(product.id)}
                                     // Pass formatting props if ProductCard supports them (it might likely handle its own responsive style)
-                                    compact={mobileViewMode === 'grid'} 
+                                    compact={mobileViewMode !== 'list'}
                                 />
                             ))}
                         </div>
@@ -339,23 +339,29 @@ const MobileGroupDetailsPage = () => {
                     zIndex: 1000,
                     boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
                 }}>
-                    <button 
-                        onClick={() => setMobileViewMode(prev => prev === 'list' ? 'grid' : 'list')}
-                        style={{
-                            background: 'transparent',
-                            border: 'none',
-                            color: '#1A2B48',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '8px',
-                            fontSize: '0.9rem',
-                            fontWeight: '600',
-                            cursor: 'pointer'
-                        }}
-                    >
-                        {mobileViewMode === 'list' ? <Grid size={20} color="#5F8D8B" /> : <List size={20} color="#5F8D8B" />}
-                        <span>{mobileViewMode === 'list' ? 'Grid View' : 'List View'}</span>
-                    </button>
+                    {['list', 'grid2', 'grid4'].map(mode => (
+                        <button
+                            key={mode}
+                            onClick={() => setMobileViewMode(mode)}
+                            style={{
+                                background: mobileViewMode === mode ? '#5F8D8B' : 'transparent',
+                                border: mobileViewMode === mode ? '1px solid #5F8D8B' : '1px solid #e2e8f0',
+                                color: mobileViewMode === mode ? 'white' : '#1A2B48',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '6px',
+                                fontSize: '0.8rem',
+                                fontWeight: '600',
+                                cursor: 'pointer',
+                                padding: '6px 12px',
+                                borderRadius: '8px',
+                                transition: '0.2s'
+                            }}
+                        >
+                            {mode === 'list' ? <List size={16} /> : <Grid size={16} />}
+                            <span>{mode === 'list' ? 'List' : mode === 'grid2' ? '2×2' : '4×4'}</span>
+                        </button>
+                    ))}
                     
                     <div style={{ width: '1px', height: '20px', background: '#e2e8f0' }}></div>
 
