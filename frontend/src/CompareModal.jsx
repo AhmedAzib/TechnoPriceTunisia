@@ -83,64 +83,79 @@ const CompareModal = ({ isOpen, onClose, selectedProducts }) => {
                                     </td>
                                 ))}
                             </tr>
-                            <tr>
-                                <td className="label">Brand</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.brand || '-'}</td>)}
-                            </tr>
-                            <tr>
-                                <td className="label">System (OS)</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.os || '-'}</td>)}
-                            </tr>
-                            <tr>
-                                <td className="label">CPU</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.cpu || '-'}</td>)}
-                            </tr>
-                            <tr>
-                                <td className="label">RAM</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.ram || '-'}</td>)}
-                            </tr>
-                            <tr>
-                                <td className="label">Storage</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.storage || '-'}</td>)}
-                            </tr>
-                            {/* GPU - only show if any product has it (computers) */}
-                            {hydratedProducts.some(p => p.specs.gpu && p.specs.gpu !== '-' && p.specs.gpu !== 'Unknown') && (
-                            <tr>
-                                <td className="label">GPU</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.gpu || '-'}</td>)}
-                            </tr>
-                            )}
-                            <tr>
-                                <td className="label">Screen</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.screen || '-'}</td>)}
-                            </tr>
-                            {/* Battery - show for phones */}
-                            {hydratedProducts.some(p => p.specs.battery) && (
-                            <tr>
-                                <td className="label">Battery</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.battery || '-'}</td>)}
-                            </tr>
-                            )}
-                            {/* Camera - show for phones */}
-                            {hydratedProducts.some(p => p.specs.camera) && (
-                            <tr>
-                                <td className="label">Camera</td>
-                                {hydratedProducts.map(product => <td key={product.id}>{product.specs.camera || '-'}</td>)}
-                            </tr>
-                            )}
-                            <tr>
-                                <td className="label">Refresh Rate</td>
-                                {hydratedProducts.map(product => {
-                                    const hz = getHz(product);
-                                    const isBest = hz === maxHz && hz > 60;
+                            {(() => {
+                                // Detect if comparing phones or computers
+                                const isPhone = hydratedProducts.some(p =>
+                                    (p.specs?.category || p.category || '').toLowerCase() === 'smartphone'
+                                );
+
+                                if (isPhone) {
+                                    // PHONE COMPARE: Price, Store, CPU, RAM, Storage only
                                     return (
-                                        <td key={product.id} className={isBest ? "best-price" : ""}>
-                                            {product.specs.hz || '-'}
-                                            {isBest && <span style={{color: '#10b981', marginLeft: '5px'}}>✓</span>}
-                                        </td>
-                                    )
-                                })}
-                            </tr>
+                                        <>
+                                        <tr>
+                                            <td className="label">CPU</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.cpu || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">RAM</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.ram || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">Storage</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.storage || '-'}</td>)}
+                                        </tr>
+                                        </>
+                                    );
+                                } else {
+                                    // COMPUTER COMPARE: Full specs
+                                    return (
+                                        <>
+                                        <tr>
+                                            <td className="label">Brand</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.brand || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">System (OS)</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.os || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">CPU</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.cpu || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">RAM</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.ram || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">Storage</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.storage || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">GPU</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.gpu || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">Screen</td>
+                                            {hydratedProducts.map(product => <td key={product.id}>{product.specs.screen || '-'}</td>)}
+                                        </tr>
+                                        <tr>
+                                            <td className="label">Refresh Rate</td>
+                                            {hydratedProducts.map(product => {
+                                                const hz = getHz(product);
+                                                const isBest = hz === maxHz && hz > 60;
+                                                return (
+                                                    <td key={product.id} className={isBest ? "best-price" : ""}>
+                                                        {product.specs.hz || '-'}
+                                                        {isBest && <span style={{color: '#10b981', marginLeft: '5px'}}>✓</span>}
+                                                    </td>
+                                                )
+                                            })}
+                                        </tr>
+                                        </>
+                                    );
+                                }
+                            })()}
                             
                             {/* Action Row */}
                             <tr className="action-row">
