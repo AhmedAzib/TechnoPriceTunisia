@@ -97,7 +97,7 @@ const ComparisonView = ({ selectedProducts, onClose, removeFromCompare }) => {
                         {copied ? "Link Copied!" : "Share Comparison"}
                     </button>
                 </div>
-                <h1>Comparing {selectedProducts.length} Laptops</h1>
+                <h1>Comparing {selectedProducts.length} Products</h1>
             </header>
 
             <div className="compare-table-container full-screen">
@@ -140,76 +140,129 @@ const ComparisonView = ({ selectedProducts, onClose, removeFromCompare }) => {
                             })}
                         </tr>
                         
-                        {/* Specs Rows */}
-                        <tr>
-                            <td className="label">Store</td>
-                            {selectedProducts.map(product => (
-                                <td key={product.id}>
-                                    <span className={`store-badge ${product.source.toLowerCase()}`}>
-                                        {product.source}
-                                    </span>
-                                </td>
-                            ))}
-                        </tr>
-                        <tr>
-                            <td className="label">Category</td>
-                            {selectedProducts.map(product => <td key={product.id}>{product.specs.category || '-'}</td>)}
-                        </tr>
-                        <tr>
-                            <td className="label">System (OS)</td>
-                            {selectedProducts.map(product => <td key={product.id}>{product.specs.os || '-'}</td>)}
-                        </tr>
-                        <tr>
-                            <td className="label">CPU</td>
-                            {selectedProducts.map(product => <td key={product.id}>{product.specs.cpu || '-'}</td>)}
-                        </tr>
-                        <tr>
-                            <td className="label">RAM</td>
-                            {selectedProducts.map(product => {
-                                const win = isWinner(product.id, ramWinners);
-                                return (
-                                    <td key={product.id} className={win ? "winning-spec" : ""}>
-                                        {product.specs.ram || '-'}
-                                        {win && <Check size={14} className="win-icon" />}
-                                    </td>
-                                );
-                            })}
-                        </tr>
-                        <tr>
-                            <td className="label">Storage</td>
-                            {selectedProducts.map(product => {
-                                const win = isWinner(product.id, storageWinners);
-                                return (
-                                     <td key={product.id} className={win ? "winning-spec" : ""}>
-                                        {product.specs.storage || '-'}
-                                        {win && <Check size={14} className="win-icon" />}
-                                    </td>
-                                );
-                            })}
-                        </tr>
-                        <tr>
-                            <td className="label">GPU</td>
-                            {selectedProducts.map(product => <td key={product.id}>{product.specs.gpu || '-'}</td>)}
-                        </tr>
-                            <tr>
-                            <td className="label">Screen</td>
-                            {selectedProducts.map(product => <td key={product.id}>{product.specs.screen || '-'}</td>)}
-                        </tr>
-                        <tr>
-                            <td className="label">Refresh Rate</td>
-                            {selectedProducts.map(product => {
-                                const val = product.specs.hz || "";
-                                const match = val.match(/(\d+)/);
-                                const hz = match ? parseInt(match[0]) : 0;
-                                const isBest = hz > 60; 
-                                return (
-                                    <td key={product.id} className={isBest ? "winning-spec" : ""}>
-                                        {product.specs.hz || '-'}
-                                        {isBest && <Check size={14} className="win-icon" />}
-                                    </td>
-                                );
-                            })}
-                        </tr>
+                        {/* Specs Rows - auto-detect phone vs computer */}
+                        {(() => {
+                            const isPhone = selectedProducts.some(p =>
+                                (p.specs?.category || p.category || '').toLowerCase() === 'smartphone'
+                            );
+
+                            return isPhone ? (
+                                <>
+                                {/* PHONE COMPARE: Store, CPU, RAM, Storage only */}
+                                <tr>
+                                    <td className="label">Store</td>
+                                    {selectedProducts.map(product => (
+                                        <td key={product.id}>
+                                            <span className={`store-badge ${(product.source || '').toLowerCase()}`}>
+                                                {product.source}
+                                            </span>
+                                        </td>
+                                    ))}
+                                </tr>
+                                <tr>
+                                    <td className="label">CPU</td>
+                                    {selectedProducts.map(product => <td key={product.id}>{product.specs.cpu || '-'}</td>)}
+                                </tr>
+                                <tr>
+                                    <td className="label">RAM</td>
+                                    {selectedProducts.map(product => {
+                                        const win = isWinner(product.id, ramWinners);
+                                        return (
+                                            <td key={product.id} className={win ? "winning-spec" : ""}>
+                                                {product.specs.ram || '-'}
+                                                {win && <Check size={14} className="win-icon" />}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                                <tr>
+                                    <td className="label">Storage</td>
+                                    {selectedProducts.map(product => {
+                                        const win = isWinner(product.id, storageWinners);
+                                        return (
+                                            <td key={product.id} className={win ? "winning-spec" : ""}>
+                                                {product.specs.storage || '-'}
+                                                {win && <Check size={14} className="win-icon" />}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                                </>
+                            ) : (
+                                <>
+                                {/* COMPUTER COMPARE: Full specs */}
+                                <tr>
+                                    <td className="label">Store</td>
+                                    {selectedProducts.map(product => (
+                                        <td key={product.id}>
+                                            <span className={`store-badge ${(product.source || '').toLowerCase()}`}>
+                                                {product.source}
+                                            </span>
+                                        </td>
+                                    ))}
+                                </tr>
+                                <tr>
+                                    <td className="label">Category</td>
+                                    {selectedProducts.map(product => <td key={product.id}>{product.specs.category || '-'}</td>)}
+                                </tr>
+                                <tr>
+                                    <td className="label">System (OS)</td>
+                                    {selectedProducts.map(product => <td key={product.id}>{product.specs.os || '-'}</td>)}
+                                </tr>
+                                <tr>
+                                    <td className="label">CPU</td>
+                                    {selectedProducts.map(product => <td key={product.id}>{product.specs.cpu || '-'}</td>)}
+                                </tr>
+                                <tr>
+                                    <td className="label">RAM</td>
+                                    {selectedProducts.map(product => {
+                                        const win = isWinner(product.id, ramWinners);
+                                        return (
+                                            <td key={product.id} className={win ? "winning-spec" : ""}>
+                                                {product.specs.ram || '-'}
+                                                {win && <Check size={14} className="win-icon" />}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                                <tr>
+                                    <td className="label">Storage</td>
+                                    {selectedProducts.map(product => {
+                                        const win = isWinner(product.id, storageWinners);
+                                        return (
+                                            <td key={product.id} className={win ? "winning-spec" : ""}>
+                                                {product.specs.storage || '-'}
+                                                {win && <Check size={14} className="win-icon" />}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                                <tr>
+                                    <td className="label">GPU</td>
+                                    {selectedProducts.map(product => <td key={product.id}>{product.specs.gpu || '-'}</td>)}
+                                </tr>
+                                <tr>
+                                    <td className="label">Screen</td>
+                                    {selectedProducts.map(product => <td key={product.id}>{product.specs.screen || '-'}</td>)}
+                                </tr>
+                                <tr>
+                                    <td className="label">Refresh Rate</td>
+                                    {selectedProducts.map(product => {
+                                        const val = product.specs.hz || "";
+                                        const match = val.match(/(\d+)/);
+                                        const hz = match ? parseInt(match[0]) : 0;
+                                        const isBest = hz > 60;
+                                        return (
+                                            <td key={product.id} className={isBest ? "winning-spec" : ""}>
+                                                {product.specs.hz || '-'}
+                                                {isBest && <Check size={14} className="win-icon" />}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                                </>
+                            );
+                        })()}
                         
                         {/* Action Row */}
                         <tr className="action-row">
