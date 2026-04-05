@@ -87,6 +87,11 @@ export const normalizeBrand = (brand, title = "") => {
     if (has('clever')) return 'Clever';
     if (has('figi')) return 'Figi';
     if (has('oale')) return 'Oale';
+    if (has('evertek')) return 'Evertek';
+    if (has('uniwa')) return 'Uniwa';
+    if (has('logicom')) return 'Logicom';
+    if (has('philips')) return 'Philips';
+    if (has('kgtel')) return 'Kgtel';
 
     // Group "Sans marque" requests
     if (has('nintendo') || has('patriot') || has('schneider') || has('sharkoon') || 
@@ -218,22 +223,25 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             // === APPLE → Apple A-series / M-series ===
             if (b === 'apple' || t.includes('IPHONE')) specs.cpu = "Apple";
 
-            // === SAMSUNG — model-specific (verified GSMArena) ===
-            // S20+ flagships & Z Fold/Flip → Snapdragon
+            // === SAMSUNG — model-specific (verified GSMArena April 2026) ===
+            // S2x flagships & Z Fold/Flip → Snapdragon 8 series
             else if (t.match(/GALAXY\s?S2[0-9]/) || t.match(/GALAXY\s?Z\s?(FOLD|FLIP)/)) specs.cpu = "Snapdragon";
             else if (t.match(/GALAXY\s?S1[0-9]/)) specs.cpu = "Samsung Exynos";
-            // A36 → Snapdragon 6 Gen 3 (confirmed GSMArena)
-            else if (t.match(/GALAXY\s?A36/)) specs.cpu = "Snapdragon";
-            // A16 4G → MediaTek Helio G99, A16 5G → Exynos 1330 / Dimensity 6300
+            // A06 → MediaTek Helio G85 (confirmed GSMArena)
+            else if (t.match(/GALAXY\s?A06/) && !t.includes('5G')) specs.cpu = "MediaTek";
+            else if (t.match(/GALAXY\s?A06/) && t.includes('5G')) specs.cpu = "MediaTek";
+            // A16 4G → MediaTek Helio G99, A16 5G → Exynos 1330
             else if (t.match(/GALAXY\s?A16/) && !t.includes('5G')) specs.cpu = "MediaTek";
             else if (t.match(/GALAXY\s?A16/) && t.includes('5G')) specs.cpu = "Samsung Exynos";
             // A17 5G → Exynos 1330
             else if (t.match(/GALAXY\s?A17/)) specs.cpu = "Samsung Exynos";
             // A26 → Exynos 1380
             else if (t.match(/GALAXY\s?A26/)) specs.cpu = "Samsung Exynos";
+            // A36 → Snapdragon 6 Gen 3 (confirmed GSMArena)
+            else if (t.match(/GALAXY\s?A36/)) specs.cpu = "Snapdragon";
             // A56 → Exynos 1580
             else if (t.match(/GALAXY\s?A56/)) specs.cpu = "Samsung Exynos";
-            // Other A/M/F series → Samsung Exynos (most common)
+            // A05/A15/A25/A35/A55 etc → Samsung Exynos (most common)
             else if (t.match(/GALAXY\s?A[0-9]/)) specs.cpu = "Samsung Exynos";
             else if (t.match(/GALAXY\s?M[0-9]/)) specs.cpu = "Samsung Exynos";
             else if (t.match(/GALAXY\s?F[0-9]/)) specs.cpu = "Samsung Exynos";
@@ -267,11 +275,11 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             else if (t.includes('REALME') && t.includes('GT')) specs.cpu = "Snapdragon";
             else if (b === 'realme' || t.includes('REALME')) specs.cpu = "MediaTek";
 
-            // === HONOR — mixed (flagships=Snapdragon, budget=MediaTek) ===
-            // Magic/numbered flagships → Snapdragon
-            else if (t.includes('HONOR') && (t.includes('MAGIC') || t.match(/HONOR\s?\d{3}/))) specs.cpu = "Snapdragon";
-            // X series budget → MediaTek (X5b=Helio G36, X7c=Dimensity)
-            else if (t.includes('HONOR') && t.includes('X')) specs.cpu = "MediaTek";
+            // === HONOR — mostly Snapdragon (verified GSMArena) ===
+            // X7c/X8b/X8c/X9b/X9c → all Snapdragon 685/6 Gen 1
+            // Magic/numbered → Snapdragon 8 series
+            // Only X5b/X5b+ use MediaTek Helio G36
+            else if (t.includes('HONOR') && t.match(/X5\s?B/)) specs.cpu = "MediaTek";
             else if (b === 'honor' || t.includes('HONOR')) specs.cpu = "Snapdragon";
 
             // === HUAWEI → Kirin ===
@@ -282,7 +290,8 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             else if (b === 'infinix' || t.includes('INFINIX')) specs.cpu = "MediaTek";
             // Tecno → MediaTek (confirmed: Helio, Dimensity)
             else if (b === 'tecno' || t.includes('TECNO')) specs.cpu = "MediaTek";
-            // Itel → mixed Unisoc/MediaTek (many budget=Unisoc, mid=MediaTek)
+            // Itel → mixed: S24=MediaTek Helio G91, S25/A-series/P-series=Unisoc
+            else if ((b === 'itel' || t.includes('ITEL')) && t.match(/S2[0-9]/)) specs.cpu = "MediaTek";
             else if (b === 'itel' || t.includes('ITEL')) specs.cpu = "Unisoc";
 
             // === MOTOROLA — mixed (2025=MediaTek, older=Snapdragon) ===
@@ -328,6 +337,12 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             else if (b === 'lenovo' && (catLower === 'smartphone')) specs.cpu = "MediaTek";
             else if (t.includes('SMARTEC') || t.includes('CLEVER') || t.includes('FIGI') ||
                      t.includes('OALE') || t.includes('IPLUS') || t.includes('LP ')) specs.cpu = "Unisoc";
+            // Tunisian/local brands → Unisoc
+            else if (b === 'evertek' || t.includes('EVERTEK')) specs.cpu = "Unisoc";
+            else if (b === 'uniwa' || t.includes('UNIWA')) specs.cpu = "Unisoc";
+            else if (b === 'kgtel' || t.includes('KGTEL')) specs.cpu = "Unisoc";
+            else if (b === 'logicom' || t.includes('LOGICOM')) specs.cpu = "Unisoc";
+            else if (b === 'philips' || t.includes('PHILIPS')) specs.cpu = "Unisoc";
 
             // Generic fallback
             else specs.cpu = "Other";

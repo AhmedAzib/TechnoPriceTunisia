@@ -48,15 +48,18 @@ const normalizedMobileData = allNormalizedData.filter(product => {
             t.includes('pixel');
 }).filter(p => {
     // Exclude non-phone items (safety net)
-    const t = (p.title || '').toLowerCase();
+    // Normalize accents: â→a, é→e, è→e, etc.
+    const t = (p.title || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     if (t.includes('laptop') || t.includes('portable') || t.includes('notebook') ||
         t.includes('desktop') || t.includes('macbook') || t.includes('pc ') ||
         t.includes('tablette') || t.includes('tablet') || t.includes('smartwatch') ||
         t.includes('bracelet') || t.includes('cable') || t.includes('chargeur') ||
         t.includes('coque') || t.includes('protection') || t.includes('housse') ||
         t.includes('etui') || t.includes('accessoire') || t.includes('casque') ||
-        t.includes('bicyclette') || t.includes('tv') || t.includes('refrigerateur') ||
-        t.includes('montre') || t.includes('imprimante') || t.includes('ecran')) return false;
+        t.includes('bicyclette') || t.includes('tv ') || t.includes('refrigerateur') ||
+        t.includes('montre') || t.includes('imprimante') || t.includes('ecran') ||
+        t.includes('coffret') || t.includes('airpods') || t.includes('telephone portable') ||
+        t.includes('telephone ') && !t.includes('smartphone')) return false;
     return true;
 });
 
