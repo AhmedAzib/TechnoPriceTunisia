@@ -82,6 +82,11 @@ export const normalizeBrand = (brand, title = "") => {
     if (has('alcatel')) return 'Alcatel';
     if (has('meizu')) return 'Meizu';
     if (has('sony') || has('xperia')) return 'Sony';
+    if (has('hmd')) return 'HMD';
+    if (has('smartec')) return 'Smartec';
+    if (has('clever')) return 'Clever';
+    if (has('figi')) return 'Figi';
+    if (has('oale')) return 'Oale';
 
     // Group "Sans marque" requests
     if (has('nintendo') || has('patriot') || has('schneider') || has('sharkoon') || 
@@ -261,6 +266,13 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             else if (b === 'sony' || t.includes('XPERIA')) specs.cpu = "Snapdragon";
             // Google brand (from normalizeBrand)
             else if (b === 'google') specs.cpu = "Google Tensor";
+            // HMD (Nokia successor) → Snapdragon
+            else if (t.includes('HMD')) specs.cpu = "Snapdragon";
+            // Lenovo phones → MediaTek
+            else if (b === 'lenovo' && (catLower === 'smartphone')) specs.cpu = "MediaTek";
+            // Budget/local brands → Unisoc
+            else if (t.includes('SMARTEC') || t.includes('CLEVER') || t.includes('FIGI') ||
+                     t.includes('OALE') || t.includes('IPLUS') || t.includes('LP ')) specs.cpu = "Unisoc";
             // Generic fallback for smartphones
             else specs.cpu = "Other";
         }

@@ -390,11 +390,11 @@ useEffect(() => {
         console.log('After battery filter:', result.length);
     }
 
-    // Price Filter - exclude items with 0, NaN, or missing price
+    // Price Filter - exclude items with illogical prices (< 50 DT for phones)
     if (priceRange) {
         result = result.filter(p => {
             const price = parseFloat(p.price);
-            if (!price || isNaN(price) || price <= 0) return false;
+            if (!price || isNaN(price) || price < 50) return false;
             return price >= priceRange.min && price <= priceRange.max;
         });
         console.log('After price filter:', result.length);
@@ -699,7 +699,7 @@ useEffect(() => {
                         PHONE MARKETPLACE
                     </h1>
                     <p style={{ color: '#5F8D8B', marginTop: '10px', fontSize: '1.1rem', fontWeight: '500' }}>
-                        <span style={{ fontWeight: 'bold' }}>Active: {products.length} Items</span> • Top Smartphones from Tunisianet, MyTek, Wiki & Spacenet
+                        <span style={{ fontWeight: 'bold' }}>Active: {normalizedMobileData.length} Items</span> • Top Smartphones from Tunisianet, MyTek, Wiki & Spacenet
                     </p>
                 </div>
 
