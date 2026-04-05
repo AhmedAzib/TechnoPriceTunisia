@@ -116,7 +116,15 @@ export const normalizeSpecs = (title, specs, brand, category) => {
     // ==============================================================================
     // Extract from title if missing
     if (!specs.ram || specs.ram === 'Unknown') {
-        const ramMatch = t.match(/(\d{1,3})\s?(GO|GB|G)\b/i);
+        // Use GO/GB first (unambiguous), then fall back to G but exclude "5G"/"4G"/"3G" (network types)
+        let ramMatch = t.match(/(\d{1,3})\s?(GO|GB)\b/i);
+        if (!ramMatch) {
+            // Try "G" but skip network indicators (3G, 4G, 5G)
+            ramMatch = t.match(/(\d{1,3})\s?G\b/i);
+            if (ramMatch && ['3', '4', '5'].includes(ramMatch[1]) && !t.match(new RegExp(ramMatch[1] + '\\s?G\\s?O', 'i'))) {
+                ramMatch = null; // It's a network type (3G/4G/5G), not RAM
+            }
+        }
         if (ramMatch) specs.ram = `${ramMatch[1]}GB`;
     }
     
