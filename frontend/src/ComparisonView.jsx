@@ -7,8 +7,13 @@ const ComparisonView = ({ selectedProducts, onClose, removeFromCompare }) => {
     const [copied, setCopied] = useState(false);
 
     const handleShare = () => {
-        const ids = selectedProducts.map(p => p.id).join(',');
-        const url = `${window.location.origin}${window.location.pathname}?compare=${ids}`;
+        const ids = selectedProducts.map(p => encodeURIComponent(p.id)).join(',');
+        // Detect if comparing phones or computers for correct page
+        const isPhone = selectedProducts.some(p =>
+            (p.specs?.category || p.category || '').toLowerCase() === 'smartphone'
+        );
+        const page = isPhone ? '/mobiles' : '/products';
+        const url = `${window.location.origin}${page}?compare=${ids}`;
         
         if (navigator.clipboard) {
             navigator.clipboard.writeText(url).then(() => {

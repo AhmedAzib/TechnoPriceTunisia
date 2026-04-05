@@ -277,10 +277,14 @@ const MobilesPage = () => {
 
         if (compareIds) {
             const ids = compareIds.split(',');
-            const found = normalizedMobileData.filter(p => ids.includes(p.id));
+            // Match by id or link (fallback for URL-encoded IDs)
+            const found = normalizedMobileData.filter(p =>
+                ids.includes(p.id) || ids.includes(encodeURIComponent(p.id)) || ids.includes(p.link)
+            );
 
             if (found.length > 0) {
-                setCompareList(found);
+                // Use addToCompare to properly populate the compare context
+                found.forEach(p => addToCompare(p));
                 setIsCompareModalOpen(true);
             }
         }
