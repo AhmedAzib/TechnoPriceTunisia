@@ -271,20 +271,19 @@ const MobilesPage = () => {
     };
 
     // --- DEEP LINKING LOGIC ---
+    const [deepLinkProducts, setDeepLinkProducts] = useState(null);
     useEffect(() => {
         const params = new URLSearchParams(window.location.search);
         const compareIds = params.get('compare');
 
         if (compareIds) {
-            const ids = compareIds.split(',');
-            // Match by id or link (fallback for URL-encoded IDs)
+            const ids = compareIds.split(',').map(id => decodeURIComponent(id));
             const found = normalizedMobileData.filter(p =>
-                ids.includes(p.id) || ids.includes(encodeURIComponent(p.id)) || ids.includes(p.link)
+                ids.includes(p.id) || ids.includes(p.link)
             );
 
             if (found.length > 0) {
-                // Use addToCompare to properly populate the compare context
-                found.forEach(p => addToCompare(p));
+                setDeepLinkProducts(found);
                 setIsCompareModalOpen(true);
             }
         }
@@ -498,12 +497,27 @@ useEffect(() => {
     }, [filters, priceRange, searchQuery, viewFavorites, isGroupView, wishlist, sortOption]);
 
     // Full Screen Comparison Mode
-    if (isCompareModalOpen) {
+    // Full Screen Comparison Mode - use deepLinkProducts if available, otherwise compareList
+    const compareProducts = deepLinkProducts && deepLinkProducts.length > 0 ? deepLinkProducts : compareList;
+    if (isCompareModalOpen && compareProducts.length > 0) {
         return (
-            <ComparisonView 
-                selectedProducts={compareList} 
-                onClose={() => setIsCompareModalOpen(false)} 
-                removeFromCompare={removeFromCompare} 
+            <ComparisonView
+                selectedProducts={compareProducts}
+                onClose={() => {
+                    setIsCompareModalOpen(false);
+                    setDeepLinkProducts(null);
+                    // Clear the compare URL param
+                    window.history.replaceState({}, '', window.location.pathname);
+                }}
+                removeFromCompare={(id) => {
+                    if (deepLinkProducts) {
+                        const updated = deepLinkProducts.filter(p => p.id !== id);
+                        setDeepLinkProducts(updated.length > 0 ? updated : null);
+                        if (updated.length === 0) setIsCompareModalOpen(false);
+                    } else {
+                        removeFromCompare(id);
+                    }
+                }}
             />
         );
     }
