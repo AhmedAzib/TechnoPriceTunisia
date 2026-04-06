@@ -247,22 +247,37 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             // S2x flagships & Z Fold/Flip → Snapdragon 8 series
             else if (t.match(/GALAXY\s?S2[0-9]/) || t.match(/GALAXY\s?Z\s?(FOLD|FLIP)/)) specs.cpu = "Snapdragon";
             else if (t.match(/GALAXY\s?S1[0-9]/)) specs.cpu = "Samsung Exynos";
-            // A06 → MediaTek Helio G85 (confirmed GSMArena)
-            else if (t.match(/GALAXY\s?A06/) && !t.includes('5G')) specs.cpu = "MediaTek";
-            else if (t.match(/GALAXY\s?A06/) && t.includes('5G')) specs.cpu = "MediaTek";
-            // A16 4G → MediaTek Helio G99, A16 5G → Exynos 1330
+            // --- A-series: model-by-model (GSMArena verified) ---
+            // MediaTek models: A04=Helio P35, A05=Helio G85, A06=Helio G85, A07=MediaTek
+            else if (t.match(/GALAXY\s?A0[4-7]/)) specs.cpu = "MediaTek";
+            // A14=Helio G80, A15=Dimensity 6100+
+            else if (t.match(/GALAXY\s?A1[45]\b/)) specs.cpu = "MediaTek";
+            // A16 4G=Helio G99 (MediaTek), A16 5G=Exynos 1330
             else if (t.match(/GALAXY\s?A16/) && !t.includes('5G')) specs.cpu = "MediaTek";
             else if (t.match(/GALAXY\s?A16/) && t.includes('5G')) specs.cpu = "Samsung Exynos";
-            // A17 5G → Exynos 1330
+            // A17=Exynos 1330
             else if (t.match(/GALAXY\s?A17/)) specs.cpu = "Samsung Exynos";
-            // A26 → Exynos 1380
-            else if (t.match(/GALAXY\s?A26/)) specs.cpu = "Samsung Exynos";
-            // A36 → Snapdragon 6 Gen 3 (confirmed GSMArena)
+            // A22=Helio G80 (MediaTek), A23=Snapdragon 680, A24=Helio G99 (MediaTek)
+            else if (t.match(/GALAXY\s?A22/)) specs.cpu = "MediaTek";
+            else if (t.match(/GALAXY\s?A23/)) specs.cpu = "Snapdragon";
+            else if (t.match(/GALAXY\s?A24/)) specs.cpu = "MediaTek";
+            // A25=Exynos 1280, A26=Exynos 1380
+            else if (t.match(/GALAXY\s?A2[56]/)) specs.cpu = "Samsung Exynos";
+            // A33=Exynos 1280
+            else if (t.match(/GALAXY\s?A33/)) specs.cpu = "Samsung Exynos";
+            // A34=Dimensity 1080 (MediaTek!)
+            else if (t.match(/GALAXY\s?A34/)) specs.cpu = "MediaTek";
+            // A35=Exynos 1380
+            else if (t.match(/GALAXY\s?A35/)) specs.cpu = "Samsung Exynos";
+            // A36=Snapdragon 6 Gen 3
             else if (t.match(/GALAXY\s?A36/)) specs.cpu = "Snapdragon";
-            // A56 → Exynos 1580
-            else if (t.match(/GALAXY\s?A56/)) specs.cpu = "Samsung Exynos";
-            // A05/A15/A25/A35/A55 etc → Samsung Exynos (most common)
+            // A52=Snapdragon 720G/750G
+            else if (t.match(/GALAXY\s?A52/)) specs.cpu = "Snapdragon";
+            // A53=Exynos 1280, A54=Exynos 1380, A55=Exynos 1480, A56=Exynos 1580
+            else if (t.match(/GALAXY\s?A5[3-6]/)) specs.cpu = "Samsung Exynos";
+            // Other A-series fallback → Samsung Exynos
             else if (t.match(/GALAXY\s?A[0-9]/)) specs.cpu = "Samsung Exynos";
+            // M/F series → Samsung Exynos
             else if (t.match(/GALAXY\s?M[0-9]/)) specs.cpu = "Samsung Exynos";
             else if (t.match(/GALAXY\s?F[0-9]/)) specs.cpu = "Samsung Exynos";
 
@@ -285,9 +300,14 @@ export const normalizeSpecs = (title, specs, brand, category) => {
             // === ONEPLUS → always Snapdragon ===
             else if (b === 'oneplus' || t.includes('ONEPLUS')) specs.cpu = "Snapdragon";
 
-            // === OPPO — mixed but mostly MediaTek for mid-range ===
-            // Find series flagships → Snapdragon or MediaTek Dimensity 9xxx
+            // === OPPO — mostly MediaTek (verified GSMArena) ===
+            // Find series → Snapdragon
             else if (t.includes('OPPO') && t.includes('FIND')) specs.cpu = "Snapdragon";
+            // A3x 4G = Snapdragon 6s, A3x 5G = Dimensity 6300
+            else if (t.includes('OPPO') && t.match(/A3X?\b/) && t.includes('4G')) specs.cpu = "Snapdragon";
+            // A60 = Snapdragon
+            else if (t.includes('OPPO') && t.includes('A60')) specs.cpu = "Snapdragon";
+            // All others (A-series, Reno) → MediaTek
             else if (b === 'oppo' || t.includes('OPPO')) specs.cpu = "MediaTek";
 
             // === REALME — mixed ===
