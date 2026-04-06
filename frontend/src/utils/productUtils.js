@@ -119,20 +119,40 @@ export const normalizeSpecs = (title, specs, brand, category) => {
     // and string ("4GB") inputs. It also cleans "GO" -> "GB".
     // ANY CHANGE HERE MUST BE VERIFIED WITH `verify_ram_stability.js`.
     // ==============================================================================
-    // Extract from title if missing
-    if (!specs.ram || specs.ram === 'Unknown') {
-        // Use GO/GB first (unambiguous), then fall back to G but exclude "5G"/"4G"/"3G" (network types)
-        let ramMatch = t.match(/(\d{1,3})\s?(GO|GB)\b/i);
+    // Extract RAM from title
+    const extractRamFromTitle = (title) => {
+        let ramMatch = title.match(/(\d{1,3})\s?(GO|GB)\b/i);
         if (!ramMatch) {
-            // Try "G" but skip network indicators (3G, 4G, 5G)
-            ramMatch = t.match(/(\d{1,3})\s?G\b/i);
-            if (ramMatch && ['3', '4', '5'].includes(ramMatch[1]) && !t.match(new RegExp(ramMatch[1] + '\\s?G\\s?O', 'i'))) {
-                ramMatch = null; // It's a network type (3G/4G/5G), not RAM
+            ramMatch = title.match(/(\d{1,3})\s?G\b/i);
+            if (ramMatch && ['3', '4', '5'].includes(ramMatch[1]) && !title.match(new RegExp(ramMatch[1] + '\\s?G\\s?O', 'i'))) {
+                ramMatch = null;
             }
         }
-        if (ramMatch) specs.ram = `${ramMatch[1]}GB`;
+        return ramMatch ? `${ramMatch[1]}GB` : null;
+    };
+
+    // Valid phone RAM values
+    const validPhoneRams = ['2GB', '3GB', '4GB', '6GB', '8GB', '12GB', '16GB'];
+    const isPhone = catLower === 'smartphone' || category === 'Smartphone';
+
+    if (!specs.ram || specs.ram === 'Unknown') {
+        const extracted = extractRamFromTitle(t);
+        if (extracted) specs.ram = extracted;
     }
-    
+
+    // For phones: validate RAM - if existing value is invalid (e.g. 5GB from "5G" scrape bug), re-extract from title
+    if (isPhone && specs.ram) {
+        let cleanCheck = specs.ram.toString().toUpperCase().replace(/\s/g, '').replace('GO', 'GB');
+        if (cleanCheck.match(/^\d+$/)) cleanCheck += 'GB';
+        if (!validPhoneRams.includes(cleanCheck)) {
+            // Invalid RAM (5GB, 18GB, 128GB etc) - re-extract from title
+            const extracted = extractRamFromTitle(t);
+            if (extracted && validPhoneRams.includes(extracted)) {
+                specs.ram = extracted;
+            }
+        }
+    }
+
     // Normalize existing RAM field (Handle String OR Number)
     if (specs.ram) {
         // Force to string first to handle raw numbers (Wiki data has integers like 4, 8)
