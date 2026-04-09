@@ -237,40 +237,50 @@ const MobileGroupDetailsPage = () => {
                         )}
 
                         {[
-                            { id: 'store', label: 'Store', options: availableOptions.store },
+                            { id: 'store', label: 'STORE', options: availableOptions.store },
                             { id: 'ram', label: 'RAM', options: availableOptions.ram },
-                            { id: 'storage', label: 'Storage', options: availableOptions.storage },
-                            { id: 'color', label: 'Color', options: availableOptions.color }
-                        ].map(group => (
-                            group.options.map(opt => {
-                                const isActive = filters[group.id].includes(opt);
-                                return (
-                                    <button 
-                                        key={`${group.id}-${opt}`}
-                                        onClick={() => toggleFilter(group.id, opt)}
-                                        style={{
-                                            flex: '0 0 auto',
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            gap: '6px',
-                                            background: isActive ? '#5F8D8B' : 'white',
-                                            color: isActive ? 'white' : '#1A2B48',
-                                            border: isActive ? 'none' : '1px solid #e2e8f0',
-                                            borderRadius: '50px',
-                                            padding: '8px 16px',
-                                            fontSize: '0.85rem',
-                                            fontWeight: isActive ? '600' : '400',
-                                            cursor: 'pointer',
-                                            whiteSpace: 'nowrap',
-                                            transition: 'all 0.2s'
-                                        }}
-                                    >
-                                        {/* Optional Icon based on category could go here */}
-                                        {opt}
-                                        {isActive && <X size={12} />}
-                                    </button>
-                                );
-                            })
+                            { id: 'storage', label: 'STORAGE', options: availableOptions.storage },
+                            { id: 'color', label: 'COLOR', options: availableOptions.color }
+                        ].filter(group => group.options.length > 0).map(group => (
+                            <React.Fragment key={group.id}>
+                                <span style={{
+                                    flex: '0 0 auto',
+                                    fontSize: '0.7rem',
+                                    fontWeight: '800',
+                                    color: '#64748b',
+                                    letterSpacing: '1px',
+                                    padding: '8px 4px 8px 8px',
+                                    alignSelf: 'center'
+                                }}>{group.label}</span>
+                                {group.options.map(opt => {
+                                    const isActive = filters[group.id].includes(opt);
+                                    return (
+                                        <button
+                                            key={`${group.id}-${opt}`}
+                                            onClick={() => toggleFilter(group.id, opt)}
+                                            style={{
+                                                flex: '0 0 auto',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: '6px',
+                                                background: isActive ? '#5F8D8B' : 'white',
+                                                color: isActive ? 'white' : '#1A2B48',
+                                                border: isActive ? 'none' : '1px solid #e2e8f0',
+                                                borderRadius: '50px',
+                                                padding: '8px 16px',
+                                                fontSize: '0.85rem',
+                                                fontWeight: isActive ? '600' : '400',
+                                                cursor: 'pointer',
+                                                whiteSpace: 'nowrap',
+                                                transition: 'all 0.2s'
+                                            }}
+                                        >
+                                            {opt}
+                                            {isActive && <X size={12} />}
+                                        </button>
+                                    );
+                                })}
+                            </React.Fragment>
                         ))}
                     </div>
                 </div>
