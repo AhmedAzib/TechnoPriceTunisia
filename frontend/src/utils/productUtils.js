@@ -121,8 +121,15 @@ export const normalizeSpecs = (title, specs, brand, category) => {
     // ==============================================================================
     // Extract RAM from title
     const extractRamFromTitle = (title) => {
+        // Priority 1: "X/XXXG" slash format (e.g., "8/256G", "6/128Go", "4/64Go")
+        // The first number is ALWAYS RAM, second is ALWAYS storage
+        const slashMatch = title.match(/\b(\d{1,2})\s?\/\s?\d{2,3}\s?(?:GO|GB|G)\b/i);
+        if (slashMatch) return `${slashMatch[1]}GB`;
+
+        // Priority 2: "XGo" / "XGB" format
         let ramMatch = title.match(/(\d{1,3})\s?(GO|GB)\b/i);
         if (!ramMatch) {
+            // Priority 3: "XG" but skip network types (3G/4G/5G)
             ramMatch = title.match(/(\d{1,3})\s?G\b/i);
             if (ramMatch && ['3', '4', '5'].includes(ramMatch[1]) && !title.match(new RegExp(ramMatch[1] + '\\s?G\\s?O', 'i'))) {
                 ramMatch = null;
@@ -530,11 +537,16 @@ export const normalizeSpecs = (title, specs, brand, category) => {
         if (tbMatch && !isProcessor) {
             specs.storage = `${tbMatch[1]}TB`;
         } else {
-             // B. Look for Gigabyte patterns
-             // We use a broader search then filter
+             // B0. Check for "X/XXXG" slash format first (e.g., "8/256G" → storage=256GB)
+             const slashStorage = t.match(/\b\d{1,2}\s?\/\s?(\d{2,3})\s?(?:GO|GB|G)\b/i);
+             if (slashStorage) {
+                 specs.storage = `${slashStorage[1]}GB`;
+             }
+
+             // B. Look for Gigabyte patterns (skip if slash already found)
              const broadRegex = /(\d{2,4})\s?(?:GO|GB|G|SSD|NVME|HDD)/gi;
-             const potentialMatches = [...t.matchAll(broadRegex)];
-             
+             const potentialMatches = slashStorage ? [] : [...t.matchAll(broadRegex)];
+
              let bestStorage = null;
              const isPhone = catLower === 'smartphone' || category === 'Smartphone';
 
