@@ -103,6 +103,7 @@ const ProductsPage = () => {
   
   // Step 20: Favorites View Mode
   const [viewFavorites, setViewFavorites] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const [isComparing, setIsComparing] = useState(false); // Step 26: Full Screen Comparison State
   const [priceAlertProduct, setPriceAlertProduct] = useState(null); // Step 29: Alert Logic
   
@@ -262,9 +263,14 @@ const ProductsPage = () => {
 
     // Step 20: Favorites Mode Check
     if (viewFavorites) {
-        // Source from Wishlist IDs matched against Clean Data (to ensure fresh data)
-        const wishlistIds = wishlist.map(w => w.id);
-        result = cleanData.filter(p => wishlistIds.includes(p.id));
+        // Match by direct ID OR by group variant key (user may have hearted a grouped card)
+        const wishlistIds = new Set(wishlist.map(w => w.id));
+        result = cleanData.filter(p => {
+            if (wishlistIds.has(p.id)) return true;
+            const gId = `group-${generateVariantKey(p)}`;
+            if (wishlistIds.has(gId)) return true;
+            return false;
+        });
     } else {
         // 1. Run the Base Filter Engine (Store, Brand, Specs, Price)
         result = getFilteredProducts();
@@ -437,12 +443,13 @@ const ProductsPage = () => {
 
   return (
     <div 
-        className="products-layout-final" 
+        className="products-layout-final"
         style={{
             backgroundColor: '#E8F1F5',
             minHeight: '100vh',
             display: 'grid',
-            gridTemplateColumns: '240px 1fr',
+            gridTemplateColumns: sidebarOpen ? '240px 1fr' : '0 1fr',
+            transition: 'grid-template-columns 0.3s ease',
             color: '#1A2B48',
             fontFamily: "'Inter', sans-serif"
         }}
@@ -511,13 +518,17 @@ const ProductsPage = () => {
       `}</style>
         <aside className="filters-sidebar" style={{
             background: 'white',
-            borderRight: '1px solid #e2e8f0',
+            borderRight: sidebarOpen ? '1px solid #e2e8f0' : 'none',
             display: 'flex',
             flexDirection: 'column',
             height: '100vh',
             position: 'sticky',
             top: 0,
-            zIndex: 50
+            zIndex: 50,
+            overflow: 'hidden',
+            visibility: sidebarOpen ? 'visible' : 'hidden',
+            opacity: sidebarOpen ? 1 : 0,
+            transition: 'opacity 0.2s ease'
         }}>
             <div className="sidebar" style={{
                 display: 'flex',
@@ -588,8 +599,8 @@ const ProductsPage = () => {
             <div className="sleek-sticky-banner" style={{
                 position: 'fixed',
                 top: 0,
-                left: '240px',
-                width: 'calc(100% - 240px)',
+                left: sidebarOpen ? '240px' : '0',
+                width: sidebarOpen ? 'calc(100% - 240px)' : '100%',
                 height: '80px',
                 background: '#0F172A',
                 backdropFilter: 'blur(20px)',
@@ -599,14 +610,13 @@ const ProductsPage = () => {
                 zIndex: 2000,
                 borderBottom: '2px solid #5F8D8B',
                 boxShadow: '0 10px 15px -3px rgba(0,0,0,0.2)',
-                padding: '0 20px'
+                padding: '0 20px',
+                transition: 'left 0.3s ease, width 0.3s ease'
             }}>
                 <button
-                    onClick={() => {
-                        const sb = document.querySelector('.filters-sidebar');
-                        if (sb) sb.scrollIntoView({ behavior: 'smooth' });
-                    }}
-                    style={{ position: 'absolute', left: '40px', background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                    title={sidebarOpen ? 'Hide filters' : 'Show filters'}
+                    style={{ position: 'absolute', left: '40px', background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', padding: '8px', borderRadius: '8px' }}
                 >
                     <Menu size={28} color="white" />
                 </button>
