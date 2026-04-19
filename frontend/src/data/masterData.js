@@ -13,6 +13,7 @@ import megapcPro from './megapc_pro.json';
 import skymilNew from './skymil_new.json';
 import techspaceNew from './techspace_new.json';
 import techtunisiaProducts from './techtunisia_products.json';
+import tdiscountProducts from './tdiscount_products.json';
 
 // Mobile-specific data sources
 import tunisianetMobiles from './tunisianet_mobiles.json';
@@ -75,6 +76,11 @@ export const MASTER_DATA = [
       ...p,
       id: p.id || `TT-PC-${index}`,
       source: 'TunisiaTech'
+  })),
+  ...tdiscountProducts.map((p, index) => ({
+      ...p,
+      id: p.id || `TD-PC-${index}`,
+      source: 'Tdiscount'
   })),
   // Mobile stores
   ...tunisianetMobiles.map((p, index) => ({

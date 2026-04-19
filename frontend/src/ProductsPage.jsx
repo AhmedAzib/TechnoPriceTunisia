@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ChevronDown, ChevronUp, Sliders, Search, ArrowUpDown, Scale, X, RefreshCw, Eye, SearchX, Laptop, Trash2, ArrowUp, TrendingUp, Home, Heart, ChevronRight, ArrowLeft } from 'lucide-react';
+import { ChevronDown, ChevronUp, Sliders, Search, ArrowUpDown, Scale, X, RefreshCw, Eye, SearchX, Laptop, Trash2, ArrowUp, TrendingUp, Home, Heart, ChevronRight, ArrowLeft, Menu } from 'lucide-react';
 import { useCompare } from './context/CompareContext';
 import { useWishlist } from './context/WishlistContext';
 import QuickLookModal from './QuickLookModal';
@@ -134,9 +134,13 @@ const ProductsPage = () => {
       return () => clearTimeout(handler);
   }, [searchQuery]);
   
-  // Pagination State (Step 23: Load More Logic)
-  const [visibleCount, setVisibleCount] = useState(12); // Start with 12 items
-  // const itemsPerPage = 24; // REMOVED
+  // Pagination State — page-based like MobilesPage
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 20;
+  const paginate = (pageNumber) => {
+      setCurrentPage(pageNumber);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   
   // Scroll to Top State (Step 36)
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -361,14 +365,14 @@ const ProductsPage = () => {
         setDisplayedProducts(sortedResult);
     }
 
-    setVisibleCount(12); // Reset to top
+    setCurrentPage(1); // Reset to page 1 on filter change
   }, [filters, debouncedPriceRange, searchQuery, sortOption, cleanData, viewFavorites, wishlist, showOnlyInStock, isGroupView]);
 
-  // Pagination Logic (Step 23: Load More Slicing)
-  const currentItems = displayedProducts.slice(0, visibleCount);
-  
-  // const totalPages = Math.ceil(displayedProducts.length / itemsPerPage); // REMOVED
-  // const paginate = (pageNumber) => setCurrentPage(pageNumber); // REMOVED
+  // Pagination Logic — page-based
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = displayedProducts.slice(indexOfFirstItem, indexOfLastItem);
+  const totalPages = Math.ceil(displayedProducts.length / itemsPerPage);
 
   // --- COMPARE LOGIC (Step 24) ---
   const toggleCompare = (product) => {
@@ -557,8 +561,44 @@ const ProductsPage = () => {
             </div>
         </aside>
 
-        <main className="products-main">
-            <div className="products-header">
+        <main className="products-main" style={{ paddingTop: '80px', position: 'relative' }}>
+            {/* FIXED TOP BANNER — matches MobilesPage */}
+            <div className="sleek-sticky-banner" style={{
+                position: 'fixed',
+                top: 0,
+                left: '240px',
+                width: 'calc(100% - 240px)',
+                height: '80px',
+                background: '#0F172A',
+                backdropFilter: 'blur(20px)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 2000,
+                borderBottom: '2px solid #5F8D8B',
+                boxShadow: '0 10px 15px -3px rgba(0,0,0,0.2)',
+                padding: '0 20px'
+            }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+                    <span style={{ color: 'white', fontWeight: '900', fontSize: '2rem', letterSpacing: '-0.5px', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+                        Techno<span style={{ color: '#5F8D8B' }}>Price</span>
+                    </span>
+                    <Link to="/wishlist" style={{
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        padding: '4px', color: '#F8FAFC', textDecoration: 'none'
+                    }}>
+                        <Heart size={24} strokeWidth={2} />
+                    </Link>
+                    <Link to="/compare" style={{
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        padding: '4px', color: '#F8FAFC', textDecoration: 'none'
+                    }}>
+                        <Scale size={24} strokeWidth={2} />
+                    </Link>
+                </div>
+            </div>
+
+            <div className="products-header" style={{ paddingTop: '20px' }}>
                 <h1 style={{ background: 'linear-gradient(to right, #1A2B48, #475569)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontSize: '2.5rem' }}>
                     PREMIUM MARKETPLACE
                 </h1>
@@ -567,33 +607,25 @@ const ProductsPage = () => {
                 </p>
             </div>
 
-            <div className="top-toolbar">
+            <div className="top-toolbar" style={{
+                position: 'sticky',
+                top: '80px',
+                zIndex: 100,
+                background: 'rgba(232, 241, 245, 0.95)',
+                backdropFilter: 'blur(12px)',
+                padding: '15px 20px',
+                margin: '0 -20px 20px -20px',
+                borderRadius: '0 0 16px 16px',
+                borderBottom: '1px solid rgba(26, 43, 72, 0.05)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '15px',
+                flexWrap: 'wrap'
+            }}>
                 <div className="search-box">
                     <Search size={18} />
                     <input type="text" placeholder="Search by name..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
                 </div>
-                
-                {/* Grouping Toggle (New) */}
-                <button 
-                    onClick={() => setIsGroupView(!isGroupView)}
-                    style={{
-                        background: isGroupView ? '#5F8D8B' : 'white',
-                        color: isGroupView ? '#fff' : '#1A2B48',
-                        border: '1px solid #e2e8f0',
-                        borderRadius: '8px',
-                        padding: '0 15px',
-                        cursor: 'pointer',
-                        fontWeight: '600',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '8px',
-                        marginLeft: '15px',
-                        transition: 'all 0.3s ease'
-                    }}
-                >
-                    {isGroupView ? <Scale size={18} /> : <Laptop size={18} />}
-                    {isGroupView ? "Ungroup" : "Group"}
-                </button>
                 
                 {/* FAVORITES TOGGLE (Step 20) */}
                  <button 
@@ -932,40 +964,77 @@ const ProductsPage = () => {
                 })()}
             </div>
 
-            {/* --- LOAD MORE BUTTON (Step 23) --- */}
-            {displayedProducts.length > visibleCount && (
-                <div className="pagination" style={{ marginTop: '40px', display: 'flex', justifyContent: 'center' }}>
-                    <button 
-                        onClick={() => setVisibleCount(prev => prev + 12)}
+            {/* --- PAGINATION (Page Numbers) --- */}
+            {totalPages > 1 && (
+                <div className="pagination-controls" style={{
+                    display: 'flex', justifyContent: 'center', alignItems: 'center',
+                    gap: '10px', marginTop: '40px', paddingTop: '20px',
+                    borderTop: '1px solid rgba(0,0,0,0.05)'
+                }}>
+                    <button
+                        onClick={() => paginate(currentPage - 1)}
+                        disabled={currentPage === 1}
                         style={{
-                            background: 'white',
-                            border: '1px solid #10b981',
-                            color: '#10b981',
-                            padding: '12px 30px',
-                            fontWeight: 'bold',
-                            borderRadius: '50px',
-                            cursor: 'pointer',
-                            fontSize: '1rem',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '10px',
-                            transition: 'all 0.3s ease',
-                            width: 'auto',
-                            height: 'auto'
-                        }}
-                        onMouseEnter={(e) => {
-                            e.target.style.background = '#10b981';
-                            e.target.style.color = '#020617';
-                            e.target.style.boxShadow = '0 0 20px rgba(16, 185, 129, 0.4)';
-                        }}
-                        onMouseLeave={(e) => {
-                            e.target.style.background = 'white';
-                            e.target.style.color = '#10b981';
-                            e.target.style.boxShadow = 'none';
+                            background: currentPage === 1 ? '#e2e8f0' : '#1A2B48',
+                            color: currentPage === 1 ? '#64748b' : 'white',
+                            border: 'none', padding: '10px 20px', borderRadius: '8px',
+                            cursor: currentPage === 1 ? 'default' : 'pointer',
+                            display: 'flex', alignItems: 'center', gap: '5px'
                         }}
                     >
-                        Load More Products ({displayedProducts.length - visibleCount} remaining)
-                        <ChevronDown size={20} />
+                        <ChevronDown size={16} style={{ transform: 'rotate(90deg)' }} /> Prev
+                    </button>
+
+                    {(() => {
+                        const pages = [];
+                        pages.push(
+                            <button key={1} onClick={() => paginate(1)} style={{
+                                background: currentPage === 1 ? '#5F8D8B' : 'white',
+                                color: currentPage === 1 ? 'white' : '#1A2B48',
+                                border: '1px solid #e2e8f0',
+                                width: '36px', height: '36px', borderRadius: '8px',
+                                cursor: 'pointer', fontWeight: 'bold'
+                            }}>1</button>
+                        );
+                        if (currentPage > 3) pages.push(<span key="s" style={{ color: '#64748b' }}>...</span>);
+                        for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+                            pages.push(
+                                <button key={i} onClick={() => paginate(i)} style={{
+                                    background: currentPage === i ? '#5F8D8B' : 'white',
+                                    color: currentPage === i ? 'white' : '#1A2B48',
+                                    border: '1px solid #e2e8f0',
+                                    width: '36px', height: '36px', borderRadius: '8px',
+                                    cursor: 'pointer', fontWeight: 'bold'
+                                }}>{i}</button>
+                            );
+                        }
+                        if (currentPage < totalPages - 2) pages.push(<span key="e" style={{ color: '#64748b' }}>...</span>);
+                        if (totalPages > 1) {
+                            pages.push(
+                                <button key={totalPages} onClick={() => paginate(totalPages)} style={{
+                                    background: currentPage === totalPages ? '#5F8D8B' : 'white',
+                                    color: currentPage === totalPages ? 'white' : '#1A2B48',
+                                    border: '1px solid #e2e8f0',
+                                    width: '36px', height: '36px', borderRadius: '8px',
+                                    cursor: 'pointer', fontWeight: 'bold'
+                                }}>{totalPages}</button>
+                            );
+                        }
+                        return pages;
+                    })()}
+
+                    <button
+                        onClick={() => paginate(currentPage + 1)}
+                        disabled={currentPage === totalPages}
+                        style={{
+                            background: currentPage === totalPages ? '#e2e8f0' : '#1A2B48',
+                            color: currentPage === totalPages ? '#64748b' : 'white',
+                            border: 'none', padding: '10px 20px', borderRadius: '8px',
+                            cursor: currentPage === totalPages ? 'default' : 'pointer',
+                            display: 'flex', alignItems: 'center', gap: '5px'
+                        }}
+                    >
+                        Next <ChevronDown size={16} style={{ transform: 'rotate(-90deg)' }} />
                     </button>
                 </div>
             )}  {displayedProducts.length === 0 && (
