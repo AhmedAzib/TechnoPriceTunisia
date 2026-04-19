@@ -509,28 +509,50 @@ const ProductsPage = () => {
         ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #64748b; }
       `}</style>
-        <aside className="filters-sidebar">
-            <div className="sidebar">
-                <div className="sidebar-header">
+        <aside className="filters-sidebar" style={{
+            background: 'white',
+            borderRight: '1px solid #e2e8f0',
+            display: 'flex',
+            flexDirection: 'column',
+            height: '100vh',
+            position: 'sticky',
+            top: 0,
+            zIndex: 50
+        }}>
+            <div className="sidebar" style={{
+                display: 'flex',
+                flexDirection: 'column',
+                height: '100%',
+                background: 'white'
+            }}>
+                {/* Dark top banner matching main header (#0F172A, 80px) */}
+                <div className="sidebar-banner-final" style={{
+                    padding: '0 20px',
+                    background: '#0F172A',
+                    height: '80px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                    borderBottom: '2px solid #5F8D8B'
+                }}>
                     {filters.category && filters.category.length > 0 ? (
-                        <Link to="/components" className="home-link">
-                            <ArrowLeft size={20} />
-                            <span>Back to Components</span>
+                        <Link to="/components" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1rem', fontWeight: 'bold' }}>
+                            <ArrowLeft size={18} /> Back
                         </Link>
                     ) : (
-                        <Link to="/" className="home-link">
-                            <Home size={20} />
-                            <span>Home Page</span>
+                        <Link to="/" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1rem', fontWeight: 'bold' }}>
+                            <Home size={18} /> Home
                         </Link>
                     )}
                 </div>
 
-                <div className="filter-header-row">
-                    <h3>Filters</h3>
-                    <button onClick={resetAll} className="reset-btn"><RefreshCw size={14} /> Reset</button>
+                <div className="filter-header-row" style={{ padding: '15px 20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexShrink: 0 }}>
+                    <h3 style={{ margin: 0, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px', color: '#64748b' }}>Filters</h3>
+                    <button onClick={resetAll} className="reset-btn" style={{ background: '#f1f5f9', color: '#444' }}><RefreshCw size={14} /> Reset</button>
                 </div>
 
-                <div className="scroll-filters">
+                <div className="scroll-filters" style={{ flex: 1, overflowY: 'auto', height: 0 }}>
                     <FilterSection 
                         title="Vendeur (Store)" 
                         options={filterOptions.store} 
@@ -562,7 +584,7 @@ const ProductsPage = () => {
         </aside>
 
         <main className="products-main" style={{ paddingTop: '80px', position: 'relative' }}>
-            {/* FIXED TOP BANNER — matches MobilesPage */}
+            {/* FIXED TOP BANNER — matches MobilesPage exactly */}
             <div className="sleek-sticky-banner" style={{
                 position: 'fixed',
                 top: 0,
@@ -579,6 +601,15 @@ const ProductsPage = () => {
                 boxShadow: '0 10px 15px -3px rgba(0,0,0,0.2)',
                 padding: '0 20px'
             }}>
+                <button
+                    onClick={() => {
+                        const sb = document.querySelector('.filters-sidebar');
+                        if (sb) sb.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    style={{ position: 'absolute', left: '40px', background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                >
+                    <Menu size={28} color="white" />
+                </button>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                     <span style={{ color: 'white', fontWeight: '900', fontSize: '2rem', letterSpacing: '-0.5px', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
                         Techno<span style={{ color: '#5F8D8B' }}>Price</span>
@@ -613,69 +644,104 @@ const ProductsPage = () => {
                 zIndex: 100,
                 background: 'rgba(232, 241, 245, 0.95)',
                 backdropFilter: 'blur(12px)',
-                padding: '15px 20px',
                 margin: '0 -20px 20px -20px',
+                padding: '15px 20px',
                 borderRadius: '0 0 16px 16px',
                 borderBottom: '1px solid rgba(26, 43, 72, 0.05)',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '15px',
-                flexWrap: 'wrap'
+                justifyContent: 'space-between',
+                gap: '20px'
             }}>
-                <div className="search-box">
-                    <Search size={18} />
-                    <input type="text" placeholder="Search by name..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                {/* LOGO IN TOOLBAR */}
+                <div className="desktop-logo" style={{ marginRight: 'auto' }}>
+                    <span style={{ fontSize: '1.5rem', fontWeight: '900', color: '#1A2B48', letterSpacing: '-0.5px' }}>
+                        Techno<span style={{ color: '#5F8D8B' }}>Price</span>
+                    </span>
                 </div>
-                
-                {/* FAVORITES TOGGLE (Step 20) */}
-                 <button 
-                    onClick={() => setViewFavorites(!viewFavorites)}
-                    className="favorites-toggle-btn"
-                    style={{
+
+                {/* SEARCH BOX WITH HOME ICON */}
+                <div className="search-box" style={{
+                    width: '100%', maxWidth: '400px',
+                    background: 'white',
+                    border: '1px solid #cbd5e1',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                    padding: '8px 15px',
+                    borderRadius: '12px',
+                    boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+                }}>
+                    <Link to="/" style={{ color: '#0F172A', marginRight: '5px', display: 'flex', alignItems: 'center' }}>
+                        <Home size={20} />
+                    </Link>
+                    <Search size={18} color="#64748b" />
+                    <input
+                        type="text"
+                        placeholder="Search by name, brand, or specs..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        style={{ background: 'transparent', border: 'none', outline: 'none', color: '#0F172A', width: '100%', fontSize: '0.95rem', fontWeight: '500' }}
+                    />
+                </div>
+
+                {/* ACTIONS: Favorites + Wishlist + Sort */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <button
+                        onClick={() => setViewFavorites(!viewFavorites)}
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            background: viewFavorites ? '#5F8D8B' : '#0F172A',
+                            color: 'white',
+                            border: 'none',
+                            padding: '10px 16px',
+                            borderRadius: '8px',
+                            cursor: 'pointer',
+                            fontWeight: '700',
+                            whiteSpace: 'nowrap',
+                            transition: 'all 0.3s'
+                        }}
+                    >
+                        Show Favorites
+                    </button>
+                    <span style={{ color: '#64748b', fontSize: '0.9rem', fontWeight: '600' }}>Wishlist ({wishlist.length})</span>
+                    <div style={{
+                        background: '#0F172A',
+                        color: 'white',
                         display: 'flex',
                         alignItems: 'center',
                         gap: '8px',
-                        background: viewFavorites ? '#ff0055' : 'white',
-                        color: viewFavorites ? 'white' : '#475569',
-                        border: 'none',
-                        padding: '8px 16px',
+                        padding: '0 16px',
                         borderRadius: '8px',
-                        cursor: 'pointer',
+                        whiteSpace: 'nowrap',
                         fontWeight: '600',
-                        marginLeft: '20px',
-                        transition: 'all 0.3s ease'
-                    }}
-                 >
-                    <Heart size={18} fill={viewFavorites ? "white" : "none"} />
-                    {viewFavorites ? "Show All" : "Show Favorites"}
-                 </button>
-
-                {/* HERO HEART LINK IN HEADER (Updated Step 19) */}
-                <Link to="/wishlist" 
-                    onClick={(e) => { e.preventDefault(); setViewFavorites(!viewFavorites); }}
-                    className="header-heart-link" style={{
-                    color: viewFavorites ? '#ff0055' : '#1A2B48', 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    gap: '8px',
-                    textDecoration: 'none',
-                    marginRight: 'auto',
-                    marginLeft: '20px'
-                }}>
-                    <Heart size={24} color={viewFavorites ? "#ff0055" : "#ff0055"} fill={viewFavorites ? "#ff0055" : "none"} />
-                    <span style={{fontWeight:'bold', fontSize:'0.9rem'}}>Wishlist ({wishlist.length})</span>
-                </Link>
-
-                <div className="sort-box">
-                    <ArrowUpDown size={18} />
-                    <select value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
-                        <option value="default">Sort By: Featured</option>
-                        <option value="price-asc">Price: Low to High</option>
-                        <option value="price-desc">Price: High to Low</option>
-                        <option value="name-asc">Name: A to Z</option>
-                        <option value="discount-desc">Biggest Discount</option>
-                        <option value="value-ram">Best Value (Price/RAM)</option>
-                    </select>
+                        height: '42px'
+                    }}>
+                        <ArrowUpDown size={16} />
+                        <select
+                            value={sortOption}
+                            onChange={(e) => setSortOption(e.target.value)}
+                            style={{
+                                background: 'transparent',
+                                border: 'none',
+                                color: 'white',
+                                fontWeight: '600',
+                                fontSize: '0.9rem',
+                                outline: 'none',
+                                cursor: 'pointer',
+                                padding: '8px 0'
+                            }}
+                        >
+                            <option value="default" style={{ background: '#0F172A' }}>Sort By: Featured</option>
+                            <option value="price-asc" style={{ background: '#0F172A' }}>Price: Low to High</option>
+                            <option value="price-desc" style={{ background: '#0F172A' }}>Price: High to Low</option>
+                            <option value="name-asc" style={{ background: '#0F172A' }}>Name: A-Z</option>
+                            <option value="discount-desc" style={{ background: '#0F172A' }}>Best Discount</option>
+                            <option value="value-ram" style={{ background: '#0F172A' }}>Best RAM Value</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 

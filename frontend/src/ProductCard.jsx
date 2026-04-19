@@ -26,8 +26,21 @@ const ProductCard = ({ product, addToCompare, toggleWishlist, isFavorite, isInCo
     const [imageLoaded, setImageLoaded] = useState(false);
     const [imageError, setImageError] = useState(false);
 
+    // Whole-card click handler for group cards
+    const handleCardClick = (e) => {
+        if (!isGroupCard || !onGroupSelect) return;
+        // Don't trigger on nested interactive elements
+        const interactive = e.target.closest('button, a, input, select, [role="button"]');
+        if (interactive) return;
+        onGroupSelect();
+    };
+
     return (
-        <div className="product-card-glass" style={{ position: 'relative' }}>
+        <div
+            className="product-card-glass"
+            style={{ position: 'relative', cursor: isGroupCard ? 'pointer' : 'default' }}
+            onClick={handleCardClick}
+        >
             {/* Steps 9 & 30: Badges - Separated for clean positioning */}
             <div className="tag" style={{
                 position: 'absolute',
@@ -203,24 +216,7 @@ const ProductCard = ({ product, addToCompare, toggleWishlist, isFavorite, isInCo
                              )}
                          </div>
                     </div>
-                    {isGroupCard ? (
-                        <button 
-                            onClick={(e) => {
-                                e.preventDefault();
-                                onGroupSelect && onGroupSelect();
-                            }}
-                            className="view-btn"
-                            style={{ 
-                                background: '#5F8D8B',
-                                color: 'white',
-                                border: 'none',
-                                cursor: 'pointer',
-                                fontWeight: 'bold'
-                            }}
-                        >
-                            Select
-                        </button>
-                    ) : (
+                    {!isGroupCard && (
                         <a href={product.link} target="_blank" rel="noopener noreferrer" className="view-btn">View</a>
                     )}
                 </div>
